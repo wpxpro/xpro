@@ -1,0 +1,33 @@
+v1.0.4.3
+- Optimize CSS
+
+v1.0.4.2
+- Fix accessibility for using site with keyboard on mobile devices
+
+v1.0.4.1
+- Update license info in readme.txt
+- Update accessibility for using site with keyboard
+
+v1.0.4
+- Add theme support for custom logo
+- Add Skip Link
+- Add accessibility for using site with keyboard
+- Add underline to anchor links
+- Update license info in readme.txt
+
+v1.0.3
+- Add licence for screenshots
+- Remove unnecessary code
+- Add theme URI
+
+v1.0.2
+- Add beaver builder compatibility
+- Add elementor compatibility
+
+v1.0.1
+- Update and optimize CSS and JS
+
+v1.0.0
+- Initial release
+
+

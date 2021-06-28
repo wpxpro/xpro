@@ -1,0 +1,2823 @@
+# Copyright (C) 2021 TopNotch
+# This file is distributed under the Xpro WordPress Theme, Copyright 2021 TopNotch.
+msgid ""
+msgstr ""
+"Project-Id-Version: Xpro 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/xpro\n"
+"POT-Creation-Date: 2021-01-19 09:01:19+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2021-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: classes/class-xpro-breadcrumb.php:37 inc/extras.php:220 inc/extras.php:221
+#: inc/extras.php:436
+msgid "Home"
+msgstr ""
+
+#: classes/class-xpro-breadcrumb.php:41
+#: lib/customizer/customizer-config.php:314
+msgid "Blog"
+msgstr ""
+
+#: classes/class-xpro-breadcrumb.php:48 searchform.php:14
+#: woocommerce/product-searchform.php:25
+msgid "Search"
+msgstr ""
+
+#: classes/class-xpro-breadcrumb.php:58
+msgid "Browse to: "
+msgstr ""
+
+#: classes/class-xpro-breadcrumb.php:70
+msgid "Tag: "
+msgstr ""
+
+#: classes/class-xpro-breadcrumb.php:74
+msgid "404"
+msgstr ""
+
+#: classes/class-xpro-breadcrumb.php:80
+msgid "Link of current page (click to refresh)"
+msgstr ""
+
+#. Translators: %s is the theme name.
+
+#: classes/class-xpro-meta-boxes.php:158
+msgid "%s Settings"
+msgstr ""
+
+#: classes/class-xpro-meta-boxes.php:229
+msgid "Sidebar Layout"
+msgstr ""
+
+#: classes/class-xpro-meta-boxes.php:232 classes/class-xpro-meta-boxes.php:248
+#: lib/plugins/kirki/controls/php/class-kirki-control-base.php:134
+#: lib/plugins/kirki/controls/views/image.php:36
+#: lib/plugins/kirki/field/class-kirki-field-image.php:49
+msgid "Default"
+msgstr ""
+
+#: classes/class-xpro-meta-boxes.php:233
+msgid "Left Sidebar"
+msgstr ""
+
+#: classes/class-xpro-meta-boxes.php:234
+msgid "Right Sidebar"
+msgstr ""
+
+#: classes/class-xpro-meta-boxes.php:235
+msgid "No Sidebar"
+msgstr ""
+
+#: classes/class-xpro-meta-boxes.php:245
+msgid "Content Layout"
+msgstr ""
+
+#: classes/class-xpro-meta-boxes.php:249
+#: lib/customizer/customizer-config.php:245
+#: lib/customizer/customizer-maps/banner-settings.php:25
+#: lib/customizer/customizer-maps/general-settings.php:351
+#: lib/customizer/customizer-maps/header-settings.php:26
+msgid "Container"
+msgstr ""
+
+#: classes/class-xpro-meta-boxes.php:250
+#: lib/customizer/customizer-maps/general-settings.php:352
+msgid "Container Fluid"
+msgstr ""
+
+#: classes/class-xpro-meta-boxes.php:251
+#: lib/customizer/customizer-maps/banner-settings.php:32
+#: lib/customizer/customizer-maps/general-settings.php:353
+#: lib/customizer/customizer-maps/header-settings.php:33
+msgid "Full Width"
+msgstr ""
+
+#: classes/class-xpro-meta-boxes.php:261
+msgid "Disable Sections"
+msgstr ""
+
+#: classes/class-xpro-meta-boxes.php:269
+msgid "Disable Header"
+msgstr ""
+
+#: classes/class-xpro-meta-boxes.php:277
+msgid "Disable Banner"
+msgstr ""
+
+#: classes/class-xpro-meta-boxes.php:284
+msgid "Disable Space"
+msgstr ""
+
+#: classes/class-xpro-meta-boxes.php:291
+msgid "Disable Footer"
+msgstr ""
+
+#: classes/class-xpro-navwalker.php:386
+msgid "Add a menu"
+msgstr ""
+
+#: classes/compatibility/class-xpro-beaver-themer.php:136
+msgid "Before Page"
+msgstr ""
+
+#: classes/compatibility/class-xpro-beaver-themer.php:137
+msgid "After Page"
+msgstr ""
+
+#: classes/compatibility/class-xpro-beaver-themer.php:143
+msgid "Before Header"
+msgstr ""
+
+#: classes/compatibility/class-xpro-beaver-themer.php:144
+msgid "After Header"
+msgstr ""
+
+#: classes/compatibility/class-xpro-beaver-themer.php:150
+msgid "Before Content"
+msgstr ""
+
+#: classes/compatibility/class-xpro-beaver-themer.php:151
+msgid "After Content"
+msgstr ""
+
+#: classes/compatibility/class-xpro-beaver-themer.php:157
+msgid "Before Footer"
+msgstr ""
+
+#: classes/compatibility/class-xpro-beaver-themer.php:158
+msgid "After Footer"
+msgstr ""
+
+#: classes/compatibility/class-xpro-beaver-themer.php:164
+msgid "Before Sidebar"
+msgstr ""
+
+#: classes/compatibility/class-xpro-beaver-themer.php:165
+msgid "After Sidebar"
+msgstr ""
+
+#: classes/compatibility/class-xpro-beaver-themer.php:171
+msgid "Loop Start"
+msgstr ""
+
+#: classes/compatibility/class-xpro-beaver-themer.php:172
+msgid "Before Post"
+msgstr ""
+
+#: classes/compatibility/class-xpro-beaver-themer.php:173
+msgid "After Post"
+msgstr ""
+
+#: classes/compatibility/class-xpro-beaver-themer.php:174
+msgid "Loop End"
+msgstr ""
+
+#. translators: %s: post title
+
+#: comments.php:66
+msgctxt "comments title"
+msgid "1 Comment"
+msgstr ""
+
+#. translators: 1: number of comments, 2: post title
+
+#: comments.php:78
+msgctxt "comments title"
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:114 comments.php:188
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:122 comments.php:196
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:134 comments.php:208
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:238
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:272
+msgid "Name *"
+msgstr ""
+
+#: comments.php:274
+msgid "Email *"
+msgstr ""
+
+#: comments.php:276
+msgid "Website"
+msgstr ""
+
+#: comments.php:286
+msgid "Enter your comment here..."
+msgstr ""
+
+#: comments.php:294
+msgid "Write a comment"
+msgstr ""
+
+#: comments.php:296
+msgid "Write a comment to %s"
+msgstr ""
+
+#: comments.php:300
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:318
+msgid "Logged in as %s. Edit your profile."
+msgstr ""
+
+#: comments.php:320
+msgid "Logged in as %s"
+msgstr ""
+
+#: comments.php:324
+msgid "Log Out?"
+msgstr ""
+
+#. translators: 1: date, 2: time
+
+#: inc/extras.php:282
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: inc/extras.php:282
+msgid "(Edit)"
+msgstr ""
+
+#: inc/extras.php:301
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/extras.php:358 lib/customizer/customizer-maps/banner-settings.php:171
+msgid "Blog List"
+msgstr ""
+
+#: inc/extras.php:360 lib/customizer/customizer-maps/banner-settings.php:195
+msgid "Blog Detail"
+msgstr ""
+
+#: inc/extras.php:361
+msgid "Search Results For "
+msgstr ""
+
+#: inc/extras.php:362 lib/customizer/customizer-maps/banner-settings.php:222
+msgid "Page Not Found"
+msgstr ""
+
+#: inc/extras.php:377
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/extras.php:379
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: inc/extras.php:436
+msgid "Choose Menu"
+msgstr ""
+
+#: inc/hooks.php:34
+msgid "http://wordpress.org/"
+msgstr ""
+
+#. translators: WordPress
+
+#: inc/hooks.php:37
+msgid "Proudly powered by %s"
+msgstr ""
+
+#. translators: 1: Theme name, 2: Theme author
+
+#: inc/hooks.php:42
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: inc/hooks.php:44
+msgid "http://wpxpro.com"
+msgstr ""
+
+#. translators: Theme version
+
+#: inc/hooks.php:48
+msgid "Version: %1$s"
+msgstr ""
+
+#: inc/hooks.php:66 inc/hooks.php:67
+msgid "Skip to content"
+msgstr ""
+
+#: inc/hooks.php:271
+msgid "Post navigation"
+msgstr ""
+
+#: inc/pagination.php:53
+msgid "Prev"
+msgstr ""
+
+#: inc/pagination.php:54
+msgid "Next"
+msgstr ""
+
+#: inc/pagination.php:57
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/setup.php:59
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/template-tags.php:33
+msgctxt "post date"
+msgid "Posted on"
+msgstr ""
+
+#: inc/template-tags.php:42
+msgctxt "post author"
+msgid "by"
+msgstr ""
+
+#: inc/template-tags.php:42
+msgctxt "post author"
+msgid "Posted by"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+
+#: inc/template-tags.php:59 inc/template-tags.php:65
+#: template-parts/archive/content-post-classic.php:36
+#: template-parts/index/content-post-classic.php:36
+#: template-parts/single/content-single.php:50
+msgid ", "
+msgstr ""
+
+#. translators: %s: Categories of current post
+
+#: inc/template-tags.php:62
+msgid "Posted in %s"
+msgstr ""
+
+#. translators: %s: Tags of current post
+
+#: inc/template-tags.php:68
+msgid "Tagged %s"
+msgstr ""
+
+#: inc/template-tags.php:73
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/template-tags.php:73 template-parts/archive/content-post-classic.php:44
+#: template-parts/index/content-post-classic.php:44
+msgid "1 Comment"
+msgstr ""
+
+#: inc/template-tags.php:73 template-parts/archive/content-post-classic.php:44
+#: template-parts/index/content-post-classic.php:44
+msgid "% Comments"
+msgstr ""
+
+#. translators: %s: Name of current post
+
+#: inc/template-tags.php:79
+msgid "Edit %s"
+msgstr ""
+
+#: inc/widgets.php:22
+msgid "Main Sidebar"
+msgstr ""
+
+#: inc/widgets.php:24
+msgid "Right sidebar widget area"
+msgstr ""
+
+#: inc/widgets.php:36
+msgid "WooCommerce Shop"
+msgstr ""
+
+#: inc/widgets.php:38
+msgid "Woocommerce sidebar widget area"
+msgstr ""
+
+#: inc/woocommerce.php:150
+msgctxt "breadcrumb"
+msgid "Home"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:29
+#: lib/customizer/customizer-maps/general-settings.php:824
+#: lib/customizer/customizer-maps/header-settings.php:1040
+#: lib/customizer/customizer-maps/layout-settings.php:1050
+#: lib/plugins/kirki/controls/php/class-kirki-control-background.php:48
+msgid "Background Color"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:30
+#: lib/plugins/kirki/controls/php/class-kirki-control-background.php:54
+msgid "Background Image"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:31
+#: lib/plugins/kirki/controls/php/class-kirki-control-background.php:72
+msgid "No Repeat"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:32
+#: lib/plugins/kirki/controls/php/class-kirki-control-background.php:73
+msgid "Repeat All"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:33
+#: lib/plugins/kirki/controls/php/class-kirki-control-background.php:74
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:34
+#: lib/plugins/kirki/controls/php/class-kirki-control-background.php:75
+msgid "Repeat Vertically"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:35
+#: lib/plugins/kirki/controls/php/class-kirki-control-typography.php:139
+#: lib/plugins/kirki/controls/php/class-kirki-control-typography.php:181
+#: lib/plugins/kirki/controls/php/class-kirki-control-typography.php:197
+msgid "Inherit"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:36
+#: lib/plugins/kirki/controls/php/class-kirki-control-background.php:70
+msgid "Background Repeat"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:37
+#: lib/plugins/kirki/controls/php/class-kirki-control-background.php:100
+msgid "Cover"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:38
+#: lib/plugins/kirki/controls/php/class-kirki-control-background.php:103
+msgid "Contain"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:39
+#: lib/plugins/kirki/controls/php/class-kirki-control-background.php:97
+msgid "Background Size"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:40
+#: lib/customizer/customizer-maps/banner-settings.php:31
+#: lib/customizer/customizer-maps/header-settings.php:32
+#: lib/plugins/kirki/controls/php/class-kirki-control-background.php:119
+msgid "Fixed"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:41
+#: lib/plugins/kirki/controls/php/class-kirki-control-background.php:116
+msgid "Scroll"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:42
+#: lib/plugins/kirki/controls/php/class-kirki-control-background.php:113
+msgid "Background Attachment"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:43
+#: lib/plugins/kirki/controls/php/class-kirki-control-background.php:83
+#: lib/plugins/kirki/controls/php/class-kirki-control-dimensions.php:114
+msgid "Left Top"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:44
+#: lib/plugins/kirki/controls/php/class-kirki-control-background.php:84
+#: lib/plugins/kirki/controls/php/class-kirki-control-dimensions.php:115
+msgid "Left Center"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:45
+#: lib/plugins/kirki/controls/php/class-kirki-control-background.php:85
+#: lib/plugins/kirki/controls/php/class-kirki-control-dimensions.php:116
+msgid "Left Bottom"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:46
+#: lib/plugins/kirki/controls/php/class-kirki-control-background.php:86
+#: lib/plugins/kirki/controls/php/class-kirki-control-dimensions.php:117
+msgid "Right Top"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:47
+#: lib/plugins/kirki/controls/php/class-kirki-control-background.php:87
+#: lib/plugins/kirki/controls/php/class-kirki-control-dimensions.php:118
+msgid "Right Center"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:48
+#: lib/plugins/kirki/controls/php/class-kirki-control-background.php:88
+#: lib/plugins/kirki/controls/php/class-kirki-control-dimensions.php:119
+msgid "Right Bottom"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:49
+#: lib/plugins/kirki/controls/php/class-kirki-control-background.php:89
+#: lib/plugins/kirki/controls/php/class-kirki-control-dimensions.php:120
+msgid "Center Top"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:50
+#: lib/plugins/kirki/controls/php/class-kirki-control-background.php:90
+#: lib/plugins/kirki/controls/php/class-kirki-control-dimensions.php:121
+msgid "Center Center"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:51
+#: lib/plugins/kirki/controls/php/class-kirki-control-background.php:91
+#: lib/plugins/kirki/controls/php/class-kirki-control-dimensions.php:122
+msgid "Center Bottom"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:52
+#: lib/plugins/kirki/controls/php/class-kirki-control-background.php:81
+msgid "Background Position"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:53
+msgid "Background Opacity"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:54
+msgid "ON"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:55
+msgid "OFF"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:56
+msgid "All"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:57
+msgid "Cyrillic"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:58
+msgid "Cyrillic Extended"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:59
+msgid "Devanagari"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:60
+msgid "Greek"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:61
+msgid "Greek Extended"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:62
+msgid "Khmer"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:63
+msgid "Latin"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:64
+msgid "Latin Extended"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:65
+msgid "Vietnamese"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:208
+msgid "General"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:214
+msgid "Header"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:220
+#: lib/customizer/customizer-config.php:282
+msgid "Layout"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:233
+msgid "Typography"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:239
+#: lib/plugins/kirki/controls/php/class-kirki-control-typography.php:221
+msgid "Color"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:251
+#: lib/customizer/customizer-maps/general-settings.php:396
+msgid "Pre Loader"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:257
+#: lib/customizer/customizer-maps/general-settings.php:545
+msgid "Scroll Top"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:263
+#: lib/customizer/customizer-maps/layout-settings.php:294
+#: lib/customizer/customizer-maps/layout-settings.php:774
+msgid "Button"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:269
+msgid "Custom Fonts"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:275
+msgid "Minify CSS/JS"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:288
+msgid "Submenu"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:294
+#: lib/customizer/customizer-maps/header-settings.php:815
+#: lib/customizer/customizer-maps/header-settings.php:830
+msgid "Logo"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:300
+msgid "Hamburger"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:308
+msgid "Page"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:320
+msgid "Archive"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:326
+msgid "Sticky Post"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:332
+msgid "Single Post"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:338
+msgid "404 Page"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:344
+msgid "Shop Archive"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:350
+msgid "Shop Single"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:357
+msgid "Banner"
+msgstr ""
+
+#: lib/customizer/customizer-config.php:364
+msgid "Footer"
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:10
+msgid "Title Banner"
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:11
+msgid "Specifies the title banner layout."
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:26
+msgid "Choose between Bootstrap container container-fluid."
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:40
+msgid "Banner Height"
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:41
+msgid "To change title banner height."
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:69
+msgid "Background Type"
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:70
+msgid "Title Banner background controls."
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:98
+msgid "Overlay Color"
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:99
+msgid "Specifies the color of banner overlay."
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:117
+msgid "Alignment"
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:118
+msgid "Select image alignment of banner wrapper."
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:123
+#: lib/plugins/kirki/controls/php/class-kirki-control-dimensions.php:131
+#: lib/plugins/kirki/controls/php/class-kirki-control-typography.php:145
+#: lib/plugins/kirki/field/class-kirki-field-spacing.php:34
+msgid "Left"
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:124
+#: lib/plugins/kirki/controls/php/class-kirki-control-dimensions.php:133
+#: lib/plugins/kirki/controls/php/class-kirki-control-typography.php:151
+msgid "Center"
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:125
+#: lib/plugins/kirki/controls/php/class-kirki-control-dimensions.php:132
+#: lib/plugins/kirki/controls/php/class-kirki-control-typography.php:157
+#: lib/plugins/kirki/field/class-kirki-field-spacing.php:35
+msgid "Right"
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:146
+msgid "Space Bottom"
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:147
+msgid "To change banner bottom space."
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:168
+msgid "Blog Title"
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:169
+msgid "Specifies the title text of blog page."
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:177
+msgid "Custom Single Title"
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:178
+msgid "Disable this option to use blog post name as title."
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:184
+#: lib/customizer/customizer-maps/banner-settings.php:302
+#: lib/customizer/customizer-maps/general-settings.php:402
+#: lib/customizer/customizer-maps/general-settings.php:551
+#: lib/customizer/customizer-maps/general-settings.php:998
+#: lib/customizer/customizer-maps/general-settings.php:1012
+#: lib/customizer/customizer-maps/header-settings.php:243
+#: lib/customizer/customizer-maps/header-settings.php:327
+#: lib/customizer/customizer-maps/header-settings.php:403
+#: lib/customizer/customizer-maps/header-settings.php:578
+#: lib/customizer/customizer-maps/header-settings.php:697
+#: lib/customizer/customizer-maps/header-settings.php:822
+#: lib/customizer/customizer-maps/layout-settings.php:56
+#: lib/customizer/customizer-maps/layout-settings.php:128
+#: lib/customizer/customizer-maps/layout-settings.php:141
+#: lib/customizer/customizer-maps/layout-settings.php:154
+#: lib/customizer/customizer-maps/layout-settings.php:167
+#: lib/customizer/customizer-maps/layout-settings.php:187
+#: lib/customizer/customizer-maps/layout-settings.php:207
+#: lib/customizer/customizer-maps/layout-settings.php:220
+#: lib/customizer/customizer-maps/layout-settings.php:233
+#: lib/customizer/customizer-maps/layout-settings.php:280
+#: lib/customizer/customizer-maps/layout-settings.php:300
+#: lib/customizer/customizer-maps/layout-settings.php:606
+#: lib/customizer/customizer-maps/layout-settings.php:619
+#: lib/customizer/customizer-maps/layout-settings.php:634
+#: lib/customizer/customizer-maps/layout-settings.php:647
+#: lib/customizer/customizer-maps/layout-settings.php:667
+#: lib/customizer/customizer-maps/layout-settings.php:687
+#: lib/customizer/customizer-maps/layout-settings.php:700
+#: lib/customizer/customizer-maps/layout-settings.php:713
+#: lib/customizer/customizer-maps/layout-settings.php:760
+#: lib/customizer/customizer-maps/layout-settings.php:780
+#: lib/customizer/customizer-maps/layout-settings.php:1463
+#: lib/customizer/customizer-maps/layout-settings.php:1476
+#: lib/customizer/customizer-maps/layout-settings.php:1490
+#: lib/customizer/customizer-maps/layout-settings.php:1504
+#: lib/customizer/customizer-maps/layout-settings.php:1518
+#: lib/customizer/customizer-maps/layout-settings.php:1531
+#: lib/customizer/customizer-maps/layout-settings.php:1544
+#: lib/customizer/customizer-maps/layout-settings.php:1557
+#: lib/customizer/customizer-maps/layout-settings.php:1570
+#: lib/plugins/kirki/controls/php/class-kirki-control-switch.php:52
+#: lib/plugins/kirki/field/class-kirki-field-switch.php:39
+msgid "On"
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:185
+#: lib/customizer/customizer-maps/banner-settings.php:303
+#: lib/customizer/customizer-maps/general-settings.php:403
+#: lib/customizer/customizer-maps/general-settings.php:552
+#: lib/customizer/customizer-maps/general-settings.php:999
+#: lib/customizer/customizer-maps/general-settings.php:1013
+#: lib/customizer/customizer-maps/header-settings.php:244
+#: lib/customizer/customizer-maps/header-settings.php:328
+#: lib/customizer/customizer-maps/header-settings.php:404
+#: lib/customizer/customizer-maps/header-settings.php:579
+#: lib/customizer/customizer-maps/header-settings.php:698
+#: lib/customizer/customizer-maps/header-settings.php:823
+#: lib/customizer/customizer-maps/layout-settings.php:57
+#: lib/customizer/customizer-maps/layout-settings.php:129
+#: lib/customizer/customizer-maps/layout-settings.php:142
+#: lib/customizer/customizer-maps/layout-settings.php:155
+#: lib/customizer/customizer-maps/layout-settings.php:168
+#: lib/customizer/customizer-maps/layout-settings.php:188
+#: lib/customizer/customizer-maps/layout-settings.php:208
+#: lib/customizer/customizer-maps/layout-settings.php:221
+#: lib/customizer/customizer-maps/layout-settings.php:234
+#: lib/customizer/customizer-maps/layout-settings.php:281
+#: lib/customizer/customizer-maps/layout-settings.php:301
+#: lib/customizer/customizer-maps/layout-settings.php:607
+#: lib/customizer/customizer-maps/layout-settings.php:620
+#: lib/customizer/customizer-maps/layout-settings.php:635
+#: lib/customizer/customizer-maps/layout-settings.php:648
+#: lib/customizer/customizer-maps/layout-settings.php:668
+#: lib/customizer/customizer-maps/layout-settings.php:688
+#: lib/customizer/customizer-maps/layout-settings.php:701
+#: lib/customizer/customizer-maps/layout-settings.php:714
+#: lib/customizer/customizer-maps/layout-settings.php:761
+#: lib/customizer/customizer-maps/layout-settings.php:781
+#: lib/customizer/customizer-maps/layout-settings.php:1464
+#: lib/customizer/customizer-maps/layout-settings.php:1477
+#: lib/customizer/customizer-maps/layout-settings.php:1491
+#: lib/customizer/customizer-maps/layout-settings.php:1505
+#: lib/customizer/customizer-maps/layout-settings.php:1519
+#: lib/customizer/customizer-maps/layout-settings.php:1532
+#: lib/customizer/customizer-maps/layout-settings.php:1545
+#: lib/customizer/customizer-maps/layout-settings.php:1558
+#: lib/customizer/customizer-maps/layout-settings.php:1571
+#: lib/plugins/kirki/controls/php/class-kirki-control-switch.php:56
+#: lib/plugins/kirki/field/class-kirki-field-switch.php:40
+msgid "Off"
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:192
+msgid "Post Single Title"
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:193
+msgid "Specifies the title text of post single."
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:209
+msgid "Search Title"
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:210
+#: lib/customizer/customizer-maps/banner-settings.php:220
+msgid "Specifies the title text of page not found."
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:212
+msgid "Search Results For"
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:219
+msgid "Not Found Title"
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:229
+#: lib/customizer/customizer-maps/layout-settings.php:325
+#: lib/customizer/customizer-maps/layout-settings.php:805
+#: lib/customizer/customizer-maps/layout-settings.php:1088
+#: lib/customizer/customizer-maps/layout-settings.php:1579
+#: lib/customizer/customizer-maps/layout-settings.php:1725
+#: lib/customizer/customizer-maps/layout-settings.php:1873
+msgid "Title Font"
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:230
+msgid "Additional fonts for banner title."
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:250
+#: lib/customizer/customizer-maps/general-settings.php:32
+#: lib/customizer/customizer-maps/general-settings.php:80
+#: lib/customizer/customizer-maps/general-settings.php:968
+#: lib/customizer/customizer-maps/header-settings.php:62
+#: lib/customizer/customizer-maps/header-settings.php:495
+#: lib/customizer/customizer-maps/header-settings.php:963
+#: lib/plugins/kirki/controls/php/class-kirki-control-dimensions.php:124
+msgid "Font Weight"
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:255
+#: lib/customizer/customizer-maps/general-settings.php:37
+#: lib/customizer/customizer-maps/general-settings.php:85
+#: lib/customizer/customizer-maps/header-settings.php:67
+#: lib/customizer/customizer-maps/header-settings.php:500
+#: lib/customizer/customizer-maps/header-settings.php:968
+msgid "Normal"
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:256
+#: lib/customizer/customizer-maps/general-settings.php:38
+#: lib/customizer/customizer-maps/general-settings.php:86
+#: lib/customizer/customizer-maps/header-settings.php:68
+#: lib/customizer/customizer-maps/header-settings.php:501
+#: lib/customizer/customizer-maps/header-settings.php:969
+msgid "100"
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:257
+#: lib/customizer/customizer-maps/general-settings.php:39
+#: lib/customizer/customizer-maps/general-settings.php:87
+#: lib/customizer/customizer-maps/header-settings.php:69
+#: lib/customizer/customizer-maps/header-settings.php:502
+#: lib/customizer/customizer-maps/header-settings.php:970
+msgid "200"
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:258
+#: lib/customizer/customizer-maps/general-settings.php:40
+#: lib/customizer/customizer-maps/general-settings.php:88
+#: lib/customizer/customizer-maps/header-settings.php:70
+#: lib/customizer/customizer-maps/header-settings.php:503
+#: lib/customizer/customizer-maps/header-settings.php:971
+msgid "300"
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:259
+#: lib/customizer/customizer-maps/general-settings.php:41
+#: lib/customizer/customizer-maps/general-settings.php:89
+#: lib/customizer/customizer-maps/header-settings.php:71
+#: lib/customizer/customizer-maps/header-settings.php:504
+#: lib/customizer/customizer-maps/header-settings.php:972
+msgid "400"
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:260
+#: lib/customizer/customizer-maps/general-settings.php:42
+#: lib/customizer/customizer-maps/general-settings.php:90
+#: lib/customizer/customizer-maps/header-settings.php:72
+#: lib/customizer/customizer-maps/header-settings.php:505
+#: lib/customizer/customizer-maps/header-settings.php:973
+msgid "500"
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:261
+#: lib/customizer/customizer-maps/general-settings.php:43
+#: lib/customizer/customizer-maps/general-settings.php:91
+#: lib/customizer/customizer-maps/header-settings.php:73
+#: lib/customizer/customizer-maps/header-settings.php:506
+#: lib/customizer/customizer-maps/header-settings.php:974
+msgid "600"
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:262
+#: lib/customizer/customizer-maps/general-settings.php:44
+#: lib/customizer/customizer-maps/general-settings.php:92
+#: lib/customizer/customizer-maps/header-settings.php:74
+#: lib/customizer/customizer-maps/header-settings.php:507
+#: lib/customizer/customizer-maps/header-settings.php:975
+msgid "700"
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:263
+#: lib/customizer/customizer-maps/general-settings.php:45
+#: lib/customizer/customizer-maps/general-settings.php:93
+#: lib/customizer/customizer-maps/header-settings.php:75
+#: lib/customizer/customizer-maps/header-settings.php:508
+#: lib/customizer/customizer-maps/header-settings.php:976
+msgid "800"
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:264
+#: lib/customizer/customizer-maps/general-settings.php:46
+#: lib/customizer/customizer-maps/general-settings.php:94
+#: lib/customizer/customizer-maps/header-settings.php:76
+#: lib/customizer/customizer-maps/header-settings.php:509
+#: lib/customizer/customizer-maps/header-settings.php:977
+msgid "900"
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:277
+#: lib/customizer/customizer-maps/layout-settings.php:1110
+msgid "Title Color"
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:278
+msgid "Specifies the color of banner title."
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:295
+msgid "Breadcrumb Enable"
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:296
+msgid "Enable/Disable the post banner breadcrumbs."
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:310
+msgid "Breadcrumb Font"
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:311
+msgid "To change breadcrumb font size."
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:339
+msgid "Breadcrumb Color"
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:340
+msgid "Specifies the color of banner breadcrumb."
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:358
+msgid "Breadcrumb Link Color"
+msgstr ""
+
+#: lib/customizer/customizer-maps/banner-settings.php:359
+msgid "Specifies the color of banner breadcrumb link."
+msgstr ""
+
+#: lib/customizer/customizer-maps/footer-settings.php:10
+msgid "Footer Layout"
+msgstr ""
+
+#: lib/customizer/customizer-maps/footer-settings.php:11
+msgid "Specifies the footer layout."
+msgstr ""
+
+#: lib/customizer/customizer-maps/footer-settings.php:23
+msgid "Footer Height"
+msgstr ""
+
+#: lib/customizer/customizer-maps/footer-settings.php:24
+msgid "To change footer height."
+msgstr ""
+
+#: lib/customizer/customizer-maps/footer-settings.php:45
+msgid "Footer Background"
+msgstr ""
+
+#: lib/customizer/customizer-maps/footer-settings.php:46
+msgid "Footer background controls."
+msgstr ""
+
+#: lib/customizer/customizer-maps/footer-settings.php:75
+#: lib/plugins/kirki/controls/php/class-kirki-control-typography.php:205
+msgid "Margin Top"
+msgstr ""
+
+#: lib/customizer/customizer-maps/footer-settings.php:76
+msgid "To change footer top space."
+msgstr ""
+
+#: lib/customizer/customizer-maps/footer-settings.php:96
+msgid "Footer Content"
+msgstr ""
+
+#: lib/customizer/customizer-maps/footer-settings.php:97
+msgid "Specify the content of footer."
+msgstr ""
+
+#: lib/customizer/customizer-maps/footer-settings.php:107
+msgid "Text Color"
+msgstr ""
+
+#: lib/customizer/customizer-maps/footer-settings.php:108
+msgid "Specifies the color of footer content."
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:10
+msgid "Main Font"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:11
+msgid "Theme main fonts for body content with your desired fonts."
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:59
+msgid "Heading Font"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:60
+msgid "Theme additional fonts for all headings with your desired fonts."
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:107
+msgid "Heading 1 (H1)"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:108
+msgid "Theme heading (H1) font size."
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:129
+msgid "Heading 2 (H2)"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:130
+msgid "Theme heading (H2) font size."
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:151
+msgid "Heading 3 (H3)"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:152
+msgid "Theme heading (H3) font size."
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:173
+msgid "Heading 4 (H4)"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:174
+msgid "Theme heading (H4) font size."
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:195
+msgid "Heading 5 (H5)"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:196
+msgid "Theme heading (H5) font size."
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:217
+msgid "Heading 6 (H6)"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:218
+msgid "Theme heading (H6) font size."
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:244
+#: lib/customizer/customizer-maps/layout-settings.php:1192
+msgid "Content Color"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:245
+msgid "Specifies the color of body content."
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:264
+msgid "Heading Color"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:265
+msgid "Specifies the color of heading(s) content."
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:284
+#: lib/customizer/customizer-maps/layout-settings.php:490
+msgid "Link Color"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:285
+msgid "Specifies the color of link content."
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:303
+msgid "Link Hover"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:304
+msgid "Specifies the color of link content on hover."
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:322
+msgid "Theme Base Color"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:323
+msgid "Specifies the complete theme base color."
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:346
+msgid "Site Container"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:347
+msgid "Specifies the site container."
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:360
+msgid "Container Width"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:361
+msgid "Specifies the width of the site container."
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:397
+msgid "Enable this option to show loader before site load."
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:410
+msgid "Pre Loader Style"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:411
+msgid "Specifies site preloader style."
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:415
+msgid "Loader Style 1"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:416
+#: lib/customizer/customizer-maps/general-settings.php:431
+msgid "Loader Image"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:432
+msgid "Select an animated gif to display while site is loading."
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:455
+msgid "Pre Loader Color"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:456
+msgid "To change site preloader color."
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:486
+msgid "Loader Image Width"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:487
+msgid "Custom loader image width e.g. 200px."
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:514
+msgid "Pre Loader Background"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:515
+msgid "To change site preloader background color."
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:546
+msgid "Enable this option to add scroll to top button on site."
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:559
+msgid "Scroll Top Dimension"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:560
+msgid "To change site scroll top button dimensions e.g. 50px"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:578
+#: lib/plugins/kirki/controls/php/class-kirki-control-dimensions.php:137
+msgid "Height"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:579
+#: lib/plugins/kirki/controls/php/class-kirki-control-dimensions.php:136
+msgid "Width"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:580
+msgid "Icon Size"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:581
+#: lib/customizer/customizer-maps/general-settings.php:734
+#: lib/customizer/customizer-maps/layout-settings.php:1933
+msgid "Border Radius"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:611
+#: lib/customizer/customizer-maps/general-settings.php:770
+#: lib/customizer/customizer-maps/layout-settings.php:970
+#: lib/customizer/customizer-maps/layout-settings.php:1271
+msgid "Button Color"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:612
+msgid "To change site scroll top button color."
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:637
+msgid "Button Hover Color"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:638
+msgid "To change site scroll top button color on hover."
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:663
+#: lib/customizer/customizer-maps/layout-settings.php:1309
+msgid "Button Background"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:664
+msgid "Scroll top background color."
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:688
+#: lib/customizer/customizer-maps/layout-settings.php:1335
+msgid "Button Background Hover"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:689
+msgid "Scroll top background color on hover."
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:717
+#: lib/customizer/customizer-maps/layout-settings.php:1917
+msgid "Button Dimension"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:718
+msgid "Specify the button dimensions e.g. 10px."
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:730
+#: lib/customizer/customizer-maps/layout-settings.php:1930
+msgid "Padding Top"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:731
+#: lib/customizer/customizer-maps/layout-settings.php:1931
+msgid "Padding Right"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:732
+#: lib/customizer/customizer-maps/layout-settings.php:1932
+msgid "Padding Bottom"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:733
+msgid "Padding Left"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:747
+#: lib/customizer/customizer-maps/header-settings.php:942
+#: lib/customizer/customizer-maps/layout-settings.php:1946
+#: lib/plugins/kirki/controls/php/class-kirki-control-dimensions.php:123
+#: lib/plugins/kirki/controls/php/class-kirki-control-typography.php:102
+msgid "Font Size"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:748
+msgid "Specify the button font size."
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:771
+msgid "Specifies the color of theme button."
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:797
+msgid "Hover Color"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:798
+msgid "Specifies the color of theme button on hover."
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:825
+msgid "Specifies the background color of theme button."
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:851
+msgid "Hover Background"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:852
+msgid "Specifies the background color of theme button on hover."
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:879
+#: lib/customizer/customizer-maps/header-settings.php:1060
+#: lib/customizer/customizer-maps/layout-settings.php:1069
+msgid "Border Color"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:880
+msgid "Specifies the border color of theme button."
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:906
+msgid "Hover Border"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:907
+msgid "Specifies the border color of theme button on hover."
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:937
+msgid "Upload Fonts"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:938
+msgid "Here you can add your custom fonts"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:944
+msgid "Upload Font"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:949
+msgid "Name"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:953
+msgid "Font File (*.woff)"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:958
+msgid "Font File (*.woff2)"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:963
+msgid "Font File (*.tff)"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:992
+msgid "Minify CSS"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:993
+msgid "Enable this option to compress all CSS in one file."
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:1006
+msgid "Minify JS"
+msgstr ""
+
+#: lib/customizer/customizer-maps/general-settings.php:1007
+msgid "Enable this option to compress all JS in one file."
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:11
+msgid "Header Layout"
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:12
+msgid "Specifies the header layout."
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:27
+msgid "Specifies the navigation container."
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:40
+msgid "Menu Font"
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:41
+msgid "Theme additional fonts for header menu."
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:90
+msgid "Header Height"
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:91
+msgid "Specifies the height of header e.i 100px"
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:111
+msgid "Left/Right Space"
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:112
+msgid "Specifies the margin left/right between menu."
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:140
+#: lib/customizer/customizer-maps/header-settings.php:522
+#: lib/customizer/customizer-maps/header-settings.php:991
+msgid "Top/Bottom Space"
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:141
+#: lib/customizer/customizer-maps/header-settings.php:992
+msgid "Specifies the padding top/bottom between menu."
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:169
+msgid "Header Background"
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:170
+msgid "Specifies the color of header background."
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:195
+msgid "Header Border"
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:196
+msgid "Specifies the color of header border bottom."
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:214
+msgid "Header Menu Color"
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:215
+msgid "Specifies the color of header menu."
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:237
+msgid "Header Gradient"
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:238
+msgid "Enable this option to header background gradient."
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:251
+#: lib/customizer/customizer-maps/header-settings.php:418
+#: lib/customizer/customizer-maps/header-settings.php:586
+#: lib/customizer/customizer-maps/header-settings.php:705
+msgid "Gradient Colors"
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:252
+msgid "Specifies the header background gradient."
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:255
+#: lib/customizer/customizer-maps/header-settings.php:422
+#: lib/customizer/customizer-maps/header-settings.php:590
+#: lib/customizer/customizer-maps/header-settings.php:709
+msgid "Primary"
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:256
+#: lib/customizer/customizer-maps/header-settings.php:423
+#: lib/customizer/customizer-maps/header-settings.php:591
+#: lib/customizer/customizer-maps/header-settings.php:710
+msgid "Secondary"
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:274
+msgid "Active/Hover Color"
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:275
+msgid "Specifies the color of nav menu active and hover."
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:294
+msgid "Sticky Active/Hover"
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:295
+msgid "Specifies the color of nav menu active and hover of header sticky."
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:320
+msgid "Sticky Header"
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:321
+msgid "Enable it to display header menu on top even by scrolling the page."
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:335
+msgid "Sticky Background"
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:336
+msgid "Specifies the color of sticky header background."
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:366
+msgid "Sticky Menu Color"
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:367
+msgid "Specifies the color of sticky header menu."
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:396
+msgid "Sticky Gradient"
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:397
+msgid "Enable this option to sticky header background gradient."
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:419
+msgid "Specifies the sticky header background gradient."
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:446
+msgid "Sticky Height"
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:447
+msgid "Specifies the height of header sticky e.i 100px"
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:473
+msgid "Submenu Font"
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:474
+msgid "Theme additional fonts for header sub menu."
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:523
+msgid "Specifies the padding top/bottom between submenu."
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:572
+msgid "Submenu Gradient"
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:573
+msgid "Enable this option to header dropdown background gradient."
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:587
+#: lib/customizer/customizer-maps/header-settings.php:706
+msgid "Specifies the header submenu background gradient."
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:609
+msgid "Submenu Background"
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:610
+msgid "Specifies the color of header submenu menu background."
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:635
+msgid "Submenu Color"
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:636
+msgid "Specifies the color of header submenu menu."
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:654
+msgid "Submenu Active/Hover"
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:655
+msgid "Specifies the color of header submenu menu active."
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:673
+msgid "Submenu Border"
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:674
+msgid "Specifies the top border color of header submenu."
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:691
+msgid "Sticky Submenu Gradient"
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:692
+msgid "Enable this option to sticky header dropdown background gradient."
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:728
+msgid "Sticky Submenu Background"
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:729
+msgid "Specifies the color of sticky header submenu menu background."
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:754
+msgid "Sticky Submenu Color"
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:755
+msgid "Specifies the color of sticky submenu menu."
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:774
+msgid "Sticky Submenu Active/Hover"
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:775
+msgid "Specifies the color of sticky header submenu menu active."
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:793
+msgid "Sticky Submenu Border"
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:794
+msgid "Specifies the top border color of sticky header submenu."
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:816
+msgid "Enable/Disable site header logo."
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:831
+msgid "Upload the logo image which will be displayed in the website header."
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:846
+#: lib/customizer/customizer-maps/header-settings.php:863
+msgid "Logo Width"
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:847
+msgid "To change header logo width e.g. 150px"
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:864
+msgid "To change header logo width."
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:892
+msgid "Sticky Logo"
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:893
+msgid "Upload the logo sticky image which will be displayed in the website header in scrolled version header."
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:908
+msgid "Sticky Logo Width"
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:909
+msgid "To change sticky header logo width."
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:943
+msgid "To change hamburger menu font size. e.g. 15px"
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:1020
+msgid "Menu Color"
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:1021
+msgid "Specifies the color of hamburger menu."
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:1041
+msgid "Specifies the color of hamburger menu background."
+msgstr ""
+
+#: lib/customizer/customizer-maps/header-settings.php:1061
+msgid "Specifies the border color of hamburger menu background."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:10
+msgid "Page Layout"
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:11
+msgid "Specifies the page layout."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:24
+#: lib/customizer/customizer-maps/layout-settings.php:83
+#: lib/customizer/customizer-maps/layout-settings.php:561
+#: lib/customizer/customizer-maps/layout-settings.php:1431
+#: lib/customizer/customizer-maps/layout-settings.php:1656
+#: lib/customizer/customizer-maps/layout-settings.php:1818
+msgid "Space Top/Bottom"
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:25
+msgid "To change page content top bottom padding."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:50
+#: lib/customizer/customizer-maps/layout-settings.php:181
+#: lib/customizer/customizer-maps/layout-settings.php:661
+#: lib/customizer/customizer-maps/layout-settings.php:1564
+msgid "Comments"
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:51
+msgid "( if page comment is off in WordPress then it cannot be switched on here. )"
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:69
+msgid "Blog Layout"
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:70
+msgid "Specifies the blog/default post layout."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:84
+msgid "To change blog content top bottom padding."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:110
+#: lib/customizer/customizer-maps/layout-settings.php:588
+msgid "Post Layout"
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:111
+#: lib/customizer/customizer-maps/layout-settings.php:589
+msgid "Specifies the post item layout."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:122
+#: lib/customizer/customizer-maps/layout-settings.php:600
+#: lib/customizer/customizer-maps/layout-settings.php:1470
+msgid "Post Thumbnail"
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:123
+#: lib/customizer/customizer-maps/layout-settings.php:601
+#: lib/customizer/customizer-maps/layout-settings.php:1471
+msgid "Enable/Disable post item thumbnail."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:135
+#: lib/customizer/customizer-maps/layout-settings.php:613
+#: lib/customizer/customizer-maps/layout-settings.php:1457
+msgid "Post Title"
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:136
+#: lib/customizer/customizer-maps/layout-settings.php:614
+msgid "Enable/Disable post item title."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:148
+#: lib/customizer/customizer-maps/layout-settings.php:628
+#: lib/customizer/customizer-maps/layout-settings.php:1484
+msgid "Post Date"
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:149
+#: lib/customizer/customizer-maps/layout-settings.php:629
+#: lib/customizer/customizer-maps/layout-settings.php:1485
+msgid "Enable/Disable post item date."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:161
+#: lib/customizer/customizer-maps/layout-settings.php:641
+#: lib/customizer/customizer-maps/layout-settings.php:1498
+msgid "Post Category"
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:162
+#: lib/customizer/customizer-maps/layout-settings.php:642
+#: lib/customizer/customizer-maps/layout-settings.php:1499
+msgid "Enable/Disable post item category."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:182
+#: lib/customizer/customizer-maps/layout-settings.php:662
+#: lib/customizer/customizer-maps/layout-settings.php:1565
+msgid "Enable/Disable post item comments."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:201
+#: lib/customizer/customizer-maps/layout-settings.php:681
+#: lib/customizer/customizer-maps/layout-settings.php:1512
+msgid "Author"
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:202
+#: lib/customizer/customizer-maps/layout-settings.php:682
+#: lib/customizer/customizer-maps/layout-settings.php:1513
+msgid "Enable/Disable post item author."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:214
+#: lib/customizer/customizer-maps/layout-settings.php:694
+msgid "Content"
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:215
+#: lib/customizer/customizer-maps/layout-settings.php:695
+msgid "Enable/Disable post item description."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:227
+#: lib/customizer/customizer-maps/layout-settings.php:707
+msgid "Excerpt"
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:228
+#: lib/customizer/customizer-maps/layout-settings.php:708
+msgid "Enable/Disable post item excerpt."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:248
+#: lib/customizer/customizer-maps/layout-settings.php:728
+msgid "Excerpt Length"
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:249
+#: lib/customizer/customizer-maps/layout-settings.php:729
+msgid "To change post content excerpt lenght."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:274
+#: lib/customizer/customizer-maps/layout-settings.php:754
+#: lib/customizer/customizer-maps/layout-settings.php:1525
+#: lib/customizer/customizer-maps/layout-settings.php:1551
+msgid "Social Icon"
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:275
+#: lib/customizer/customizer-maps/layout-settings.php:755
+#: lib/customizer/customizer-maps/layout-settings.php:1526
+#: lib/customizer/customizer-maps/layout-settings.php:1552
+msgid "Enable/Disable post item social."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:295
+#: lib/customizer/customizer-maps/layout-settings.php:775
+msgid "Enable/Disable post item button."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:307
+#: lib/customizer/customizer-maps/layout-settings.php:787
+msgid "Link Text"
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:308
+#: lib/customizer/customizer-maps/layout-settings.php:788
+msgid "Custom text of post button."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:326
+#: lib/customizer/customizer-maps/layout-settings.php:806
+msgid "To change post title font size."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:355
+#: lib/customizer/customizer-maps/layout-settings.php:835
+#: lib/customizer/customizer-maps/layout-settings.php:1129
+#: lib/customizer/customizer-maps/layout-settings.php:1609
+#: lib/customizer/customizer-maps/layout-settings.php:1895
+msgid "Meta Font"
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:356
+#: lib/customizer/customizer-maps/layout-settings.php:836
+#: lib/customizer/customizer-maps/layout-settings.php:1610
+msgid "To change post meta font size."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:379
+#: lib/customizer/customizer-maps/layout-settings.php:859
+#: lib/customizer/customizer-maps/layout-settings.php:1211
+msgid "Social Icon Size"
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:380
+#: lib/customizer/customizer-maps/layout-settings.php:860
+msgid "To change post social icon size."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:414
+#: lib/customizer/customizer-maps/layout-settings.php:894
+#: lib/customizer/customizer-maps/layout-settings.php:1151
+#: lib/customizer/customizer-maps/layout-settings.php:1632
+msgid "Meta Color"
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:415
+#: lib/customizer/customizer-maps/layout-settings.php:895
+#: lib/customizer/customizer-maps/layout-settings.php:1633
+msgid "Specifies the color of meta."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:433
+#: lib/customizer/customizer-maps/layout-settings.php:913
+msgid "Social Color"
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:434
+#: lib/customizer/customizer-maps/layout-settings.php:914
+msgid "Specifies the color of social icon."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:464
+#: lib/customizer/customizer-maps/layout-settings.php:944
+#: lib/customizer/customizer-maps/layout-settings.php:1252
+msgid "Separator Color"
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:465
+#: lib/customizer/customizer-maps/layout-settings.php:945
+#: lib/customizer/customizer-maps/layout-settings.php:1253
+msgid "Specifies the color of separator color."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:491
+msgid "Specifies the color of button."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:516
+#: lib/customizer/customizer-maps/layout-settings.php:996
+#: lib/customizer/customizer-maps/layout-settings.php:1290
+msgid "Button Hover"
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:517
+#: lib/customizer/customizer-maps/layout-settings.php:997
+msgid "Specifies the color of button on hover."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:547
+msgid "Archive Layout"
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:548
+msgid "Specifies the archive post layout."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:562
+msgid "To change archive content top bottom padding."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:971
+msgid "Specifies the color of button link."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1027
+msgid "Sticky Post Padding"
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1028
+msgid "To change post sticky post padding."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1051
+msgid "Specifies the color of sticky post background."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1070
+msgid "Specifies the color of sticky post border."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1089
+#: lib/customizer/customizer-maps/layout-settings.php:1130
+msgid "To change post sticky post title font-size."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1111
+#: lib/customizer/customizer-maps/layout-settings.php:1152
+msgid "Specifies the color of sticky post title."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1170
+msgid "Content Font"
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1171
+msgid "To change post sticky post content font-size."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1193
+msgid "Specifies the color of sticky post content."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1212
+msgid "To change post sticky post social icon size."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1233
+msgid "Social Icon Color"
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1234
+msgid "Specifies the color of sticky post social icon color."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1272
+msgid "Specifies the color of sticky post button."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1291
+msgid "Specifies the color of sticky post button hover color."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1310
+#: lib/customizer/customizer-maps/layout-settings.php:1362
+msgid "Specifies the color of sticky post button background."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1336
+msgid "Specifies the color of sticky post button hover background."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1361
+msgid "Button Border"
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1387
+msgid "Button Border Hover"
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1388
+msgid "Specifies the color of sticky post button hover border."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1417
+msgid "Single Layout"
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1418
+msgid "Specifies the single post layout."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1432
+msgid "To change single content top bottom padding."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1458
+msgid "Enable/Disable single post title."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1538
+msgid "Tags"
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1539
+msgid "Enable/Disable post item tags."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1580
+msgid "To change single post title font size."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1657
+msgid "To change not fount content top bottom padding."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1683
+msgid "404 Image"
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1684
+msgid "You can change page not found image here."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1693
+msgid "Image Width"
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1694
+msgid "To change not found image width."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1714
+msgid "Title Text"
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1715
+msgid "Title text of not found."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1726
+msgid "To change not found title font size."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1746
+msgid "Description Text"
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1747
+msgid "Description text of not found."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1758
+msgid "Desc Font"
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1759
+msgid "To change not found desc font size."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1780
+msgid "Links Color"
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1781
+msgid "Specifies the color of back links."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1804
+msgid "Shop Layout"
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1805
+msgid "Specifies the shop archive layout."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1819
+msgid "To change shop content top bottom padding."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1845
+msgid "Product Layout"
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1846
+msgid "Specifies the product item layout."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1859
+msgid "Products Per Page"
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1860
+msgid "Specifies the shop item per page."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1874
+msgid "To change page post title font size."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1896
+msgid "To change page post meta font size."
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1918
+msgid "Specify the shop button dimensions. e.g. 10px"
+msgstr ""
+
+#: lib/customizer/customizer-maps/layout-settings.php:1947
+msgid "Specify the shop button font size."
+msgstr ""
+
+#: lib/plugins/kirki/controls/php/class-kirki-control-background.php:59
+#: lib/plugins/kirki/controls/php/class-kirki-control-base.php:132
+#: lib/plugins/kirki/controls/php/class-kirki-control-repeater.php:408
+#: lib/plugins/kirki/controls/php/class-kirki-control-repeater.php:413
+msgid "No File Selected"
+msgstr ""
+
+#: lib/plugins/kirki/controls/php/class-kirki-control-background.php:62
+#: lib/plugins/kirki/controls/php/class-kirki-control-base.php:133
+#: lib/plugins/kirki/controls/php/class-kirki-control-repeater.php:386
+#: lib/plugins/kirki/controls/php/class-kirki-control-repeater.php:418
+#: lib/plugins/kirki/controls/php/class-kirki-control-repeater.php:443
+#: lib/plugins/kirki/controls/views/image.php:37
+#: lib/plugins/kirki/field/class-kirki-field-image.php:50
+msgid "Remove"
+msgstr ""
+
+#: lib/plugins/kirki/controls/php/class-kirki-control-background.php:63
+#: lib/plugins/kirki/controls/php/class-kirki-control-base.php:135
+msgid "Select File"
+msgstr ""
+
+#: lib/plugins/kirki/controls/php/class-kirki-control-background.php:106
+msgid "Auto"
+msgstr ""
+
+#: lib/plugins/kirki/controls/php/class-kirki-control-base.php:136
+msgid "Standard Fonts"
+msgstr ""
+
+#: lib/plugins/kirki/controls/php/class-kirki-control-base.php:137
+msgid "Google Fonts"
+msgstr ""
+
+#: lib/plugins/kirki/controls/php/class-kirki-control-base.php:138
+msgid "CSS Defaults"
+msgstr ""
+
+#: lib/plugins/kirki/controls/php/class-kirki-control-base.php:139
+msgid "Default Browser Font-Family"
+msgstr ""
+
+#: lib/plugins/kirki/controls/php/class-kirki-control-dimension.php:41
+#: lib/plugins/kirki/controls/php/class-kirki-control-dimensions.php:138
+msgid "Invalid Value"
+msgstr ""
+
+#: lib/plugins/kirki/controls/php/class-kirki-control-dimensions.php:125
+#: lib/plugins/kirki/controls/php/class-kirki-control-typography.php:110
+msgid "Line Height"
+msgstr ""
+
+#: lib/plugins/kirki/controls/php/class-kirki-control-dimensions.php:126
+msgid "Font Style"
+msgstr ""
+
+#: lib/plugins/kirki/controls/php/class-kirki-control-dimensions.php:127
+#: lib/plugins/kirki/controls/php/class-kirki-control-typography.php:118
+msgid "Letter Spacing"
+msgstr ""
+
+#: lib/plugins/kirki/controls/php/class-kirki-control-dimensions.php:128
+#: lib/plugins/kirki/controls/php/class-kirki-control-typography.php:126
+msgid "Word Spacing"
+msgstr ""
+
+#: lib/plugins/kirki/controls/php/class-kirki-control-dimensions.php:129
+#: lib/plugins/kirki/field/class-kirki-field-spacing.php:32
+msgid "Top"
+msgstr ""
+
+#: lib/plugins/kirki/controls/php/class-kirki-control-dimensions.php:130
+#: lib/plugins/kirki/field/class-kirki-field-spacing.php:33
+msgid "Bottom"
+msgstr ""
+
+#: lib/plugins/kirki/controls/php/class-kirki-control-dimensions.php:134
+msgid "Size"
+msgstr ""
+
+#: lib/plugins/kirki/controls/php/class-kirki-control-dimensions.php:135
+msgid "Spacing"
+msgstr ""
+
+#: lib/plugins/kirki/controls/php/class-kirki-control-repeater.php:77
+msgid "row"
+msgstr ""
+
+#. translators: %s represents the label of the row.
+
+#: lib/plugins/kirki/controls/php/class-kirki-control-repeater.php:86
+msgid "Add new %s"
+msgstr ""
+
+#: lib/plugins/kirki/controls/php/class-kirki-control-repeater.php:121
+msgid "Select a Page"
+msgstr ""
+
+#. translators: %s represents the number of rows we're limiting the repeater to
+#. allow.
+
+#: lib/plugins/kirki/controls/php/class-kirki-control-repeater.php:227
+msgid "Limit: %s rows"
+msgstr ""
+
+#: lib/plugins/kirki/controls/php/class-kirki-control-repeater.php:376
+#: lib/plugins/kirki/controls/php/class-kirki-control-repeater.php:381
+msgid "No Image Selected"
+msgstr ""
+
+#: lib/plugins/kirki/controls/php/class-kirki-control-repeater.php:387
+#: lib/plugins/kirki/controls/php/class-kirki-control-repeater.php:391
+msgid "Add Image"
+msgstr ""
+
+#: lib/plugins/kirki/controls/php/class-kirki-control-repeater.php:387
+#: lib/plugins/kirki/controls/php/class-kirki-control-repeater.php:389
+msgid "Change Image"
+msgstr ""
+
+#: lib/plugins/kirki/controls/php/class-kirki-control-repeater.php:419
+#: lib/plugins/kirki/controls/php/class-kirki-control-repeater.php:423
+msgid "Add File"
+msgstr ""
+
+#: lib/plugins/kirki/controls/php/class-kirki-control-repeater.php:419
+#: lib/plugins/kirki/controls/php/class-kirki-control-repeater.php:421
+msgid "Change File"
+msgstr ""
+
+#: lib/plugins/kirki/controls/php/class-kirki-control-slider.php:67
+msgid "Reset"
+msgstr ""
+
+#: lib/plugins/kirki/controls/php/class-kirki-control-typography.php:82
+msgid "Font Family"
+msgstr ""
+
+#: lib/plugins/kirki/controls/php/class-kirki-control-typography.php:83
+#: lib/plugins/kirki/controls/php/class-kirki-control-typography.php:88
+msgid "Select Font Family"
+msgstr ""
+
+#: lib/plugins/kirki/controls/php/class-kirki-control-typography.php:87
+msgid "Backup Font"
+msgstr ""
+
+#: lib/plugins/kirki/controls/php/class-kirki-control-typography.php:93
+msgid "Variant"
+msgstr ""
+
+#: lib/plugins/kirki/controls/php/class-kirki-control-typography.php:134
+msgid "Text Align"
+msgstr ""
+
+#: lib/plugins/kirki/controls/php/class-kirki-control-typography.php:163
+msgid "Justify"
+msgstr ""
+
+#: lib/plugins/kirki/controls/php/class-kirki-control-typography.php:173
+msgid "Text Transform"
+msgstr ""
+
+#: lib/plugins/kirki/controls/php/class-kirki-control-typography.php:176
+#: lib/plugins/kirki/controls/php/class-kirki-control-typography.php:192
+msgid "None"
+msgstr ""
+
+#: lib/plugins/kirki/controls/php/class-kirki-control-typography.php:177
+msgid "Capitalize"
+msgstr ""
+
+#: lib/plugins/kirki/controls/php/class-kirki-control-typography.php:178
+msgid "Uppercase"
+msgstr ""
+
+#: lib/plugins/kirki/controls/php/class-kirki-control-typography.php:179
+msgid "Lowercase"
+msgstr ""
+
+#: lib/plugins/kirki/controls/php/class-kirki-control-typography.php:180
+#: lib/plugins/kirki/controls/php/class-kirki-control-typography.php:196
+msgid "Initial"
+msgstr ""
+
+#: lib/plugins/kirki/controls/php/class-kirki-control-typography.php:189
+msgid "Text Decoration"
+msgstr ""
+
+#: lib/plugins/kirki/controls/php/class-kirki-control-typography.php:193
+msgid "Underline"
+msgstr ""
+
+#: lib/plugins/kirki/controls/php/class-kirki-control-typography.php:194
+msgid "Overline"
+msgstr ""
+
+#: lib/plugins/kirki/controls/php/class-kirki-control-typography.php:195
+msgid "Line-Through"
+msgstr ""
+
+#: lib/plugins/kirki/controls/php/class-kirki-control-typography.php:213
+msgid "Margin Bottom"
+msgstr ""
+
+#: lib/plugins/kirki/controls/views/image.php:34
+#: lib/plugins/kirki/controls/views/image.php:39
+#: lib/plugins/kirki/field/class-kirki-field-image.php:47
+#: lib/plugins/kirki/field/class-kirki-field-image.php:52
+msgid "Select image"
+msgstr ""
+
+#: lib/plugins/kirki/controls/views/image.php:35
+#: lib/plugins/kirki/field/class-kirki-field-image.php:48
+msgid "Change image"
+msgstr ""
+
+#: lib/plugins/kirki/controls/views/image.php:38
+#: lib/plugins/kirki/field/class-kirki-field-image.php:51
+msgid "No image selected"
+msgstr ""
+
+#: lib/plugins/kirki/controls/views/image.php:40
+#: lib/plugins/kirki/field/class-kirki-field-image.php:53
+msgid "Choose image"
+msgstr ""
+
+#. translators: %s represents the field ID where the error occurs.
+
+#: lib/plugins/kirki/core/class-kirki-field.php:248
+msgid "Typo found in field %s - setting instead of settings."
+msgstr ""
+
+#. translators: %1$s represents the field ID where the error occurs. %2$s is
+#. the URL in the documentation site.
+
+#: lib/plugins/kirki/core/class-kirki-field.php:257
+#: lib/plugins/kirki/core/class-kirki-field.php:267
+msgid "Config not defined for field %1$s - See %2$s for details on how to properly add fields."
+msgstr ""
+
+#. translators: %1$s represents the field ID where the error occurs.
+
+#: lib/plugins/kirki/core/class-kirki-field.php:358
+msgid "Typo found in field %s - \"theme_mods\" vs \"theme_mod\""
+msgstr ""
+
+#. translators: %1$s represents the field ID where the error occurs.
+
+#: lib/plugins/kirki/core/class-kirki-field.php:375
+msgid "\"partial_refresh\" invalid entry in field %s"
+msgstr ""
+
+#. translators: The field ID where the error occurs.
+
+#: lib/plugins/kirki/core/class-kirki-field.php:498
+#: lib/plugins/kirki/core/class-kirki-field.php:509
+msgid "\"output\" invalid format in field %s. The \"output\" argument should be defined as an array of arrays."
+msgstr ""
+
+#: lib/plugins/kirki/core/class-kirki-init.php:289
+msgid "We detected you're using Kirki_Init::get_variables(). Please use Kirki_Util::get_variables() instead."
+msgstr ""
+
+#: lib/plugins/kirki/core/class-kirki-init.php:365
+msgid "Your theme uses a Font Awesome field for icons. To avoid issues with missing icons on your frontend we recommend you install the official Font Awesome plugin."
+msgstr ""
+
+#: lib/plugins/kirki/core/class-kirki-init.php:368
+msgid "Install Plugin"
+msgstr ""
+
+#: lib/plugins/kirki/core/class-kirki-init.php:369
+msgid "Don't show this again"
+msgstr ""
+
+#: lib/plugins/kirki/core/class-kirki.php:237
+msgid "Kirki fields should not be added on customize_register. Please add them directly, or on init."
+msgstr ""
+
+#: lib/plugins/kirki/deprecated/functions.php:19
+msgid "%1$s or %2$s"
+msgstr ""
+
+#: lib/plugins/kirki/field/class-kirki-field-color.php:52
+msgid "Do not use \"alpha\" as an argument in color controls. Use \"choices[alpha]\" instead."
+msgstr ""
+
+#. translators: %1$s represents the field ID where the error occurs. %2%s is
+#. buttonset/image.
+
+#: lib/plugins/kirki/field/class-kirki-field-radio.php:37
+msgid "Error in field %1$s. The \"mode\" argument has been deprecated since Kirki v0.8. Use the \"radio-%2$s\" type instead."
+msgstr ""
+
+#: lib/plugins/kirki/modules/custom-sections/sections/class-kirki-sections-nested-section.php:61
+msgid "Customizing"
+msgstr ""
+
+#. translators: The title.
+
+#: lib/plugins/kirki/modules/custom-sections/sections/class-kirki-sections-nested-section.php:64
+msgid "Customizing &#9656; %s"
+msgstr ""
+
+#: lib/plugins/kirki/modules/webfonts/class-kirki-fonts.php:198
+#: lib/plugins/kirki/modules/webfonts/class-kirki-fonts.php:199
+msgid "Ultra-Light 100"
+msgstr ""
+
+#: lib/plugins/kirki/modules/webfonts/class-kirki-fonts.php:200
+msgid "Ultra-Light 100 Italic"
+msgstr ""
+
+#: lib/plugins/kirki/modules/webfonts/class-kirki-fonts.php:201
+msgid "Light 200"
+msgstr ""
+
+#: lib/plugins/kirki/modules/webfonts/class-kirki-fonts.php:202
+msgid "Light 200 Italic"
+msgstr ""
+
+#: lib/plugins/kirki/modules/webfonts/class-kirki-fonts.php:203
+msgid "Book 300"
+msgstr ""
+
+#: lib/plugins/kirki/modules/webfonts/class-kirki-fonts.php:204
+msgid "Book 300 Italic"
+msgstr ""
+
+#: lib/plugins/kirki/modules/webfonts/class-kirki-fonts.php:205
+#: lib/plugins/kirki/modules/webfonts/class-kirki-fonts.php:206
+msgid "Normal 400"
+msgstr ""
+
+#: lib/plugins/kirki/modules/webfonts/class-kirki-fonts.php:207
+msgid "Normal 400 Italic"
+msgstr ""
+
+#: lib/plugins/kirki/modules/webfonts/class-kirki-fonts.php:208
+msgid "Medium 500"
+msgstr ""
+
+#: lib/plugins/kirki/modules/webfonts/class-kirki-fonts.php:209
+msgid "Medium 500 Italic"
+msgstr ""
+
+#: lib/plugins/kirki/modules/webfonts/class-kirki-fonts.php:210
+#: lib/plugins/kirki/modules/webfonts/class-kirki-fonts.php:211
+msgid "Semi-Bold 600"
+msgstr ""
+
+#: lib/plugins/kirki/modules/webfonts/class-kirki-fonts.php:212
+msgid "Semi-Bold 600 Italic"
+msgstr ""
+
+#: lib/plugins/kirki/modules/webfonts/class-kirki-fonts.php:213
+msgid "Bold 700"
+msgstr ""
+
+#: lib/plugins/kirki/modules/webfonts/class-kirki-fonts.php:214
+msgid "Bold 700 Italic"
+msgstr ""
+
+#: lib/plugins/kirki/modules/webfonts/class-kirki-fonts.php:215
+#: lib/plugins/kirki/modules/webfonts/class-kirki-fonts.php:216
+msgid "Extra-Bold 800"
+msgstr ""
+
+#: lib/plugins/kirki/modules/webfonts/class-kirki-fonts.php:217
+msgid "Extra-Bold 800 Italic"
+msgstr ""
+
+#: lib/plugins/kirki/modules/webfonts/class-kirki-fonts.php:218
+#: lib/plugins/kirki/modules/webfonts/class-kirki-fonts.php:219
+msgid "Ultra-Bold 900"
+msgstr ""
+
+#: lib/plugins/kirki/modules/webfonts/class-kirki-fonts.php:220
+msgid "Ultra-Bold 900 Italic"
+msgstr ""
+
+#: lib/plugins/kirki/upgrade-notifications.php:30
+msgid "Important Upgrade Notice:"
+msgstr ""
+
+#: searchform.php:17
+msgid "Search Post &hellip;"
+msgstr ""
+
+#: template-parts/archive/content-post-classic.php:44
+#: template-parts/index/content-post-classic.php:44
+msgid "Leave A  Comment"
+msgstr ""
+
+#: template-parts/archive/content-post-classic.php:52
+#: template-parts/archive/content-post-grid.php:33
+#: template-parts/index/content-post-classic.php:52
+#: template-parts/index/content-post-grid.php:32
+#: template-parts/single/content-single.php:57
+msgid "By"
+msgstr ""
+
+#: template-parts/footer.php:12
+msgid "Xpro WordPress Theme"
+msgstr ""
+
+#: template-parts/header.php:54
+msgid "Toggle navigation"
+msgstr ""
+
+#: template-parts/page/content-page.php:25
+#: template-parts/single/content-single.php:72
+msgid "Pages:"
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:29
+msgid "Return to shop"
+msgstr ""
+
+#: woocommerce/cart/cart.php:30 woocommerce/cart/cart.php:77
+#: woocommerce/checkout/form-pay.php:27
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:31 woocommerce/cart/cart.php:97
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:32 woocommerce/cart/cart.php:103
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:33 woocommerce/cart/cart.php:125
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart.php:56
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:92
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:143
+msgid "Coupon:"
+msgstr ""
+
+#: woocommerce/cart/cart.php:143 woocommerce/checkout/form-coupon.php:34
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:143 woocommerce/checkout/form-coupon.php:38
+msgid "Apply coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:148
+msgid "Update cart"
+msgstr ""
+
+#: woocommerce/cart/proceed-to-checkout-button.php:26
+msgid "Proceed to checkout"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:26
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:52
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:26
+msgid "Have a coupon?"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:26
+msgid "Click here to enter your code"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:31
+msgid "If you have a coupon code, please apply it below."
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:28
+msgid "Qty"
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:29
+msgid "Totals"
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:79
+msgid "Sorry, it seems that there are no available payment methods for your location. Please contact us if you require assistance or wish to make alternate arrangements."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:33
+msgid "Sorry, it seems that there are no available payment methods for your state. Please contact us if you require assistance or wish to make alternate arrangements."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:33
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#. translators: $1 and $2 opening and closing emphasis tags respectively
+
+#: woocommerce/checkout/payment.php:42
+msgid "Since your browser does not support JavaScript, or it is disabled, please ensure you click the %1$sUpdate Totals%2$s button before placing your order. You may be charged more than the amount stated above if you fail to do so."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:44
+msgid "Update totals"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:24
+msgid "Shop order"
+msgstr ""
+
+#: woocommerce/product-searchform.php:28
+msgid "Search &hellip;"
+msgstr ""
+#. Theme Name of the plugin/theme
+msgid "Xpro"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://wpxpro.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Xpro is fast, lightweight, responsive and super flexible multipurpose theme built with SEO, speed, and usability in mind. The theme works great with any of your favorite page builder likes Elementor, Beaver Builder, Divi, Visual Composer, etc. You can build any type of websites like shop, business agencies, corporate, portfolio, education, university portal, consulting, church, restaurant, medical and so on."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "TopNotch"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.topnotchinv.com/"
+msgstr ""

@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'xpro';
+  src:  url('../fonts/xpro.eot?r2qhhn');
+  src:  url('../fonts/xpro.eot?r2qhhn#iefix') format('embedded-opentype'),
+  url('../fonts/xpro.ttf?r2qhhn') format('truetype'),
+  url('../fonts/xpro.woff?r2qhhn') format('woff'),
+  url('../fonts/xpro.svg?r2qhhn#xpro') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+  font-display: swap;
+}
+[class^="xpro-icon-"], [class*=" xpro-icon-"] {
+  font-family: 'xpro';
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.xpro-icon-paper-push-pin:before {
+  content: "\e90e";
+}
+.xpro-icon-chevron-down:before {
+  content: "\e900";
+}
+.xpro-icon-chevron-left:before {
+  content: "\e905";
+}
+.xpro-icon-chevron-right:before {
+  content: "\e905";
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  display: inline-block;
+}
+.xpro-icon-search:before {
+  content: "\e906";
+}
+.xpro-icon-reply:before {
+  content: "\e907";
+}
+.xpro-icon-user:before {
+  content: "\e901";
+}
+.xpro-icon-comment:before {
+  content: "\e902";
+}
+.xpro-icon-calendar:before {
+  content: "\e903";
+}
+.xpro-icon-layout:before {
+  content: "\e904";
+}
+.xpro-icon-pinterest:before {
+  content: "\e908";
+}
+.xpro-icon-instagram:before {
+  content: "\e909";
+}
+.xpro-icon-linkedin:before {
+  content: "\e90a";
+}
+.xpro-icon-twitter:before {
+  content: "\e90b";
+}
+.xpro-icon-facebook:before {
+  content: "\e90c";
+}
+.xpro-icon-delete:before {
+  content: "\e90d";
+}
