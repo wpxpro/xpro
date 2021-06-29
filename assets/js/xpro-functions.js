@@ -77,10 +77,7 @@ jQuery(function ($) {
             if($('.xpro-scroll-top-btn').length){
 
                 //scroll to appear
-                $(window).on('scroll', function (e) {
-
-                    //e.preventDefault();
-                    e.stopPropagation();
+                $(window).on('scroll', function () {
 
                     if ($(this).scrollTop() > 500)
                         $('.xpro-scroll-top-btn').fadeIn('300');
@@ -137,7 +134,7 @@ jQuery(function ($) {
 
             $('.xpro-navbar-primary .xpro-icon-chevron-down').on('click',function (e){
 
-                //e.preventDefault();
+                e.preventDefault();
                 e.stopPropagation();
 
                 $(this).toggleClass('active');
