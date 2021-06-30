@@ -474,7 +474,6 @@ p.woocommerce-noreviews {
 }
 
 .woocommerce-info::before, .woocommerce-message::before, .woocommerce-error::before{
-    margin-top: 20px;
     color: var(--xpro-main-color);
 }
 
@@ -601,6 +600,7 @@ p.woocommerce-noreviews {
 
 .woocommerce .woocommerce-MyAccount-navigation ul li a{
     color: inherit;
+    text-decoration: none;
 }
 
 .woocommerce .woocommerce-MyAccount-navigation ul li.is-active a {
@@ -675,4 +675,15 @@ p.woocommerce-noreviews {
 
 .woocommerce table.shop_table tbody th, .woocommerce table.shop_table tfoot td, .woocommerce table.shop_table tfoot th {
     font-weight: 500;
+}
+
+.woocommerce nav.woocommerce-pagination ul li a, .woocommerce nav.woocommerce-pagination ul li span{
+    padding: 0.8rem 1.1rem;
+}
+
+.woocommerce-error::before, .woocommerce-info::before, .woocommerce-message::before{
+    position: relative;
+    margin-right: 10px;
+    top: 0;
+    left: 0;
 }
