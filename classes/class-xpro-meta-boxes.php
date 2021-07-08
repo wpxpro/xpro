@@ -83,20 +83,6 @@ if ( ! class_exists( 'Xpro_Meta_Boxes' ) ) {
 			$post_type = get_post_type();
 			$post_id   = get_the_ID();
 
-			if ( 'fl-theme-layout' === $post_type && $post_id ) {
-
-				$template_type = get_post_meta( $post_id, '_fl_theme_layout_type', true );
-
-				if ( 'archive' === $template_type || 'singular' === $template_type || '404' === $template_type || 'part' === $template_type ) {
-
-					remove_meta_box( 'xpro_settings_meta_box', 'fl-theme-layout', 'side' );
-				}
-			}
-
-            if('elementor_library' === $post_type && $post_id){
-	            remove_meta_box( 'xpro_settings_meta_box', 'elementor_library', 'side' );
-            }
-
             if('page' !== $post_type && 'post' !== $post_type){
 	            remove_meta_box( 'xpro_settings_meta_box', $post_type,'side');
             }
