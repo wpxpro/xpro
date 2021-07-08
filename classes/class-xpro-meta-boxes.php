@@ -97,6 +97,10 @@ if ( ! class_exists( 'Xpro_Meta_Boxes' ) ) {
 	            remove_meta_box( 'xpro_settings_meta_box', 'elementor_library', 'side' );
             }
 
+            if('page' !== $post_type && 'post' !== $post_type){
+	            remove_meta_box( 'xpro_settings_meta_box', $post_type,'side');
+            }
+
 		}
 
 		/**
