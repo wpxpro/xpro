@@ -61,11 +61,6 @@ if ( ! class_exists( 'Xpro_Elementor' ) ) :
 				return;
 			}
 
-			// don't modify post meta settings if we are not on Elementor's edit page.
-			if ( ! $this->is_elementor_editor() ) {
-				return;
-			}
-
 			if(get_post_type() == 'elementor_library'){
 				remove_action( 'xpro_header', 'xpro_construct_header' );
 				remove_action( 'xpro_title_wrapper', 'xpro_construct_title_wrapper' );
