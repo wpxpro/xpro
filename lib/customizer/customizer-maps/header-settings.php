@@ -947,6 +947,7 @@ $xpro_fields[] = array(
 			'element'  => '.xpro-navbar-primary .xpro-navbar-brand > a > .xpro-logo',
 			'property' => 'width',
 			'units' => 'px',
+			'media_query' => '@media (max-width: 991px)',
 		),
 	),
 	'required' => array(
