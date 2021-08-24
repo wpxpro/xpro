@@ -1134,6 +1134,15 @@ blockquote p {
     display: inline-block;
 }
 
+.single.xpro_content-template .xpro-content-wrapper > .xpro-container {
+    max-width: 100%;
+    padding: 0;
+}
+
+.xpro_content-template .xpro-aside-widget{
+    display: none;
+}
+
 /* -------------------------------
     	Buttons
    ------------------------------- */
