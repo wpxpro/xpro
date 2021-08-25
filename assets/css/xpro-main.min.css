@@ -19,10 +19,6 @@
     background: var(--xpro-main-color);
 }
 
-.theme-xpro {
-    background-color: #fff;
-}
-
 .fl-builder-edit .xpro-primary-wrapper{
     position: relative;
 }
