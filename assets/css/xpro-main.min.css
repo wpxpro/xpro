@@ -11,11 +11,13 @@
 
 .theme-xpro ::-moz-selection {
     color: #fff;
+    -webkit-text-fill-color: #fff;
     background: var(--xpro-main-color);
 }
 
 .theme-xpro ::selection {
     color: #fff;
+    -webkit-text-fill-color: #fff;
     background: var(--xpro-main-color);
 }
 
