@@ -1434,10 +1434,6 @@ blockquote p {
         display: block;
     }
 
-    .xpro-navbar-primary .xpro-navbar-nav li:focus-within > .xpro-dropdown-menu {
-        display: block;
-    }
-
     .xpro-navbar-primary .xpro-dropdown-menu > li > a {
         display: block;
         font-size: 14px;
