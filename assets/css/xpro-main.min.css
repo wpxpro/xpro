@@ -1102,10 +1102,10 @@ blockquote p {
     padding: 0 15px;
 }
 
-.xpro-page-builder {
+.xpro-content-wrapper > .xpro-page-builder {
     max-width: 100%;
     margin: 0 auto;
-    overflow-x: hidden;
+    display: block;
 }
 
 .xpro-row {
