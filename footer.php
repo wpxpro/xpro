@@ -35,7 +35,7 @@ do_action( 'xpro_content_after' );
  *
  * @hooked xpro_footer_before - 10
  */
-do_action('xpro_footer_before');
+do_action( 'xpro_footer_before' );
 
 /**
  * xpro_footer hook.
@@ -44,7 +44,7 @@ do_action('xpro_footer_before');
  *
  * @hooked xpro_footer - 10
  */
-do_action('xpro_footer');
+do_action( 'xpro_footer' );
 
 /**
  * xpro_footer_after hook.
@@ -53,7 +53,7 @@ do_action('xpro_footer');
  *
  * @hooked xpro_footer_after - 10
  */
-do_action('xpro_footer_after');
+do_action( 'xpro_footer_after' );
 
 /**
  * xpro_scroll_top hook.
@@ -62,7 +62,7 @@ do_action('xpro_footer_after');
  *
  * @hooked xpro_scroll_top - 10
  */
-do_action('xpro_scroll_top');
+do_action( 'xpro_scroll_top' );
 
 ?>
 

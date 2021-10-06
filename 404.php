@@ -18,7 +18,7 @@ get_header();
  * @hooked xpro_construct_not_found - 10
  */
 
-do_action('xpro_not_found');
+do_action( 'xpro_not_found' );
 
 get_footer();
 

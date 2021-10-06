@@ -9,13 +9,13 @@
     --xpro-main-hover-color: #8d377f;
 }
 
-.theme-xpro ::-moz-selection {
+.xpro-theme ::-moz-selection {
     color: #fff;
     -webkit-text-fill-color: #fff;
     background: var(--xpro-main-color);
 }
 
-.theme-xpro ::selection {
+.xpro-theme ::selection {
     color: #fff;
     -webkit-text-fill-color: #fff;
     background: var(--xpro-main-color);
@@ -113,7 +113,7 @@ a, h1, h2, h3, h4, h5, h6, p, span {
     border-left: 0.6180469716em solid rgba(0, 0, 0, 0.15);
 }
 
-.theme-xpro .xpro-aside-widget select,.theme-xpro div.product select {
+.xpro-theme .xpro-aside-widget select,.xpro-theme div.product select {
     appearance: none;
     -moz-appearance: none;
     -webkit-appearance: none;
@@ -137,6 +137,7 @@ body {
     font-size: 15px;
     line-height: 1.5;
     color: var(--xpro-font-main-color);
+    background-color: #fff;
 }
 
 p {
@@ -396,6 +397,10 @@ img {
 
 .text-dark {
     color: #2b2b2b;
+}
+
+.xpro-page-builder{
+    overflow-x:hidden;
 }
 
 /* -------------------------------
@@ -1000,9 +1005,6 @@ blockquote p {
     justify-content: center;
     background: var(--xpro-main-color);
     color: #fff;
-    -webkit-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    transform: rotate(180deg);
     font-weight: bold;
     font-size: 13px;
     border-radius: 50px;
@@ -1015,138 +1017,11 @@ blockquote p {
     opacity: 0.8;
 }
 
-
-/* -------------------------------
-    	Social Icon
-   ------------------------------- */
-
-.xpro-icon-bg a i.xpro-icon-facebook {
-    background-color: #3B5998;
-}
-
-.xpro-icon-bg a i.xpro-icon-twitter {
-    background-color: #55ACEE;
-}
-
-.xpro-icon-bg a i.xpro-icon-linkedin {
-    background-color: #0976B4;
-}
-
-.xpro-icon-bg a i.xpro-icon-pinterest {
-    background-color: #B7242A;
-}
-
-.xpro-icon-bg a i.xpro-icon-instagram {
-    background-color: #e8715c;
-}
-
-.xpro-icon-bg-hvr a i {
-    -webkit-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-}
-
-.xpro-icon-bg-hvr a i.xpro-icon-facebook:hover {
-    background-color: #3B5998;
-}
-
-.xpro-icon-bg-hvr a i.xpro-icon-twitter:hover {
-    background-color: #55ACEE;
-}
-
-.xpro-icon-bg-hvr a i.xpro-icon-linkedin:hover {
-    background-color: #0976B4;
-}
-
-.xpro-icon-bg-hvr a i.xpro-icon-pinterest:hover {
-    background-color: #B7242A;
-}
-
-.xpro-icon-bg-hvr a i.xpro-icon-instagram:hover {
-    background-color: #e8715c;
-}
-
-/* -------------------------------
-    	Grid
-   ------------------------------- */
-
-.xpro-content-wrapper {
-    position: relative;
-    padding: 80px 0;
-}
-
-.xpro-content-wrapper > div{
-    display: flex;
-}
-
-.xpro-main{
-    width: 100%;
-    flex-basis: 100%;
-}
-
-.xpro-content-wrapper:after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-.xpro-container {
-    max-width: 1170px;
-    padding: 0 15px;
-    margin: 0 auto;
-}
-
-.xpro-container-fluid {
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
-.xpro-content-wrapper > .xpro-page-builder {
-    max-width: 100%;
-    margin: 0 auto;
-    display: block;
-}
-
-.xpro-row {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-}
-
-.xpro-flex {
-    -js-display: flex;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-}
-
-.xpro-aside-widget {
-    width: 25%;
-    flex-basis: 25%;
-    display: inline-block;
-}
-
-.single.xpro_content-template .xpro-content-wrapper > .xpro-container {
-    max-width: 100%;
-    padding: 0;
-}
-
-.xpro_content-template .xpro-aside-widget{
-    display: none;
-}
-
 /* -------------------------------
     	Buttons
    ------------------------------- */
 
-.theme-xpro .xpro-btn {
+.xpro-theme .xpro-btn {
     position: relative;
     display: inline-block;
     font-size: 15px;
@@ -1162,16 +1037,16 @@ blockquote p {
     transition: all .2s ease-in-out;
 }
 
-.theme-xpro .xpro-btn:hover {
+.xpro-theme .xpro-btn:hover {
     color: #fff;
     background-color: #2b2b2b;
 }
 
-.theme-xpro .xpro-btn:disabled{
+.xpro-theme .xpro-btn:disabled{
     cursor: not-allowed;
 }
 
-.theme-xpro .xpro-btn:focus{
+.xpro-theme .xpro-btn:focus{
     outline: thin dotted;
     outline-offset:0;
     transition: none;
@@ -1397,7 +1272,7 @@ blockquote p {
     }
 
     .xpro-dropdown-menu li > a > i {
-        font-size: 8px;
+        font-size: 70%;
         -webkit-transform: rotate(-90deg);
         -ms-transform: rotate(-90deg);
         transform: rotate(-90deg);
@@ -1663,18 +1538,25 @@ blockquote p {
     }
 
     .xpro-navbar-primary .xpro-navbar-nav li > a > i {
-        float: right;
-        display: -webkit-box;
-        display: -ms-flexbox;
+        position: absolute;
+        z-index: 3;
+        width: 100px;
+        height: 100%;
+        top:0;
+        right: 0;
         display: flex;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
         align-items: center;
-        padding: 5px 10px;
+        justify-content: flex-end;
         font-size: 12px;
-        height: 25px;
+        padding: 0 25px;
         font-weight: bold;
         color: inherit;
+    }
+
+    .xpro-navbar-primary .xpro-navbar-nav li > a > i::before{
+        -webkit-transform: rotate(0);
+        -ms-transform: rotate(0);
+        transform: rotate(0);
         -webkit-transition: -webkit-transform .2s ease-in-out;
         transition: -webkit-transform .2s ease-in-out;
         -o-transition: transform .2s ease-in-out;
@@ -1682,7 +1564,7 @@ blockquote p {
         transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
     }
 
-    .xpro-navbar-primary .xpro-navbar-nav li > a i.active {
+    .xpro-navbar-primary .xpro-navbar-nav li > a i.active::before {
         -webkit-transform: rotate(180deg);
         -ms-transform: rotate(180deg);
         transform: rotate(180deg);
@@ -1752,13 +1634,13 @@ blockquote p {
     border-color: #dee2e6;
 }
 
-.xpro-post-navigation .xpro-icon-chevron-right {
+.xpro-post-navigation .xi-chevron-right {
     font-size: 10px;
     margin-left: 10px;
     font-weight: bold;
 }
 
-.xpro-post-navigation .xpro-icon-chevron-left {
+.xpro-post-navigation .xi-chevron-left {
     font-size: 10px;
     margin-right: 10px;
     font-weight: bold;
@@ -2014,8 +1896,9 @@ blockquote p {
     border: 1px solid #ff0000;
 }
 
-.xpro-comments-area .xpro-icon-delete {
-    font-size: 17px;
+.xpro-comments-area i {
+    font-size: 16px;
+    font-weight: 600;
     margin-left: 10px;
     color: var(--xpro-main-color);
     -webkit-transition: color .2s ease-in-out;
@@ -2023,7 +1906,7 @@ blockquote p {
     transition: color .2s ease-in-out;
 }
 
-.xpro-comments-area .xpro-icon-delete:hover {
+.xpro-comments-area i:hover {
     color: #ff0000;
 }
 
@@ -2098,8 +1981,16 @@ blockquote p {
 }
 
 .xpro-comments-area .comment-reply-link > span:before {
-    content: "\e907";
-    font-family: 'xpro';
+    content: "\e9c8";
+    font-family: 'xpro-icons' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .xpro-comments-area .author-name {

@@ -20,10 +20,12 @@ $layout_meta = xpro_get_meta( 'site-sidebar-layout');
 $layout = (!empty($layout_meta)) ? $layout_meta : $layout_option;
 $comments_enable = xpro_get_option( 'xpro_page_comments','1');
 $is_elementor_theme_exist = function_exists( 'elementor_theme_do_location' );
+$mainCol = ($layout == 'left-layout' || $layout == 'right-layout') ? 'xpro-col-lg-9' : ' xpro-col-lg-12';
 
 if ( ! $is_elementor_theme_exist || ! elementor_theme_do_location( 'single' ) ):
 ?>
 
+<div class="xpro-theme-grid <?php echo esc_attr($mainCol); ?>">
 <main class="xpro-main">
 
 <?php
@@ -50,13 +52,15 @@ if ( have_posts() ) {
 ?>
 
 </main>
+</div>
 
 <?php
-
 if($layout == 'left-layout' || $layout == 'right-layout' ){
-    do_action('xpro_sidebar');
-}
-
+    ?>
+    <div class="xpro-col-lg-3">
+        <?php do_action('xpro_sidebar'); ?>
+    </div>
+<?php }
 endif;
 
 get_footer();

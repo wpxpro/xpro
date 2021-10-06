@@ -141,7 +141,7 @@ if ( ! function_exists( 'xpro_construct_scroll_top' ) ) {
 	    $scrollTop = xpro_get_option('xpro_scrolltop_enable','1');
 
 	    if($scrollTop == '1'): ?>
-         <span class="xpro-scroll-top-btn"><i class="xpro-icon-chevron-down"></i></span>
+         <span class="xpro-scroll-top-btn"><i class="xi xi-chevron-up"></i></span>
     	<?php endif;
 	}
 }
@@ -240,6 +240,7 @@ if ( ! function_exists( 'xpro_construct_content_before' ) ) {
     ?>
         <div id="content" class="xpro-content-wrapper">
         <div class="<?php echo esc_attr($container); ?>">
+        <div class="xpro-row">
 
 	<?php }
 
@@ -255,6 +256,7 @@ if ( ! function_exists( 'xpro_construct_content_after' ) ) {
 
 	function xpro_construct_content_after() {
 	    ?>
+        </div>
         </div>
         </div>
 	<?php }
@@ -287,11 +289,11 @@ if ( ! function_exists( 'xpro_construct_post_nav' ) ) {
 				<?php
 				if ( get_previous_post_link() ) {
 					// phpcs:ignore WordPress.WP.I18n.NonSingularStringLiteralText
-					previous_post_link( '<li class="xpro-nav-previous">%link</li>', _x( '<i class="xpro-icon-chevron-left"></i><div class="xpro-nav-contnet"><span>' . __('Previous Post','xpro') . '</span><h6>%title</h6></div>', 'Previous post link', 'xpro' ) );
+					previous_post_link( '<li class="xpro-nav-previous">%link</li>', _x( '<i class="xi xi-chevron-left"></i><div class="xpro-nav-contnet"><span>' . __('Previous Post','xpro') . '</span><h6>%title</h6></div>', 'Previous post link', 'xpro' ) );
 				}
 				if ( get_next_post_link() ) {
 					// phpcs:ignore WordPress.WP.I18n.NonSingularStringLiteralText
-					next_post_link( '<li class="xpro-nav-next">%link</li>', _x( '<div class="xpro-nav-contnet"><span>' . __('Next Post','xpro') . '</span><h6>%title</h6></div><i class="xpro-icon-chevron-right"></i>', 'Next post link', 'xpro' ) );
+					next_post_link( '<li class="xpro-nav-next">%link</li>', _x( '<div class="xpro-nav-contnet"><span>' . __('Next Post','xpro') . '</span><h6>%title</h6></div><i class="xi xi-chevron-right"></i>', 'Next post link', 'xpro' ) );
 				}
 				?>
             </ul><!-- .nav-links -->

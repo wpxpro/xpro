@@ -28,7 +28,7 @@ if ( ! defined( 'ABSPATH' ) ) {
                placeholder="<?php esc_attr_e( 'Search &hellip;', 'xpro' ); ?>" value="<?php the_search_query(); ?>">
         <input type="hidden" name="post_type" value="product" />
         <button id="woosearchsubmit" class="xpro-btn-search" type="submit">
-            <i class="xpro-icon-search"></i>
+            <i class="xi-xi-search"></i>
         </button>
     </div>
 </form>

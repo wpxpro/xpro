@@ -87,7 +87,7 @@ jQuery(function ($) {
 
                 //Click event to scroll to top
                 $(document).on('click', '.xpro-scroll-top-btn', function () {
-                    $('html, body').animate({scrollTop: 0}, 800);
+                    $('html, body').animate({scrollTop: 0}, 500);
                     return false;
                 });
 
@@ -132,7 +132,7 @@ jQuery(function ($) {
             });
 
 
-            $('.xpro-navbar-primary .xpro-icon-chevron-down').on('click',function (e){
+            $('.xpro-navbar-primary .xi-chevron-down').on('click',function (e){
 
                 e.preventDefault();
                 e.stopPropagation();
@@ -148,14 +148,14 @@ jQuery(function ($) {
                 $(this).toggleClass('active');
                 $('.xpro-navbar-primary .xpro-navbar-nav').toggleClass('active');
                 $('.xpro-navbar-primary .xpro-dropdown-menu').removeClass('show');
-                $('.xpro-navbar-primary .xpro-dropdown-icon').removeClass('active');
+                $('.xpro-navbar-primary .xi-chevron-down').removeClass('active');
 
             });
 
             //Widget DropDown
-            $('.xpro-widget').find('.menu-item-has-children > a, .page_item_has_children > a').after('<i class="xpro-icon-chevron-down"></i>');
+            $('.xpro-widget').find('.menu-item-has-children > a, .page_item_has_children > a').after('<i class="xi xi-chevron-down"></i>');
 
-            $('.xpro-widget').on('click', '.xpro-icon-chevron-down', function () {
+            $('.xpro-widget').on('click', '.xi-chevron-down', function () {
 
                 $(this).closest('li').find('ul.sub-menu:first, ul.children:first').slideToggle('fast').parent().toggleClass('active');
 

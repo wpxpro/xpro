@@ -132,25 +132,9 @@
         padding: 1.5rem;
     }
 
-    .xpro-post-footer > hr{
-        display: none;
-    }
-
-    .theme-xpro .xpro-btn {
+    .xpro-theme .xpro-btn {
         font-size: 14px;
         padding: 11px 35px;
-        margin-top: 30px;
-    }
-
-    .xpro-post-classic .xpro-share-icons {
-        margin-right: 0;
-        margin-left: -15px;
-    }
-
-    .xpro-post-footer{
-        -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-        justify-content: space-between;
     }
 
     .woocommerce ul.products.columns-2 li.product {

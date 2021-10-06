@@ -296,7 +296,7 @@ if ( ! class_exists( 'Xpro_Navwalker' ) ) {
 			$item_output .= isset( $args->link_before ) ? $args->link_before . $icon_html . $title . $args->link_after : '';
 
 			if ( $args->has_children ) {
-				$item_output .= '<i class="xpro-icon-chevron-down"></i>';
+				$item_output .= '<i class="xi xi-chevron-down"></i>';
 			}
 
 			/**

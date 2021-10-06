@@ -28,18 +28,17 @@ $buttonText = xpro_get_option('xpro_layout_blog_button_text','Read More');
 	<ul class="xpro-post-links">
 
 		<?php if($date == '1'): ?>
-		<li class="xpro-post-date"><i class="xpro-icon-calendar"></i><?php the_time( 'F j, Y' ) ?></li>
+		<li class="xpro-post-date"><?php the_time( 'F j, Y' ) ?></li>
 		<?php endif; ?>
 
 		<?php if( !empty(get_the_category_list()) && $category == '1' ): ?>
 			<li class="xpro-post-date">
-				<span class="cat-links"><i class="xpro-icon-layout"></i><?php echo get_the_category_list(esc_html__(', ', 'xpro')) ?></span>
+				<span class="cat-links"><?php echo get_the_category_list(esc_html__(', ', 'xpro')) ?></span>
 			</li>
 		<?php endif; ?>
 
 		<?php if($comments_enable == '1'): ?>
 		<li class="xpro-post-comment">
-			<i class="xpro-icon-comment"></i>
 			<a href="<?php comments_link(); ?>">
 				<?php comments_number( esc_html__( 'Leave A  Comment', 'xpro' ), esc_html__( '1 Comment', 'xpro' ), esc_html__( '% Comments', 'xpro' ) ); ?>
 			</a>
@@ -48,7 +47,6 @@ $buttonText = xpro_get_option('xpro_layout_blog_button_text','Read More');
 
 		<?php if($author == '1'): ?>
 		<li class="xpro-post-author">
-			<i class="xpro-icon-user"></i>
 			<?php esc_html_e( 'By', 'xpro' ); ?>
 			<a href="<?php echo esc_url(get_author_posts_url( get_the_author_meta( 'ID' ), get_the_author_meta( 'user_nicename' ) ) ); ?>"><?php echo esc_html(get_the_author()); ?></a>
 		</li>
@@ -80,19 +78,9 @@ $buttonText = xpro_get_option('xpro_layout_blog_button_text','Read More');
 	</div>
 	<?php endif; ?>
 
-	<div class="xpro-post-footer">
-        <hr/>
-		<?php if($social == '1'): ?>
-        <ul class="xpro-share-icons">
-        <?php get_template_part( 'template-parts/social', 'share' ); ?>
-        </ul>
-		<?php endif; ?>
-
-		<?php if($button == '1'): ?>
+	<?php if($button == '1'): ?>
         <a class="xpro-btn" href="<?php echo esc_url( get_permalink( get_the_ID() ) ) ?>"><?php echo esc_html($buttonText); ?></a>
-		<?php endif; ?>
-
-    </div>
+	<?php endif; ?>
 
 	<?php do_action('xpro_entry_bottom'); ?>
 

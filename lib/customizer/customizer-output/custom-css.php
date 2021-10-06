@@ -185,100 +185,54 @@ if($sticky_submenu_gradient_enable == 1 && !empty($sticky_submenu_gradient['prim
 @media screen and (min-width: 991px) {
 
 <?php if($pageLayout == 'right-layout'){ ?>
-      .page .xpro-main{
-        width: 75%;
-        flex-basis: 75%;
+      .page .xpro-theme-grid.xpro-col-lg-9{
         padding-right: 50px;
        }
 <?php } ?>
 
 <?php if($pageLayout == 'left-layout'){ ?>
-    .page .xpro-main{
-        width: 75%;
-        flex-basis: 75%;
+    .page .xpro-theme-grid.xpro-col-lg-9{
         order:1;
         padding-left: 50px;
     }
 <?php } ?>
 
 <?php if($blogLayout == 'right-layout'){ ?>
-    .blog .xpro-main{
-        width: 75%;
-        flex-basis: 75%;
+    .blog .xpro-theme-grid.xpro-col-lg-9{
         padding-right: 50px;
     }
 <?php } ?>
 
 <?php if($blogLayout == 'left-layout'){ ?>
-    .blog .xpro-main{
-        width: 75%;
-        flex-basis: 75%;
+    .blog .xpro-theme-grid.xpro-col-lg-9{
         order:1;
         padding-left: 50px;
     }
 <?php } ?>
 
-
-<?php if($archiveLayout == 'right-layout'){ ?>
-    .archive .xpro-main,.search .xpro-main{
-    width: 75%;
-    flex-basis: 75%;
-    padding-right: 50px;
-    }
-<?php } ?>
-
-<?php if($archiveLayout == 'left-layout'){ ?>
-    .archive .xpro-main,.search .xpro-main{
-    width: 75%;
-    flex-basis: 75%;
-    order:1;
-    padding-left: 50px;
-    }
-<?php } ?>
-
 <?php if($singleLayout == 'right-layout'){ ?>
-    .single-post .xpro-main{
-    width: 75%;
-    float: left;
-    padding-right: 50px;
+    .single-post .xpro-theme-grid.xpro-col-lg-9{
+        padding-right: 50px;
     }
 <?php } ?>
 
 <?php if($singleLayout == 'left-layout'){ ?>
-    .single-post .xpro-main{
-    width: 75%;
-    flex-basis: 75%;
-    order:1;
-    padding-left: 50px;
+    .single-post .xpro-theme-grid.xpro-col-lg-9{
+        order:1;
+        padding-left: 50px;
     }
 <?php } ?>
 
 <?php if($archiveShop == 'right-layout'){ ?>
-    .archive.woocommerce .xpro-main{
-    width: 75%;
-    flex-basis: 75%;
-    padding-left:0;
-    padding-right: 50px;
+    .archive.woocommerce .xpro-theme-grid.xpro-col-lg-9{
+        padding-right: 50px;
     }
 <?php } ?>
 
 <?php if($archiveShop == 'left-layout'){ ?>
-    .archive.woocommerce .xpro-main{
-    width: 75%;
-    flex-basis: 75%;
-    order:1;
-    padding-right:0;
-    padding-left: 50px;
-    }
-
-<?php } ?>
-
-<?php if($archiveShop == 'full-layout'){ ?>
-    .archive.woocommerce .xpro-main{
-    width: 100%;
-    flex-basis: 100%;
-    display: block;
-    padding:0;
+    .archive.woocommerce .xpro-theme-grid.xpro-col-lg-9{
+        order:1;
+        padding-left: 50px;
     }
 
 <?php } ?>

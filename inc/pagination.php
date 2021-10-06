@@ -50,7 +50,7 @@ if ( ! function_exists( 'xpro_pagination' ) ) {
 			array(
 				'mid_size'           => 2,
 				'prev_next'          => true,
-				'prev_text'          => '<i class="xpro-icon-chevron-left"></i><span class="pagination-prev">' . __( 'Prev', 'xpro' ) . '</span>',
+				'prev_text'          => '<i class="xi xi-chevron-left"></i><span class="pagination-prev">' . __( 'Prev', 'xpro' ) . '</span>',
 				'next_text'          => '<span class="pagination-next">' . __( 'Next', 'xpro' ) . '</span><i class="xpro-icon-chevron-right"></i>',
 				'type'               => 'array',
 				'current'            => max( 1, get_query_var( 'paged' ) ),

@@ -22,7 +22,7 @@ if ( ! function_exists( 'xpro_body_classes' ) ) {
 	 */
 	function xpro_body_classes( $classes ) {
 
-		$classes[] = 'theme-xpro';
+		$classes[] = 'xpro-theme';
 
 		// Adds a class of hfeed to non-singular pages.
 		if ( ! is_singular() ) {

@@ -29,14 +29,13 @@ $buttonText = xpro_get_option('xpro_layout_archive_button_text','Read More');
 
         <?php if($author == '1'): ?>
             <li class="xpro-post-author">
-                <i class="xpro-icon-user"></i>
 			    <?php esc_html_e( 'By', 'xpro' ); ?>
                 <a href="<?php echo esc_url(get_author_posts_url( get_the_author_meta( 'ID' ), get_the_author_meta( 'user_nicename' ) ) ); ?>"><?php echo esc_html(get_the_author()); ?></a>
             </li>
 	    <?php endif; ?>
 
 		<?php if($date == '1'): ?>
-            <li class="xpro-post-date"><i class="xpro-icon-calendar"></i><?php the_time( 'F j, Y' ) ?></li>
+            <li class="xpro-post-date"><?php the_time( 'F j, Y' ) ?></li>
 		<?php endif; ?>
 
 

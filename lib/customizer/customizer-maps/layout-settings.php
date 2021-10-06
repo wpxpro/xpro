@@ -359,26 +359,6 @@ $xpro_fields[] = array(
 
 $xpro_fields[] = array(
 	'type' => 'switch',
-	'label' => __('Social Icon', 'xpro'),
-	'description' => __('Enable/Disable post item social.', 'xpro'),
-	'section' => 'xpro_layout_blog_section',
-	'settings' => 'xpro_layout_blog_social_icon',
-	'default' => '1',
-	'choices' => array(
-		'1' => __('On', 'xpro'),
-		'0' => __('Off', 'xpro'),
-	),
-	'required' => array(
-		array(
-			'setting' => 'xpro_blog_post_layout',
-			'operator' => '==',
-			'value' => 'classic',
-		),
-	),
-);
-
-$xpro_fields[] = array(
-	'type' => 'switch',
 	'label' => __('Button', 'xpro'),
 	'description' => __('Enable/Disable post item button.', 'xpro'),
 	'section' => 'xpro_layout_blog_section',
@@ -460,42 +440,6 @@ $xpro_fields[] = array(
 	),
 );
 
-
-$xpro_fields[] = array(
-	'type'        => 'slider',
-	'settings'    => 'xpro_layout_blog_social_icon_size',
-	'label' => __('Social Icon Size', 'xpro'),
-	'description' => __('To change post social icon size.', 'xpro'),
-	'section'     => 'xpro_layout_blog_section',
-	'default'     => 13,
-	'transport' => 'auto',
-	'choices'     => [
-		'min'  => 10,
-		'max'  => 50,
-//		'step' => 10,
-	],
-	'output' => array(
-		array(
-			'element'  => '.blog .xpro-share-icons > li > a > i',
-			'property' => 'font-size',
-			'units' => 'px',
-			'media_query' => '@media (min-width: 992px)',
-		),
-	),
-	'required' => array(
-		array(
-			'setting' => 'xpro_blog_post_layout',
-			'operator' => '==',
-			'value' => 'classic',
-		),
-		array(
-			'setting' => 'xpro_layout_blog_social_icon',
-			'operator' => '==',
-			'value' => '1',
-		),
-	),
-);
-
 $xpro_fields[] = array(
 	'type' => 'color',
 	'settings' => 'xpro_layout_blog_meta_color',
@@ -517,37 +461,6 @@ $xpro_fields[] = array(
 
 $xpro_fields[] = array(
 	'type' => 'color',
-	'settings' => 'xpro_layout_blog_meta_social_color',
-	'label' => __('Social Color', 'xpro'),
-	'description' => __('Specifies the color of social icon.', 'xpro'),
-	'section' => 'xpro_layout_blog_section',
-	'default' => '',
-	'transport'   => 'auto',
-	'choices' => array(
-		'alpha' => true,
-	),
-	'output' => array(
-		array(
-			'element'  => '.blog .xpro-share-icons > li > a > i',
-			'property' => 'color',
-		),
-	),
-	'required' => array(
-		array(
-			'setting' => 'xpro_blog_post_layout',
-			'operator' => '==',
-			'value' => 'classic',
-		),
-		array(
-			'setting' => 'xpro_layout_blog_social_icon',
-			'operator' => '==',
-			'value' => '1',
-		),
-	),
-);
-
-$xpro_fields[] = array(
-	'type' => 'color',
 	'settings' => 'xpro_layout_blog_meta_separator_color',
 	'label' => __('Separator Color', 'xpro'),
 	'description' => __('Specifies the color of separator color.', 'xpro'),
@@ -559,8 +472,8 @@ $xpro_fields[] = array(
 	),
 	'output' => array(
 		array(
-			'element'  => '.blog .xpro-post-footer > hr',
-			'property' => 'background-color',
+			'element'  => '.blog .xpro-post',
+			'property' => 'border-bottom-color',
 		),
 	),
 	'required' => array(
@@ -585,7 +498,7 @@ $xpro_fields[] = array(
 	),
 	'output' => array(
 		array(
-			'element'  => '.blog .xpro-post-footer > .xpro-link',
+			'element'  => '.blog .xpro-link',
 			'property' => 'color',
 		),
 	),
@@ -611,7 +524,7 @@ $xpro_fields[] = array(
 	),
 	'output' => array(
 		array(
-			'element'  => '.blog .xpro-post-footer > .xpro-link:hover',
+			'element'  => '.blog .xpro-link:hover',
 			'property' => 'color',
 		),
 	),
@@ -679,7 +592,7 @@ $xpro_fields[] = array(
 	),
 	'output' => array(
 		array(
-			'element'  => '.archive .xpro-content-wrapper > .xpro-container',
+			'element'  => '.archive .xpro-content-wrapper > .xpro-container,.search .xpro-content-wrapper > .xpro-container',
 			'property' => 'max-width',
 			'units'    => 'px',
 		),
@@ -702,12 +615,12 @@ $xpro_fields[] = array(
 	],
 	'output' => array(
 		array(
-			'element'  => '.archive .xpro-content-wrapper',
+			'element'  => '.archive .xpro-content-wrapper,.search .xpro-content-wrapper',
 			'property' => 'padding-top',
 			'units' => 'px',
 		),
 		array(
-			'element'  => '.archive .xpro-content-wrapper',
+			'element'  => '.archive .xpro-content-wrapper,.search .xpro-content-wrapper',
 			'property' => 'padding-bottom',
 			'units' => 'px',
 		),
@@ -883,26 +796,6 @@ $xpro_fields[] = array(
 
 $xpro_fields[] = array(
 	'type' => 'switch',
-	'label' => __('Social Icon', 'xpro'),
-	'description' => __('Enable/Disable post item social.', 'xpro'),
-	'section' => 'xpro_layout_archive_section',
-	'settings' => 'xpro_layout_archive_social_icon',
-	'default' => '1',
-	'choices' => array(
-		'1' => __('On', 'xpro'),
-		'0' => __('Off', 'xpro'),
-	),
-	'required' => array(
-		array(
-			'setting' => 'xpro_archive_post_layout',
-			'operator' => '==',
-			'value' => 'classic',
-		),
-	),
-);
-
-$xpro_fields[] = array(
-	'type' => 'switch',
 	'label' => __('Button', 'xpro'),
 	'description' => __('Enable/Disable post item button.', 'xpro'),
 	'section' => 'xpro_layout_archive_section',
@@ -946,7 +839,7 @@ $xpro_fields[] = array(
 	],
 	'output' => array(
 		array(
-			'element'  => '.archive .xpro-post-title',
+			'element'  => '.archive .xpro-post-title,.search .xpro-post-title',
 			'property' => 'font-size',
 			'units' => 'px',
 			'media_query' => '@media (min-width: 992px)',
@@ -976,46 +869,10 @@ $xpro_fields[] = array(
 	],
 	'output' => array(
 		array(
-			'element'  => '.archive .xpro-post-links > li',
+			'element'  => '.archive .xpro-post-links > li,.search .xpro-post-links > li',
 			'property' => 'font-size',
 			'units' => 'px',
 			'media_query' => '@media (min-width: 992px)',
-		),
-	),
-);
-
-
-$xpro_fields[] = array(
-	'type'        => 'slider',
-	'settings'    => 'xpro_layout_archive_social_icon_size',
-	'label' => __('Social Icon Size', 'xpro'),
-	'description' => __('To change post social icon size.', 'xpro'),
-	'section'     => 'xpro_layout_archive_section',
-	'default'     => 13,
-	'transport' => 'auto',
-	'choices'     => [
-		'min'  => 10,
-		'max'  => 50,
-//		'step' => 10,
-	],
-	'output' => array(
-		array(
-			'element'  => '.archive .xpro-share-icons > li > a > i',
-			'property' => 'font-size',
-			'units' => 'px',
-			'media_query' => '@media (min-width: 992px)',
-		),
-	),
-	'required' => array(
-		array(
-			'setting' => 'xpro_archive_post_layout',
-			'operator' => '==',
-			'value' => 'classic',
-		),
-		array(
-			'setting' => 'xpro_layout_archive_social_icon',
-			'operator' => '==',
-			'value' => '1',
 		),
 	),
 );
@@ -1033,7 +890,7 @@ $xpro_fields[] = array(
 	),
 	'output' => array(
 		array(
-			'element'  => '.archive .xpro-post-links > li',
+			'element'  => '.archive .xpro-post-links > li,.search .xpro-post-links > li',
 			'property' => 'color',
 		),
 	),
@@ -1041,38 +898,7 @@ $xpro_fields[] = array(
 
 $xpro_fields[] = array(
 	'type' => 'color',
-	'settings' => 'xpro_layout_archive_meta_social_color',
-	'label' => __('Social Color', 'xpro'),
-	'description' => __('Specifies the color of social icon.', 'xpro'),
-	'section' => 'xpro_layout_archive_section',
-	'default' => '',
-	'transport'   => 'auto',
-	'choices' => array(
-		'alpha' => true,
-	),
-	'output' => array(
-		array(
-			'element'  => '.archive .xpro-share-icons > li > a > i',
-			'property' => 'color',
-		),
-	),
-	'required' => array(
-		array(
-			'setting' => 'xpro_archive_post_layout',
-			'operator' => '==',
-			'value' => 'classic',
-		),
-		array(
-			'setting' => 'xpro_layout_archive_social_icon',
-			'operator' => '==',
-			'value' => '1',
-		),
-	),
-);
-
-$xpro_fields[] = array(
-	'type' => 'color',
-	'settings' => 'xpro_layout_archive_meta_separator_color',
+	'settings' => 'xpro_layout_archive_separator_color',
 	'label' => __('Separator Color', 'xpro'),
 	'description' => __('Specifies the color of separator color.', 'xpro'),
 	'section' => 'xpro_layout_archive_section',
@@ -1083,7 +909,7 @@ $xpro_fields[] = array(
 	),
 	'output' => array(
 		array(
-			'element'  => '.archive .xpro-post-footer > hr',
+			'element'  => '.archive .xpro-post',
 			'property' => 'background-color',
 		),
 	),
@@ -1109,7 +935,7 @@ $xpro_fields[] = array(
 	),
 	'output' => array(
 		array(
-			'element'  => '.archive .xpro-post-footer > .xpro-link',
+			'element'  => '.archive .xpro-link',
 			'property' => 'color',
 		),
 	),
@@ -1135,7 +961,7 @@ $xpro_fields[] = array(
 	),
 	'output' => array(
 		array(
-			'element'  => '.archive .xpro-post-footer > .xpro-link:hover',
+			'element'  => '.archive .xpro-link:hover',
 			'property' => 'color',
 		),
 	),
@@ -1333,66 +1159,6 @@ $xpro_fields[] = array(
 		array(
 			'element'  => '.xpro-post.sticky .xpro-post-content',
 			'property' => 'color',
-		),
-	),
-);
-
-$xpro_fields[] = array(
-	'type'        => 'slider',
-	'settings'    => 'xpro_layout_sticky_social',
-	'label' => __('Social Icon Size', 'xpro'),
-	'description' => __('To change post sticky post social icon size.', 'xpro'),
-	'section'     => 'xpro_layout_sticky_section',
-	'default'     => 15,
-	'transport' => 'auto',
-	'choices'     => [
-		'min'  => 10,
-		'max'  => 100,
-	],
-	'output' => array(
-		array(
-			'element'  => '.xpro-post.sticky .xpro-share-icons > li > a > i',
-			'property' => 'font-size',
-			'units' => 'px',
-			'media_query' => '@media (min-width: 992px)',
-		),
-	),
-);
-
-$xpro_fields[] = array(
-	'type' => 'color',
-	'settings' => 'xpro_layout_sticky_social_color',
-	'label' => __('Social Icon Color', 'xpro'),
-	'description' => __('Specifies the color of sticky post social icon color.', 'xpro'),
-	'section' => 'xpro_layout_sticky_section',
-	'default' => '',
-	'transport'   => 'auto',
-	'choices' => array(
-		'alpha' => true,
-	),
-	'output' => array(
-		array(
-			'element'  => '.xpro-post.sticky .xpro-share-icons > li > a > i',
-			'property' => 'color',
-		),
-	),
-);
-
-$xpro_fields[] = array(
-	'type' => 'color',
-	'settings' => 'xpro_layout_sticky_separator',
-	'label' => __('Separator Color', 'xpro'),
-	'description' => __('Specifies the color of separator color.', 'xpro'),
-	'section' => 'xpro_layout_sticky_section',
-	'default' => '',
-	'transport'   => 'auto',
-	'choices' => array(
-		'alpha' => true,
-	),
-	'output' => array(
-		array(
-			'element'  => '.xpro-post.sticky .xpro-post-footer > hr',
-			'property' => 'background-color',
 		),
 	),
 );
@@ -1697,36 +1463,10 @@ $xpro_fields[] = array(
 
 $xpro_fields[] = array(
 	'type' => 'switch',
-	'label' => __('Social Icon', 'xpro'),
-	'description' => __('Enable/Disable post item social.', 'xpro'),
-	'section' => 'xpro_layout_single_section',
-	'settings' => 'xpro_layout_single_social_icon',
-	'default' => '1',
-	'choices' => array(
-		'1' => __('On', 'xpro'),
-		'0' => __('Off', 'xpro'),
-	),
-);
-
-$xpro_fields[] = array(
-	'type' => 'switch',
 	'label' => __('Tags', 'xpro'),
 	'description' => __('Enable/Disable post item tags.', 'xpro'),
 	'section' => 'xpro_layout_single_section',
 	'settings' => 'xpro_layout_single_tags',
-	'default' => '1',
-	'choices' => array(
-		'1' => __('On', 'xpro'),
-		'0' => __('Off', 'xpro'),
-	),
-);
-
-$xpro_fields[] = array(
-	'type' => 'switch',
-	'label' => __('Social Icon', 'xpro'),
-	'description' => __('Enable/Disable post item social.', 'xpro'),
-	'section' => 'xpro_layout_single_section',
-	'settings' => 'xpro_layout_single_social_icon',
 	'default' => '1',
 	'choices' => array(
 		'1' => __('On', 'xpro'),

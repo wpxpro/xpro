@@ -3,11 +3,21 @@
    ------------------------------- */
 
 .xpro-layout-classic{
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.xpro-layout-classic:nth-last-of-type(1){
+    margin-bottom: 2rem;
 }
 
 .xpro-post-title{
     margin-bottom: 15px;
+}
+
+.xpro-post-separator {
+    margin: 0 10px;
 }
 
 .xpro-post-title a{
@@ -28,17 +38,24 @@
 }
 
 .xpro-post-links > li{
+    position: relative;
     display: inline-block;
-    margin-right: 15px;
     margin-bottom: 5px;
-    font-size: 15px;
+    font-size: 14px;
     color: #939393;
     text-transform: capitalize;
 }
 
-.xpro-post-links > li i{
-    margin-right: 8px;
-    color: inherit;
+.xpro-post-links > li::before{
+    position: relative;
+    content: '|';
+    margin: 0 10px;
+    top: -1px;
+}
+
+.xpro-post-links > li:first-child::before{
+    content: none;
+    display: none;
 }
 
 .xpro-post-links > li a{
@@ -152,14 +169,6 @@
     -webkit-box-pack: start;
     -ms-flex-pack: start;
     justify-content: flex-start;
-}
-
-.xpro-post-grid .xpro-post-links > li{
-    margin-right: 5px;
-}
-
-.xpro-post-grid .xpro-post-divider{
-    margin-right: 5px;
 }
 
 .xpro-post-grid .xpro-post-navigation{

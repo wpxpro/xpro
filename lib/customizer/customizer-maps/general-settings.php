@@ -108,7 +108,7 @@ $xpro_fields[] = array(
 	'description' => __('Theme heading (H1) font size.', 'xpro'),
 	'section'     => 'xpro_general_typography_section',
 	'transport'   => 'auto',
-	'default'     => 40,
+	'default'     => 35,
 	'choices'     => [
 		'min'  => 0,
 		'max'  => 100,
@@ -130,7 +130,7 @@ $xpro_fields[] = array(
 	'description' => __('Theme heading (H2) font size.', 'xpro'),
 	'section'     => 'xpro_general_typography_section',
 	'transport'   => 'auto',
-	'default'     => 35,
+	'default'     => 30,
 	'choices'     => [
 		'min'  => 0,
 		'max'  => 100,
@@ -152,7 +152,7 @@ $xpro_fields[] = array(
 	'description' => __('Theme heading (H3) font size.', 'xpro'),
 	'section'     => 'xpro_general_typography_section',
 	'transport'   => 'auto',
-	'default'     => 30,
+	'default'     => 25,
 	'choices'     => [
 		'min'  => 0,
 		'max'  => 100,
@@ -173,7 +173,7 @@ $xpro_fields[] = array(
 	'label' => __('Heading 4 (H4)', 'xpro'),
 	'description' => __('Theme heading (H4) font size.', 'xpro'),
 	'section'     => 'xpro_general_typography_section',
-	'default'     => 25,
+	'default'     => 20,
 	'transport'   => 'auto',
 	'choices'     => [
 		'min'  => 0,
@@ -685,7 +685,7 @@ $xpro_fields[] = array(
 	),
 	'output' => array(
 		array(
-			'element'     => '.theme-xpro .xpro-btn',
+			'element'     => '.xpro-theme .xpro-btn',
 		),
 	),
 );
@@ -705,7 +705,7 @@ $xpro_fields[] = array(
 	],
 	'output' => array(
 		array(
-			'element'  => '.theme-xpro .xpro-btn',
+			'element'  => '.xpro-theme .xpro-btn',
 			'property' => 'font-size',
 			'units' => 'px',
 		),
@@ -726,7 +726,7 @@ $xpro_fields[] = array(
 	),
 	'output' => array(
 		array(
-			'element'  => '.theme-xpro .xpro-btn',
+			'element'  => '.xpro-theme .xpro-btn',
 			'property' => 'color',
 		),
 		array(
@@ -753,7 +753,7 @@ $xpro_fields[] = array(
 	),
 	'output' => array(
 		array(
-			'element'  => '.theme-xpro .xpro-btn:hover',
+			'element'  => '.xpro-theme .xpro-btn:hover',
 			'property' => 'color',
 		),
 		array(
@@ -780,7 +780,7 @@ $xpro_fields[] = array(
 	),
 	'output' => array(
 		array(
-			'element'  => '.theme-xpro .xpro-btn',
+			'element'  => '.xpro-theme .xpro-btn',
 			'property' => 'background-color',
 		),
 		array(
@@ -807,7 +807,7 @@ $xpro_fields[] = array(
 	),
 	'output' => array(
 		array(
-			'element'  => '.theme-xpro .xpro-btn:hover',
+			'element'  => '.xpro-theme .xpro-btn:hover',
 			'property' => 'background-color',
 		),
 		array(
@@ -835,7 +835,7 @@ $xpro_fields[] = array(
 	),
 	'output' => array(
 		array(
-			'element'  => '.theme-xpro .xpro-btn',
+			'element'  => '.xpro-theme .xpro-btn',
 			'property' => 'border-color',
 		),
 		array(
@@ -862,7 +862,7 @@ $xpro_fields[] = array(
 	),
 	'output' => array(
 		array(
-			'element'  => '.theme-xpro .xpro-btn:hover',
+			'element'  => '.xpro-theme .xpro-btn:hover',
 			'property' => 'border-color',
 		),
 		array(
