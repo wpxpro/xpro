@@ -4,7 +4,7 @@
 defined( 'ABSPATH' ) || exit;
 
 $banner_type = xpro_get_option('xpro_banner_type','xpro-wrapper-layout-1');
-$banner_type_meta = xpro_get_meta('site-post-banner');
+$banner_type_meta = xpro_get_meta('xpro-post-banner');
 $container = xpro_get_option('xpro_banner_container','xpro-container');
 $breadcrumb = xpro_get_option('xpro_banner_breadcurmb_enable','1');
 

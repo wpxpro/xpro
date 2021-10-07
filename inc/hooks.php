@@ -235,7 +235,7 @@ if ( ! function_exists( 'xpro_construct_content_before' ) ) {
     }else{
 	    $container_option = 'xpro-container';
     }
-    $container_meta = xpro_get_meta( 'site-content-layout');
+    $container_meta = xpro_get_meta( 'xpro-content-layout');
     $container = (!empty($container_meta)) ? $container_meta : $container_option;
     ?>
         <div id="content" class="xpro-content-wrapper">

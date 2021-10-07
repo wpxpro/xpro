@@ -7,13 +7,18 @@
 
 // Exit if accessed directly.
 defined( 'ABSPATH' ) || exit;
+
+$featured_meta = xpro_get_meta( 'xpro-featured-image');
+
 ?>
 
 <article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
 
 	<?php do_action('xpro_entry_top'); ?>
 
-	<?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
+        <?php if( has_post_thumbnail() && $featured_meta !== 'disabled'){
+            echo get_the_post_thumbnail( $post->ID, 'large' );
+        } ?>
 
 	<div class="xpro-entry-content">
 

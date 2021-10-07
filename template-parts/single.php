@@ -9,7 +9,7 @@
 defined( 'ABSPATH' ) || exit;
 
 $layout_option = xpro_get_option( 'xpro_single_layout','right-layout');
-$layout_meta = xpro_get_meta( 'site-sidebar-layout');
+$layout_meta = xpro_get_meta( 'xpro-sidebar-layout');
 $layout = (!empty($layout_meta)) ? $layout_meta : $layout_option;
 $comments_enable = xpro_get_option('xpro_layout_single_comments','1');
 

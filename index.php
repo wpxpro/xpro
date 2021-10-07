@@ -11,7 +11,7 @@ get_header();
 
 $post_layout   = xpro_get_option( 'xpro_blog_post_layout' );
 $layout_option = xpro_get_option( 'xpro_blog_layout', 'right-layout' );
-$layout_meta   = xpro_get_meta( 'site-sidebar-layout' );
+$layout_meta   = xpro_get_meta( 'xpro-sidebar-layout' );
 $layout        = ( ! empty( $layout_meta ) ) ? $layout_meta : $layout_option;
 $post_layout   = xpro_get_option( 'xpro_blog_post_layout', 'classic' );
 $mainCol       = ( $layout == 'left-layout' || $layout == 'right-layout' ) ? 'xpro-col-lg-9' : ' xpro-col-lg-12';

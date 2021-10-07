@@ -111,13 +111,16 @@ if ( ! class_exists( 'Xpro_Meta_Boxes' ) ) {
 					'xpro-footer-layout'       => array(
 						'sanitize' => 'FILTER_DEFAULT',
 					),
-					'site-post-banner'         => array(
+					'xpro-post-banner'         => array(
 						'sanitize' => 'FILTER_DEFAULT',
 					),
-					'site-sidebar-layout'     => array(
+					'xpro-featured-image'         => array(
 						'sanitize' => 'FILTER_DEFAULT',
 					),
-					'site-content-layout'     => array(
+					'xpro-sidebar-layout'     => array(
+						'sanitize' => 'FILTER_DEFAULT',
+					),
+					'xpro-content-layout'     => array(
 						'sanitize' => 'FILTER_DEFAULT',
 					),
 					'xpro-space-content' => array(
@@ -138,8 +141,6 @@ if ( ! class_exists( 'Xpro_Meta_Boxes' ) ) {
 					'public' => true,
 				)
 			);
-
-			$post_types['fl-theme-layout'] = 'fl-theme-layout';
 
 			$metabox_name = sprintf(
 			// Translators: %s is the theme name.
@@ -198,9 +199,10 @@ if ( ! class_exists( 'Xpro_Meta_Boxes' ) ) {
 			 * Get options
 			 */
 
-			$site_sidebar        = ( isset( $meta['site-sidebar-layout']['default'] ) ) ? $meta['site-sidebar-layout']['default'] : '';
-			$site_content_layout = ( isset( $meta['site-content-layout']['default'] ) ) ? $meta['site-content-layout']['default'] : '';
-			$site_post_banner     = ( isset( $meta['site-post-banner']['default'] ) ) ? $meta['site-post-banner']['default'] : '';
+			$site_sidebar        = ( isset( $meta['xpro-sidebar-layout']['default'] ) ) ? $meta['xpro-sidebar-layout']['default'] : '';
+			$site_content_layout = ( isset( $meta['xpro-content-layout']['default'] ) ) ? $meta['xpro-content-layout']['default'] : '';
+			$site_post_banner     = ( isset( $meta['xpro-post-banner']['default'] ) ) ? $meta['xpro-post-banner']['default'] : '';
+			$featured_image     = ( isset( $meta['xpro-featured-image']['default'] ) ) ? $meta['xpro-featured-image']['default'] : '';
 			$footer_bar          = ( isset( $meta['xpro-footer-layout']['default'] ) ) ? $meta['xpro-footer-layout']['default'] : '';
 			$primary_header      = ( isset( $meta['xpro-main-header-display']['default'] ) ) ? $meta['xpro-main-header-display']['default'] : '';
 			$space_content = ( isset( $meta['xpro-space-content']['default'] ) ) ? $meta['xpro-space-content']['default'] : '';
@@ -212,11 +214,11 @@ if ( ! class_exists( 'Xpro_Meta_Boxes' ) ) {
 			 * Option: Sidebar
 			 */
 			?>
-            <div class="site-sidebar-layout-meta-wrap components-base-control__field">
+            <div class="xpro-sidebar-layout-meta-wrap components-base-control__field">
                 <p class="post-attributes-label-wrapper" >
                     <strong> <?php esc_html_e( 'Sidebar Layout', 'xpro' ); ?> </strong>
                 </p>
-                <select name="site-sidebar-layout" id="site-sidebar-layout">
+                <select name="xpro-sidebar-layout" id="xpro-sidebar-layout">
                     <option value="" <?php selected( $site_sidebar, 'default' ); ?> > <?php esc_html_e( 'Default', 'xpro' ); ?></option>
                     <option value="left-layout" <?php selected( $site_sidebar, 'left-layout' ); ?> > <?php esc_html_e( 'Left Sidebar', 'xpro' ); ?></option>
                     <option value="right-layout" <?php selected( $site_sidebar, 'right-layout' ); ?> > <?php esc_html_e( 'Right Sidebar', 'xpro' ); ?></option>
@@ -228,11 +230,11 @@ if ( ! class_exists( 'Xpro_Meta_Boxes' ) ) {
 			 * Option: Sidebar
 			 */
 			?>
-            <div class="site-content-layout-meta-wrap components-base-control__field">
+            <div class="xpro-content-layout-meta-wrap components-base-control__field">
                 <p class="post-attributes-label-wrapper" >
                     <strong> <?php esc_html_e( 'Content Layout', 'xpro' ); ?> </strong>
                 </p>
-                <select name="site-content-layout" id="site-content-layout">
+                <select name="xpro-content-layout" id="xpro-content-layout">
                     <option value="" <?php selected( $site_content_layout, 'default' ); ?> > <?php esc_html_e( 'Default', 'xpro' ); ?></option>
                     <option value="xpro-container" <?php selected( $site_content_layout, 'xpro-container' ); ?> > <?php esc_html_e( 'Container', 'xpro' ); ?></option>
                     <option value="xpro-container-fluid" <?php selected( $site_content_layout, 'xpro-container-fluid' ); ?> > <?php esc_html_e( 'Container Fluid', 'xpro' ); ?></option>
@@ -259,13 +261,13 @@ if ( ! class_exists( 'Xpro_Meta_Boxes' ) ) {
                     </div>
 					<?php do_action( 'xpro_meta_box_markup_disable_sections_after_primary_header', $meta ); ?>
 					<?php if ( $show_meta_field ) { ?>
-                        <div class="site-post-banner-option-wrap">
-                            <label for="site-post-banner">
-                                <input type="checkbox" id="site-post-banner" name="site-post-banner" value="disabled" <?php checked( $site_post_banner, 'disabled' ); ?> />
+                        <div class="xpro-post-banner-option-wrap">
+                            <label for="xpro-post-banner">
+                                <input type="checkbox" id="xpro-post-banner" name="xpro-post-banner" value="disabled" <?php checked( $site_post_banner, 'disabled' ); ?> />
 								<?php esc_html_e( 'Disable Banner', 'xpro' ); ?>
                             </label>
                         </div>
-
+                        
                         <div class="xpro-space-content-option-wrap">
                             <label for="xpro-space-content">
                                 <input type="checkbox" id="xpro-space-content" name="xpro-space-content" value="disabled" <?php checked( $space_content, 'disabled' ); ?> />
@@ -277,6 +279,13 @@ if ( ! class_exists( 'Xpro_Meta_Boxes' ) ) {
                             <label for="xpro-footer-layout">
                                 <input type="checkbox" id="xpro-footer-layout" name="xpro-footer-layout" value="disabled" <?php checked( $footer_bar, 'disabled' ); ?> />
 								<?php esc_html_e( 'Disable Footer', 'xpro' ); ?>
+                            </label>
+                        </div>
+
+                        <div class="xpro-featured-image-option-wrap">
+                            <label for="xpro-featured-image">
+                                <input type="checkbox" id="xpro-featured-image" name="xpro-featured-image" value="disabled" <?php checked( $featured_image, 'disabled' ); ?> />
+								<?php esc_html_e( 'Disable Featured Image', 'xpro' ); ?>
                             </label>
                         </div>
 

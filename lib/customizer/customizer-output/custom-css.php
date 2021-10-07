@@ -28,7 +28,7 @@ $sticky_submenu_gradient_enable = xpro_get_option('xpro_header_sticky_submenu_gr
 $sticky_submenu_gradient = get_theme_mod('xpro_header_sticky_sub_gradient_style',[]);
 
 //Per Page
-$sidebar = xpro_get_meta( 'site-sidebar-layout');
+$sidebar = xpro_get_meta( 'xpro-sidebar-layout');
 $content_space = xpro_get_meta( 'xpro-space-content');
 
 //Page

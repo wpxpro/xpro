@@ -15,6 +15,7 @@ $category = xpro_get_option('xpro_layout_single_category','1');
 $author = xpro_get_option('xpro_layout_single_author','1');
 $tags = xpro_get_option('xpro_layout_single_tags','1');
 $social = xpro_get_option('xpro_layout_single_social_icon','1');
+$featured_meta = xpro_get_meta( 'xpro-featured-image');
 
 ?>
 
@@ -22,11 +23,11 @@ $social = xpro_get_option('xpro_layout_single_social_icon','1');
 
 	<?php do_action('xpro_entry_top'); ?>
 
-	<?php if ( has_post_thumbnail() && $thumb == '1' ) {
+	<?php if ( has_post_thumbnail() && $thumb == '1' && $featured_meta !== 'disabled' ) {
 
 		echo '<div class="xpro-post-thumbnail">';
 
-		echo get_the_post_thumbnail( $post->ID, 'full' );
+		echo get_the_post_thumbnail( $post->ID, 'large' );
 
 		echo '</div>';
 

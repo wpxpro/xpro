@@ -16,7 +16,7 @@ defined( 'ABSPATH' ) || exit;
 get_header();
 
 $layout_option = xpro_get_option( 'xpro_page_layout','full-layout');
-$layout_meta = xpro_get_meta( 'site-sidebar-layout');
+$layout_meta = xpro_get_meta( 'xpro-sidebar-layout');
 $layout = (!empty($layout_meta)) ? $layout_meta : $layout_option;
 $comments_enable = xpro_get_option( 'xpro_page_comments','1');
 $is_elementor_theme_exist = function_exists( 'elementor_theme_do_location' );

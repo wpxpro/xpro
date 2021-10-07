@@ -12,6 +12,8 @@ $excerpt_length = xpro_get_option('xpro_layout_blog_excerpt',40);
 $social = xpro_get_option('xpro_layout_blog_social_icon','1');
 $button = xpro_get_option('xpro_layout_blog_button','1');
 $buttonText = xpro_get_option('xpro_layout_blog_button_text','Read More');
+$layout_meta = xpro_get_meta( 'xpro-featured-image');
+
 ?>
 
 <article <?php post_class('xpro-post xpro-layout-grid'); ?> id="xpro-post-<?php the_ID(); ?>">
@@ -40,11 +42,11 @@ $buttonText = xpro_get_option('xpro_layout_blog_button_text','Read More');
 
     </ul>
 
-	<?php if ( has_post_thumbnail() && $thumb == '1' ) {
+	<?php if ( has_post_thumbnail() && $thumb == '1' && $layout_meta !== 'disabled' ) {
 
 		echo '<div class="xpro-post-thumbnail">';
 
-		echo get_the_post_thumbnail( $post->ID, 'full' );
+		echo get_the_post_thumbnail( $post->ID, 'large' );
 
 		echo '</div>';
 
