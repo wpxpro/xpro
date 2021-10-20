@@ -34,7 +34,7 @@ if ( ! function_exists( 'xpro_scripts' ) ) {
 			}
 
 			if ( is_active_sidebar( 'xpro-main-sidebar' ) ){
-				wp_enqueue_style( 'xpro-widgets', $dir_uri . "/assets/css/xpro-widgets.min.css", array(), $css_version, 'all');
+				wp_enqueue_style( 'xpro-sidebar', $dir_uri . "/assets/css/xpro-widgets.min.css", array(), $css_version, 'all');
 			}
 
 			if ( class_exists( 'WooCommerce' ) ){
