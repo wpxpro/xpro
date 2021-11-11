@@ -168,10 +168,8 @@ if ( ! class_exists( 'Xpro_Beaver_Themer' ) ) :
 				array(
 					'label' => 'Posts',
 					'hooks' => array(
-						'xpro_loop_start'                 => __( 'Loop Start', 'xpro' ),
 						'xpro_entry_top'            => __( 'Before Post', 'xpro' ),
 						'xpro_entry_bottom'         => __( 'After Post', 'xpro' ),
-						'xpro_loop_end'                   => __( 'Loop End', 'xpro' ),
 					),
 				),
 			);

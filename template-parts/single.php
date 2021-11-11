@@ -23,8 +23,6 @@ $comments_enable = xpro_get_option('xpro_layout_single_comments','1');
 
 		if ( have_posts() ) {
 
-			do_action( 'xpro_loop_start' );
-
 			while ( have_posts() ) {
 
 				the_post();
@@ -48,7 +46,6 @@ $comments_enable = xpro_get_option('xpro_layout_single_comments','1');
 
 			}
 
-			do_action('xpro_loop_end');
 
 		}else{
 			get_template_part( 'template-parts/content', 'none' );

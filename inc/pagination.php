@@ -51,7 +51,7 @@ if ( ! function_exists( 'xpro_pagination' ) ) {
 				'mid_size'           => 2,
 				'prev_next'          => true,
 				'prev_text'          => '<i class="xi xi-chevron-left"></i><span class="pagination-prev">' . __( 'Prev', 'xpro' ) . '</span>',
-				'next_text'          => '<span class="pagination-next">' . __( 'Next', 'xpro' ) . '</span><i class="xpro-icon-chevron-right"></i>',
+				'next_text'          => '<span class="pagination-next">' . __( 'Next', 'xpro' ) . '</span><i class="xi xi-chevron-right"></i>',
 				'type'               => 'array',
 				'current'            => max( 1, get_query_var( 'paged' ) ),
 				'screen_reader_text' => __( 'Posts navigation', 'xpro' ),
