@@ -68,6 +68,8 @@ if ( ! class_exists( 'Xpro_Elementor' ) ) :
 				remove_action( 'xpro_content_after', 'xpro_construct_content_after' );
 				remove_action( 'xpro_footer', 'xpro_construct_footer' );
 				remove_action( 'xpro_post_nav', 'xpro_construct_post_nav' );
+				remove_action( 'xpro_content_loop', 'xpro_construct_content_loop' );
+				remove_action( 'xpro_sidebar', 'xpro_construct_sidebar' );
 				update_post_meta( get_the_ID(),'xpro-sidebar-layout','full-layout' );
 			}
 

@@ -98,6 +98,8 @@ if ( ! class_exists( 'Xpro_Elementor_Pro' ) ) :
 				remove_action( 'xpro_title_wrapper', 'xpro_construct_title_wrapper' );
 				remove_action( 'xpro_content_before', 'xpro_construct_content_before' );
 				remove_action( 'xpro_content_after', 'xpro_construct_content_after' );
+				remove_action( 'xpro_content_loop', 'xpro_construct_content_loop' );
+				remove_action( 'xpro_sidebar', 'xpro_construct_sidebar' );
 			}
 
 			// IS Single?
@@ -106,6 +108,8 @@ if ( ! class_exists( 'Xpro_Elementor_Pro' ) ) :
 				remove_action( 'xpro_title_wrapper', 'xpro_construct_title_wrapper' );
 				remove_action( 'xpro_content_before', 'xpro_construct_content_before' );
 				remove_action( 'xpro_content_after', 'xpro_construct_content_after' );
+				remove_action( 'xpro_content_loop', 'xpro_construct_content_loop' );
+				remove_action( 'xpro_sidebar', 'xpro_construct_sidebar' );
 			}
 		}
 
@@ -121,7 +125,12 @@ if ( ! class_exists( 'Xpro_Elementor_Pro' ) ) :
 				// Is Single?
 				$did_location = Module::instance()->get_locations_manager()->do_location( 'single' );
 				if ( $did_location ) {
+					remove_action( 'xpro_title_wrapper', 'xpro_construct_title_wrapper' );
+					remove_action( 'xpro_content_before', 'xpro_construct_content_before' );
+					remove_action( 'xpro_content_after', 'xpro_construct_content_after' );
+					remove_action( 'xpro_content_loop', 'xpro_construct_content_loop' );
 					remove_action( 'xpro_not_found', 'xpro_construct_not_found' );
+					remove_action( 'xpro_sidebar', 'xpro_construct_sidebar' );
 				}
 			}
 		}
