@@ -340,7 +340,7 @@ if ( ! function_exists( 'xpro_construct_content_loop' ) ) {
 
 				}
 
-				else if(is_archive() || is_author() || is_category() || is_search()){
+				else if(is_archive() || is_author() || is_category() || is_search() || is_tag()){
 					$post_layout   = xpro_get_option( 'xpro_blog_post_layout', 'classic' );
 					get_template_part( 'template-parts/archive/content', 'post-' . $post_layout );
 				}
