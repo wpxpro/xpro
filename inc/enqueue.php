@@ -24,9 +24,8 @@ if ( ! function_exists( 'xpro_scripts' ) ) {
 
 		if($css_type == '0'){
 
-			wp_enqueue_style( 'xpro-styles', $dir_uri . "/assets/css/xpro-main.min.css", array(), $css_version, 'all' );
-			wp_enqueue_style( 'xpro-responsive', $dir_uri . "/assets/css/xpro-responsive.min.css", array(), $css_version, 'all' );
 			wp_enqueue_style( 'xpro-grid', $dir_uri . "/assets/css/xpro-grid.min.css", array(), '1.0.0', 'all' );
+			wp_enqueue_style( 'xpro-styles', $dir_uri . "/assets/css/xpro-main.min.css", array(), $css_version, 'all' );
 			wp_enqueue_style( 'xpro-icons', $dir_uri . "/assets/css/xpro-icons.min.css", array(), '1.0.0', 'all' );
 
 			if(is_archive() || is_author() || is_category() || is_home() || is_single() || is_tag() || is_search() ){
@@ -40,6 +39,8 @@ if ( ! function_exists( 'xpro_scripts' ) ) {
 			if ( class_exists( 'WooCommerce' ) ){
 				wp_enqueue_style( 'xpro-woocommerce', $dir_uri . "/assets/css/xpro-woocommerce.min.css", array(), $css_version, 'all');
 			}
+
+			wp_enqueue_style( 'xpro-responsive', $dir_uri . "/assets/css/xpro-responsive.min.css", array(), $css_version, 'all' );
 
 		}else{
 

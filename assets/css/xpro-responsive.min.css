@@ -63,19 +63,19 @@
     }
 
     .woocommerce ul.products.columns-3 li.product {
-        width: 50%;
+        width: 100%;
     }
 
     .woocommerce ul.products.columns-4 li.product {
-        width: 50%;
+        width: 100%;
     }
 
     .woocommerce ul.products.columns-5 li.product {
-        width: 50%;
+        width: 100%;
     }
 
     .woocommerce ul.products.columns-6 li.product {
-        width: 50%;
+        width: 100%;
     }
 
     .xpro-navbar-primary{
@@ -135,26 +135,6 @@
     .xpro-theme .xpro-btn {
         font-size: 14px;
         padding: 11px 35px;
-    }
-
-    .woocommerce ul.products.columns-2 li.product {
-        width: 100%;
-    }
-
-    .woocommerce ul.products.columns-3 li.product {
-        width: 100%;
-    }
-
-    .woocommerce ul.products.columns-4 li.product {
-        width: 100%;
-    }
-
-    .woocommerce ul.products.columns-5 li.product {
-        width: 100%;
-    }
-
-    .woocommerce ul.products.columns-6 li.product {
-        width: 100%;
     }
 
     .xpro-wrapper-layout-1 > .xpro-title-wrapper-inner{

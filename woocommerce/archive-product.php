@@ -17,16 +17,16 @@
 
 defined( 'ABSPATH' ) || exit;
 
-get_header();
+get_header( 'shop' );
 
-
-$layout = xpro_get_option( 'xpro_shop_layout','right-layout');
-
-?>
-
-<main class="xpro-main xpro-post-classic">
-
-<?php
+/**
+ * Hook: woocommerce_before_main_content.
+ *
+ * @hooked woocommerce_output_content_wrapper - 10 (outputs opening divs for the content)
+ * @hooked woocommerce_breadcrumb - 20
+ * @hooked WC_Structured_Data::generate_website_data() - 30
+ */
+do_action( 'woocommerce_before_main_content' );
 
 if ( woocommerce_product_loop() ) {
 
@@ -52,7 +52,6 @@ if ( woocommerce_product_loop() ) {
 
 			wc_get_template_part( 'content', 'product' );
 		}
-
 	}
 
 	woocommerce_product_loop_end();
@@ -69,15 +68,21 @@ if ( woocommerce_product_loop() ) {
 	 *
 	 * @hooked wc_no_products_found - 10
 	 */
-	get_template_part( 'template-parts/content', 'none' );
+	do_action( 'woocommerce_no_products_found' );
 }
 
-?>
+/**
+ * Hook: woocommerce_after_main_content.
+ *
+ * @hooked woocommerce_output_content_wrapper_end - 10 (outputs closing divs for the content)
+ */
+do_action( 'woocommerce_after_main_content' );
 
-</main>
-
-<?php
-
-if($layout != 'full-layout' ): do_action('xpro_woo_sidebar'); endif;
+/**
+ * Hook: woocommerce_sidebar.
+ *
+ * @hooked woocommerce_get_sidebar - 10
+ */
+do_action( 'woocommerce_sidebar' );
 
 get_footer( 'shop' );
