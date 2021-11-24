@@ -25,39 +25,39 @@ if ( ! function_exists( 'xpro_scripts' ) ) {
 		if($css_type == '0'){
 
 			wp_enqueue_style( 'xpro-grid', $dir_uri . "/assets/css/xpro-grid.min.css", array(), '1.0.0', 'all' );
-			wp_enqueue_style( 'xpro-styles', $dir_uri . "/assets/css/xpro-main.min.css", array(), $css_version, 'all' );
+			wp_enqueue_style( 'xpro-theme-main', $dir_uri . "/assets/css/xpro-main.min.css", array(), $css_version, 'all' );
 			wp_enqueue_style( 'xpro-icons', $dir_uri . "/assets/css/xpro-icons.min.css", array(), '1.0.0', 'all' );
 
 			if(is_archive() || is_author() || is_category() || is_home() || is_single() || is_tag() || is_search() ){
-				wp_enqueue_style( 'xpro-blogs', $dir_uri . "/assets/css/xpro-blog.min.css", array(), $css_version, 'all' );
+				wp_enqueue_style( 'xpro-theme-blog', $dir_uri . "/assets/css/xpro-blog.min.css", array(), $css_version, 'all' );
 			}
 
 			if ( is_active_sidebar( 'xpro-main-sidebar' ) ){
-				wp_enqueue_style( 'xpro-sidebar', $dir_uri . "/assets/css/xpro-sidebar.min.css", array(), $css_version, 'all');
+				wp_enqueue_style( 'xpro-theme-sidebar', $dir_uri . "/assets/css/xpro-sidebar.min.css", array(), $css_version, 'all');
 			}
 
 			if ( class_exists( 'WooCommerce' ) ){
-				wp_enqueue_style( 'xpro-woocommerce', $dir_uri . "/assets/css/xpro-woocommerce.min.css", array(), $css_version, 'all');
+				wp_enqueue_style( 'xpro-theme-woocommerce', $dir_uri . "/assets/css/xpro-woocommerce.min.css", array(), $css_version, 'all');
 			}
 
-			wp_enqueue_style( 'xpro-responsive', $dir_uri . "/assets/css/xpro-responsive.min.css", array(), $css_version, 'all' );
+			wp_enqueue_style( 'xpro-theme-responsive', $dir_uri . "/assets/css/xpro-responsive.min.css", array(), $css_version, 'all' );
 
 		}else{
 
-			wp_enqueue_style( 'xpro-styles', $dir_uri . "/assets/css/xpro-main-all.min.css", array(), $css_version, 'all' );
-			wp_enqueue_style( 'xpro-responsive', $dir_uri . "/assets/css/xpro-responsive.min.css", array(), $css_version, 'all' );
+			wp_enqueue_style( 'xpro-theme-main', $dir_uri . "/assets/css/xpro-main-all.min.css", array(), $css_version, 'all' );
+			wp_enqueue_style( 'xpro-theme-responsive', $dir_uri . "/assets/css/xpro-responsive.min.css", array(), $css_version, 'all' );
 
 		}
 
 		if($js_type == '0'){
 			$js_version = XPRO_VERSION . '.' . filemtime( get_template_directory() . "/assets/js/xpro-functions.js" );
-			wp_enqueue_script( 'xpro-scripts', $dir_uri . "/assets/js/xpro-functions.js", array('jquery'), $js_version, true );
+			wp_enqueue_script( 'xpro-theme-main', $dir_uri . "/assets/js/xpro-functions.js", array('jquery'), $js_version, true );
 		}else{
 			$js_version = XPRO_VERSION . '.' . filemtime( get_template_directory() . "/assets/js/xpro-functions.min.js" );
-			wp_enqueue_script( 'xpro-scripts', $dir_uri . "/assets/js/xpro-functions.min.js", array('jquery'), $js_version, true );
+			wp_enqueue_script( 'xpro-theme-main', $dir_uri . "/assets/js/xpro-functions.min.js", array('jquery'), $js_version, true );
 		}
 
-		wp_script_add_data( 'xpro-scripts', 'async', true );
+		wp_script_add_data( 'xpro-theme-main', 'async', true );
 
 		if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 			wp_enqueue_script( 'comment-reply' );
@@ -66,8 +66,6 @@ if ( ! function_exists( 'xpro_scripts' ) ) {
 }
 
 add_action( 'wp_enqueue_scripts', 'xpro_scripts' );
-
-
 
 /**
  * Enqueue supplemental block editor styles.
@@ -95,7 +93,7 @@ add_action( 'admin_enqueue_scripts', 'xpro_admin_scripts',99);
 if ( ! function_exists( 'xpro_admin_scripts' ) ) {
 
 	function xpro_admin_scripts() {
-		wp_enqueue_style( 'xpro-customizer-styles', get_theme_file_uri( '/assets/css/admin/customizer.min.css' ), array(),XPRO_VERSION,'all');
+		wp_enqueue_style( 'xpro-theme-customizer', get_theme_file_uri( '/assets/css/admin/customizer.min.css' ), array(),XPRO_VERSION,'all');
 
 	}
 }
@@ -125,7 +123,7 @@ if( ! function_exists( 'xpro_generate_custom_css' ) ) {
 		// 3. Remove starting whitespace.
 		$output_css = preg_replace( '/\s\s+(.*)/', '$1', $output_css );
 
-		wp_add_inline_style( 'xpro-styles', $output_css );
+		wp_add_inline_style( 'xpro-theme-main', $output_css );
 
 	}
 
