@@ -1,8 +1,3 @@
-/* ------------------------------------------- */
-
-/*	Xpro Editor Styles — Block Editor
-/* ------------------------------------------- */
-
 .editor-styles-wrapper {
 	background: #f5efe0;
 	color: #000;
@@ -197,6 +192,7 @@
 .editor-styles-wrapper .wp-block h4,
 .editor-styles-wrapper .wp-block h5,
 .editor-styles-wrapper .wp-block h6 {
+	-webkit-font-feature-settings: "lnum";
 	font-feature-settings: "lnum";
 	font-variant-numeric: lining-nums;
 	font-weight: 700;
@@ -522,6 +518,7 @@ hr.wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
 }
 
 hr.wp-block-separator:not(.is-style-dots) {
+	background: -o-linear-gradient(left, currentColor calc(50% - 16px), transparent calc(50% - 16px), transparent calc(50% + 16px), currentColor calc(50% + 16px));
 	background: linear-gradient(to right, currentColor calc(50% - 16px), transparent calc(50% - 16px), transparent calc(50% + 16px), currentColor calc(50% + 16px));
 	background-color: transparent !important;
 	border: none;
@@ -542,6 +539,8 @@ hr.wp-block-separator:not(.is-style-dots)::after {
 	height: 16px;
 	position: absolute;
 	top: calc(50% - 8px);
+	-webkit-transform: rotate(-22.5deg);
+	-ms-transform: rotate(-22.5deg);
 	transform: rotate(-22.5deg);
 	width: 1px;
 }
@@ -785,11 +784,15 @@ hr.wp-block-separator.is-style-dots::before {
 
 .editor-styles-wrapper .wp-block[data-type="core/pullquote"][data-align="right"] .is-style-solid-color::before {
 	left: 20px;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
 }
 
 .editor-styles-wrapper .wp-block[data-type="core/pullquote"][data-align="left"] .is-style-solid-color::before {
 	right: 20px;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
 }
 
@@ -814,6 +817,8 @@ hr.wp-block-separator.is-style-dots::before {
 	position: absolute;
 	top: 0;
 	right: 50%;
+	-webkit-transform: translateY(-50%) translateX(50%);
+	-ms-transform: translateY(-50%) translateX(50%);
 	transform: translateY(-50%) translateX(50%);
 }
 
@@ -911,10 +916,13 @@ hr.wp-block-separator.is-style-dots::before {
 /* HAS AVATAR */
 
 .editor-styles-wrapper .wp-block-latest-comments.has-avatars .wp-block-latest-comments__comment {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 }
 
 .editor-styles-wrapper .wp-block-latest-comments.has-avatars img.avatar {
+	-ms-flex-negative: 0;
 	flex-shrink: 0;
 	margin: 5px 0 0 15px;
 }
@@ -984,8 +992,14 @@ hr.wp-block-separator.is-style-dots::before {
 }
 
 .editor-styles-wrapper .wp-block-file__content-wrapper {
+	-webkit-box-align: center;
+	-ms-flex-align: center;
 	align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
 	justify-content: space-between;
 }
 

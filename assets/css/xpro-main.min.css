@@ -1,6 +1,6 @@
 /* -------------------------------
     	Reset
-   ------------------------------- */
+------------------------------- */
 
 :root {
     --xpro-font-main-color: #383838;
@@ -86,6 +86,8 @@ button, input, optgroup, select, textarea {
 :focus {
     outline:thin dotted;
     outline-offset: -1px;
+    -webkit-transition: none;
+    -o-transition: none;
     transition: none;
 }
 
@@ -400,7 +402,7 @@ img {
 }
 
 .xpro-page-builder{
-  overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 /* -------------------------------
@@ -903,6 +905,7 @@ blockquote p {
 
 .xpro-primary-wrapper .skip-link{
     background-color: #f1f1f1;
+    -webkit-box-shadow: 0 0 1px 1px rgb(0 0 0 / 20%);
     box-shadow: 0 0 1px 1px rgb(0 0 0 / 20%);
     color: #21759b;
     display: block;
@@ -1049,6 +1052,8 @@ blockquote p {
 .xpro-theme .xpro-btn:focus{
     outline: thin dotted;
     outline-offset:0;
+    -webkit-transition: none;
+    -o-transition: none;
     transition: none;
 }
 
@@ -1134,6 +1139,7 @@ blockquote p {
     -ms-flex: 1;
     flex: 1;
     -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
     align-self: center;
     padding: 10px 0;
 }
@@ -1544,8 +1550,14 @@ blockquote p {
         height: 100%;
         top:0;
         right: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
         justify-content: flex-end;
         font-size: 12px;
         padding: 0 25px;
