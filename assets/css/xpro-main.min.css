@@ -402,7 +402,7 @@ img {
 }
 
 .xpro-page-builder{
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 
 /* -------------------------------
