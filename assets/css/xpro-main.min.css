@@ -401,8 +401,12 @@ img {
     color: #2b2b2b;
 }
 
-.xpro-page-builder{
-    overflow-x: hidden !important;
+.xpro-page-builder .xpro-row{
+    margin: 0;
+}
+
+.xpro-page-builder .xpro-row > *{
+    padding: 0;
 }
 
 /* -------------------------------
