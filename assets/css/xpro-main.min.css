@@ -1852,26 +1852,13 @@ blockquote p {
     clear: both;
 }
 
-.xpro-comments-area .xpro-comments-input {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-bottom: 25px;
+.xpro-comments-area .comment-form > input{
+    width: calc(100% / 3 - 10px);
+    margin: 0 10px 25px 0;
 }
 
-.xpro-comments-area .xpro-comments-input > input {
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    width: 100%;
-    margin: 0 5px;
+.xpro-comments-area .comment-form > input:nth-last-of-type(1){
+    margin-right: 0;
 }
 
 .xpro-comments-area .comment-form-cookies-consent {
@@ -1891,7 +1878,6 @@ blockquote p {
 }
 
 .xpro-comments-area .xpro-comments-textarea {
-    padding: 0 5px;
     margin-bottom: 30px;
 }
 

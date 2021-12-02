@@ -232,11 +232,11 @@ if ( post_password_required() ) {
 
 	$fields = array(
 
-		'author' => '<div class="xpro-comments-input"><input id="author" placeholder="' . esc_attr__( 'Name *', 'xpro' ) . '" class="input-field comment-fields" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) . '" ' . esc_html( $aria_req . $html_req ) . ' />',
+		'author' => '<input id="author" placeholder="' . esc_attr__( 'Name *', 'xpro' ) . '" class="input-field comment-fields" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) . '" ' . esc_html( $aria_req . $html_req ) . ' />',
 
 		'email' => '<input id="email" placeholder="' . esc_attr__( 'Email *', 'xpro' ) . '" class="input-field comment-fields" name="email" ' . ( $html5 ? 'type="email"' : 'type="text"' ) . ' value="' . esc_attr( $commenter['comment_author_email'] ) . '"' . esc_html( $aria_req . $html_req ) . ' />',
 
-		'url' => '<input id="url" placeholder="' . esc_attr__( 'Website', 'xpro' ) . '" class="input-field medium-input comment-fields" name="url" ' . ( $html5 ? 'type="url"' : 'type="text"' ) . ' value="' . esc_attr( $commenter['comment_author_url'] ) . '" /></div>',
+		'url' => '<input id="url" placeholder="' . esc_attr__( 'Website', 'xpro' ) . '" class="input-field medium-input comment-fields" name="url" ' . ( $html5 ? 'type="url"' : 'type="text"' ) . ' value="' . esc_attr( $commenter['comment_author_url'] ) . '" />',
 
 	);
 
