@@ -70,9 +70,20 @@ if ( ! class_exists( 'Xpro_Elementor' ) ) :
 				remove_action( 'xpro_post_nav', 'xpro_construct_post_nav' );
 				remove_action( 'xpro_content_loop', 'xpro_construct_content_loop' );
 				remove_action( 'xpro_sidebar', 'xpro_construct_sidebar' );
-				update_post_meta( get_the_ID(),'xpro-sidebar-layout','full-layout' );
+				add_filter( 'single_template', [ $this, 'blank_template' ] );
+
 			}
 
+		}
+
+		function blank_template( $template ) {
+
+
+			if ( file_exists( XPRO_THEME_DIR . '/template-parts/blank.php' ) ) {
+				return XPRO_THEME_DIR . '/template-parts/blank.php';
+			}
+
+			return $template;
 		}
 
 
