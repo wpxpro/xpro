@@ -1,3 +1,8 @@
+v1.0.4.5
+- Update Xpro-Icon-Librarby
+- Update Elementor Templates Compatibility
+- Update Comments
+
 v1.0.4.4
 - Update Xpro-Grid
 - Update Xpro-Icon-Librarby
