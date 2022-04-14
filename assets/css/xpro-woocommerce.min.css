@@ -512,10 +512,16 @@ p.woocommerce-noreviews {
     transition: all .2s ease-in-out;
 }
 
+.woocommerce button.button:disabled, .woocommerce button.button:disabled[disabled]{
+    padding: 14px 50px;
+}
+
 .woocommerce-cart .wc-proceed-to-checkout a.checkout-button{
     border-color: var(--xpro-main-color);
     background-color: var(--xpro-main-color);
-    padding: 10px;
+    padding: 15px 25px;
+    font-size: 15px;
+    line-height: 1.2;
 }
 
 .woocommerce-cart .wc-proceed-to-checkout a.checkout-button:hover,
