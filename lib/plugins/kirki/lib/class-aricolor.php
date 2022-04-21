@@ -923,7 +923,7 @@ if ( ! class_exists( 'ariColor' ) ) {
 		 * Use fallback object.
 		 *
 		 * @access protected
-		 * @since 1.2.0
+		 * @since 0.1.0
 		 */
 		protected function from_fallback() {
 			$this->color = $this->fallback;
