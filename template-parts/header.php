@@ -51,7 +51,7 @@ $header_class = ( $headerSticky != '0' ) ? 'xpro-header-sticky' : '';
 
                 <!--Navbar Toggle-->
                 <button class="xpro-navbar-toggle" type="button" data-toggle="collapse" data-target="#xpro-navbar-list" aria-expanded="false"
-                        aria-label="<?php esc_attr_e( 'Toggle navigation', 'xpro' ); ?>">
+                        aria-label="<?php esc_attr_e( 'Toggle navigation', 'xpro-bb-addons' ); ?>">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 

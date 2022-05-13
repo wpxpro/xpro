@@ -30,7 +30,7 @@ $featured_meta = xpro_get_meta( 'xpro-featured-image');
 
         <?php if($author == '1'): ?>
             <li class="xpro-post-author">
-			    <?php esc_html_e( 'By', 'xpro' ); ?>
+			    <?php esc_html_e( 'By', 'xpro-bb-addons' ); ?>
                 <a href="<?php echo esc_url(get_author_posts_url( get_the_author_meta( 'ID' ), get_the_author_meta( 'user_nicename' ) ) ); ?>"><?php echo esc_html(get_the_author()); ?></a>
             </li>
 	    <?php endif; ?>

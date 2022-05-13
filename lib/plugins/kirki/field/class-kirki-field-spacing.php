@@ -29,10 +29,10 @@ class Kirki_Field_Spacing extends Kirki_Field_Dimensions {
 				'right'  => ( isset( $this->default['top'] ) ),
 			),
 			'labels'   => array(
-				'top'    => esc_html__( 'Top', 'xpro' ),
-				'bottom' => esc_html__( 'Bottom', 'xpro' ),
-				'left'   => esc_html__( 'Left', 'xpro' ),
-				'right'  => esc_html__( 'Right', 'xpro' ),
+				'top'    => esc_html__( 'Top', 'xpro-bb-addons' ),
+				'bottom' => esc_html__( 'Bottom', 'xpro-bb-addons' ),
+				'left'   => esc_html__( 'Left', 'xpro-bb-addons' ),
+				'right'  => esc_html__( 'Right', 'xpro-bb-addons' ),
 			),
 		);
 

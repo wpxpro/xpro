@@ -48,13 +48,13 @@ $featured_meta = xpro_get_meta( 'xpro-featured-image');
 
 		<?php if( !empty(get_the_category_list()) && $category == '1' ): ?>
             <li class="xpro-post-date">
-                <span class="cat-links"><?php echo get_the_category_list(esc_html__(', ', 'xpro')) ?></span>
+                <span class="cat-links"><?php echo get_the_category_list(esc_html__(', ', 'xpro-bb-addons')) ?></span>
             </li>
 		<?php endif; ?>
 
 		<?php if($author == '1'):  ?>
             <li class="xpro-post-author">
-				<?php esc_html_e( 'By', 'xpro' ); ?>
+				<?php esc_html_e( 'By', 'xpro-bb-addons' ); ?>
                 <a href="<?php echo esc_url(get_author_posts_url( get_the_author_meta( 'ID' ), get_the_author_meta( 'user_nicename' ) ) ); ?>"><?php echo esc_html(get_the_author()); ?></a>
             </li>
 		<?php endif; ?>
@@ -69,7 +69,7 @@ $featured_meta = xpro_get_meta( 'xpro-featured-image');
 
 	wp_link_pages(
 		array(
-			'before'      =>    '<div class="xpro-pagination"><span class="pagination-title">' . __( 'Pages:', 'xpro' ) . '</span>',
+			'before'      =>    '<div class="xpro-pagination"><span class="pagination-title">' . __( 'Pages:', 'xpro-bb-addons' ) . '</span>',
 			'after'       =>    '</div>',
 			'link_before' =>    '<span class="page-number">',
 			'link_after'  =>    '</span>',
