@@ -259,7 +259,7 @@ if ( post_password_required() ) {
 
 		'title_reply_to' => esc_html__( 'Write a comment to %s', 'xpro' ),
 
-		'cancel_reply_link' => '<i class="xi xi-bin"></i>',
+		'cancel_reply_link' => '<i class="0.1.9-bin"></i>',
 
 		'label_submit' => esc_html__( 'Post Comment', 'xpro' ),
 
