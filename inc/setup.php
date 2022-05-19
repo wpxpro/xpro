@@ -11,7 +11,7 @@ defined( 'ABSPATH' ) || exit;
 /**
  *  Xpro Theme Folder URI
  */
-define('XPRO_THEME', 'xpro');
+define('XPRO_THEME', 'xpro-bb-addons');
 define('XPRO_VERSION', '1.0.0');
 define('XPRO_THEME_DIR',         			get_template_directory());
 define('XPRO_THEME_PARENT_FILE',         	get_parent_theme_file_path());
@@ -39,9 +39,9 @@ if ( ! function_exists( 'xpro_setup' ) ) {
 		 * Make theme available for translation.
 		 * Translations can be filed in the /languages/ directory.
 		 * If you're building a theme based on xpro, use a find and replace
-		 * to change 'xpro' to the name of your theme in all the template files
+		 * to change 'xpro-bb-addons' to the name of your theme in all the template files
 		 */
-		load_theme_textdomain( 'xpro', get_template_directory() . '/languages' );
+		load_theme_textdomain( 'xpro-bb-addons', get_template_directory() . '/languages' );
 
 		// Add default posts and comments RSS feed links to head.
 		add_theme_support( 'automatic-feed-links' );
@@ -57,7 +57,7 @@ if ( ! function_exists( 'xpro_setup' ) ) {
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus(
 			array(
-				'primary' => __( 'Primary Menu', 'xpro' ),
+				'primary' => __( 'Primary Menu', 'xpro-bb-addons' ),
 			)
 		);
 

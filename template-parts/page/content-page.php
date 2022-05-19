@@ -27,7 +27,7 @@ $featured_meta = xpro_get_meta( 'xpro-featured-image');
 		<?php
 		wp_link_pages(
 			array(
-				'before'      =>    '<div class="xpro-pagination"><span class="pagination-title">' . __( 'Pages:', 'xpro' ) . '</span>',
+				'before'      =>    '<div class="xpro-pagination"><span class="pagination-title">' . __( 'Pages:', 'xpro-bb-addons' ) . '</span>',
 				'after'       =>    '</div>',
 				'link_before' =>    '<span class="page-number">',
 				'link_after'  =>    '</span>',

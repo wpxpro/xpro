@@ -217,8 +217,8 @@ if ( ! function_exists( 'xpro_breadcrumb_display' ) ) {
 			$xpro_breadcrumb = new Xpro_Breadcrumb_Navigation;
 			$xpro_breadcrumb->opt['static_frontpage'] = false;
 			$xpro_breadcrumb->opt['url_blog'] = '';
-			$xpro_breadcrumb->opt['title_blog'] = esc_html__( 'Home', 'xpro' );
-			$xpro_breadcrumb->opt['title_home'] = esc_html__( 'Home', 'xpro' );
+			$xpro_breadcrumb->opt['title_blog'] = esc_html__( 'Home', 'xpro-bb-addons' );
+			$xpro_breadcrumb->opt['title_home'] = esc_html__( 'Home', 'xpro-bb-addons' );
 			$xpro_breadcrumb->opt['separator'] = '';
 			$xpro_breadcrumb->opt['tag_page_prefix'] = '';
 			$xpro_breadcrumb->opt['singleblogpost_category_display'] = apply_filters( 'xpro_display_blog_category_breadcrumb', false );
@@ -279,7 +279,7 @@ if( ! function_exists( 'xpro_comment_callback' ) ) :
                 <a href="<?php echo htmlspecialchars( get_comment_link( $comment->comment_ID ) ); ?>">
 					<?php
 					/* translators: 1: date, 2: time */
-					printf( esc_html__('%1$s, %2$s', 'xpro'), get_comment_date(),  get_comment_time() ); ?></a><?php edit_comment_link( esc_html__( '(Edit)', 'xpro' ));
+					printf( esc_html__('%1$s, %2$s', 'xpro-bb-addons'), get_comment_date(),  get_comment_time() ); ?></a><?php edit_comment_link( esc_html__( '(Edit)', 'xpro-bb-addons' ));
 				?>
 
             </p>
@@ -299,7 +299,7 @@ if( ! function_exists( 'xpro_comment_callback' ) ) :
 
 		<?php if( $comment->comment_approved == '0' ) : ?>
 
-            <em class="comment-awaiting-moderation"><?php esc_html_e( 'Your comment is awaiting moderation.', 'xpro' ); ?></em>
+            <em class="comment-awaiting-moderation"><?php esc_html_e( 'Your comment is awaiting moderation.', 'xpro-bb-addons' ); ?></em>
 
             <br />
 
@@ -356,11 +356,11 @@ if ( !function_exists( 'xpro_get_meta' ) ) {
  */
 function xpro_wrapper_get_tittle() {
 
-	$blog = xpro_get_option('xpro_banner_blog_title',__('Blog List','xpro'));
+	$blog = xpro_get_option('xpro_banner_blog_title',__('Blog List','xpro-bb-addons'));
 	$post_single_custom = xpro_get_option('xpro_banner_single_custom_enable','1');
-	$single = xpro_get_option('xpro_banner_single_title',__('Blog Detail','xpro'));
-	$search = xpro_get_option('xpro_banner_search_title',__('Search Results For ','xpro'));
-	$not_found = xpro_get_option('xpro_banner_not_found_title',__('Page Not Found','xpro'));
+	$single = xpro_get_option('xpro_banner_single_title',__('Blog Detail','xpro-bb-addons'));
+	$search = xpro_get_option('xpro_banner_search_title',__('Search Results For ','xpro-bb-addons'));
+	$not_found = xpro_get_option('xpro_banner_not_found_title',__('Page Not Found','xpro-bb-addons'));
 
 	if(is_page()){
 		$title = get_the_title();
@@ -375,12 +375,12 @@ function xpro_wrapper_get_tittle() {
 	} elseif ( is_category() ) {
 		$title = sprintf( '%s', single_tag_title( '', false ) );
 	} elseif ( is_year() ) {
-		$title = sprintf( '%s', get_the_date( _x( 'Y', 'yearly archives date format', 'xpro' ) ) );
+		$title = sprintf( '%s', get_the_date( _x( 'Y', 'yearly archives date format', 'xpro-bb-addons' ) ) );
 	} elseif ( is_month() ) {
-		$title = sprintf( '%s', get_the_date( _x( 'F Y', 'monthly archives date format', 'xpro' ) ) );
+		$title = sprintf( '%s', get_the_date( _x( 'F Y', 'monthly archives date format', 'xpro-bb-addons' ) ) );
 	} elseif ( is_day() ) {
 		// phpcs:ignore WordPress.WP.I18n.NoEmptyStrings
-		$title = sprintf( '%s', get_the_date( _x( '', 'daily archives date format', 'xpro' ) ) );
+		$title = sprintf( '%s', get_the_date( _x( '', 'daily archives date format', 'xpro-bb-addons' ) ) );
 	} elseif ( is_search() ) {
 		$title = esc_html( $search).'"'. get_search_query().'"';
 	} elseif ( is_404() ) {
@@ -435,7 +435,7 @@ endif;
 function xpro_nav_menu_fallback( $args ) {
 	$url  = current_user_can( 'edit_theme_options' ) ? admin_url( 'nav-menus.php' ) : esc_url( home_url( '/' ) );
 	$url  = apply_filters( 'xpro_nav_menu_fallback_url', $url );
-	$text = current_user_can( 'edit_theme_options' ) ? __( 'Choose Menu', 'xpro' ) : __( 'Home', 'xpro' );
+	$text = current_user_can( 'edit_theme_options' ) ? __( 'Choose Menu', 'xpro-bb-addons' ) : __( 'Home', 'xpro-bb-addons' );
 
 	echo '<div id="xpro-navbar-menu" class="xpro-navbar-collapse">';
 	echo '<ul id="xpro-nav-menu" class="xpro-navbar-nav">';

@@ -44,7 +44,7 @@ if ( post_password_required() ) {
 
 				/* translators: %s: post title */
 
-					esc_html_x( '1 Comment', 'comments title', 'xpro' ),
+					esc_html_x( '1 Comment', 'comments title', 'xpro-bb-addons' ),
 
 					'<span>' . esc_html( get_the_title() ) . '</span>'
 
@@ -66,7 +66,7 @@ if ( post_password_required() ) {
 
 						'comments title',
 
-						'xpro'
+						'xpro-bb-addons'
 
 					) ),
 
@@ -89,14 +89,14 @@ if ( post_password_required() ) {
             <nav class="comment-navigation" id="comment-nav-above">
 
 
-                <h1 class="screen-reader-text"><?php esc_html_e( 'Comment navigation', 'xpro' ); ?></h1>
+                <h1 class="screen-reader-text"><?php esc_html_e( 'Comment navigation', 'xpro-bb-addons' ); ?></h1>
 
 
 				<?php if ( get_previous_comments_link() ) { ?>
 
                     <div class="nav-previous">
 
-						<?php previous_comments_link( esc_html__( '&larr; Older Comments', 'xpro' ) ); ?>
+						<?php previous_comments_link( esc_html__( '&larr; Older Comments', 'xpro-bb-addons' ) ); ?>
 
                     </div>
 
@@ -107,7 +107,7 @@ if ( post_password_required() ) {
 
                     <div class="nav-next">
 
-						<?php next_comments_link( esc_html__( 'Newer Comments &rarr;', 'xpro' ) ); ?>
+						<?php next_comments_link( esc_html__( 'Newer Comments &rarr;', 'xpro-bb-addons' ) ); ?>
 
                     </div>
 
@@ -153,14 +153,14 @@ if ( post_password_required() ) {
             <nav class="comment-navigation" id="comment-nav-below">
 
 
-                <h1 class="screen-reader-text"><?php esc_html_e( 'Comment navigation', 'xpro' ); ?></h1>
+                <h1 class="screen-reader-text"><?php esc_html_e( 'Comment navigation', 'xpro-bb-addons' ); ?></h1>
 
 
 				<?php if ( get_previous_comments_link() ) { ?>
 
                     <div class="nav-previous">
 
-						<?php previous_comments_link( esc_html__( '&larr; Older Comments', 'xpro' ) ); ?>
+						<?php previous_comments_link( esc_html__( '&larr; Older Comments', 'xpro-bb-addons' ) ); ?>
 
                     </div>
 
@@ -172,7 +172,7 @@ if ( post_password_required() ) {
 
                     <div class="nav-next">
 
-						<?php next_comments_link( esc_html__( 'Newer Comments &rarr;', 'xpro' ) ); ?>
+						<?php next_comments_link( esc_html__( 'Newer Comments &rarr;', 'xpro-bb-addons' ) ); ?>
 
                     </div>
 
@@ -198,7 +198,7 @@ if ( post_password_required() ) {
 		?>
 
 
-        <p class="xpro-no-comments"><?php esc_html_e( 'Comments are closed.', 'xpro' ); ?></p>
+        <p class="xpro-no-comments"><?php esc_html_e( 'Comments are closed.', 'xpro-bb-addons' ); ?></p>
 
 
 	<?php endif; ?>
@@ -232,11 +232,11 @@ if ( post_password_required() ) {
 
 	$fields = array(
 
-		'author' => '<input id="author" placeholder="' . esc_attr__( 'Name *', 'xpro' ) . '" class="input-field comment-fields" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) . '" ' . esc_html( $aria_req . $html_req ) . ' />',
+		'author' => '<input id="author" placeholder="' . esc_attr__( 'Name *', 'xpro-bb-addons' ) . '" class="input-field comment-fields" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) . '" ' . esc_html( $aria_req . $html_req ) . ' />',
 
-		'email' => '<input id="email" placeholder="' . esc_attr__( 'Email *', 'xpro' ) . '" class="input-field comment-fields" name="email" ' . ( $html5 ? 'type="email"' : 'type="text"' ) . ' value="' . esc_attr( $commenter['comment_author_email'] ) . '"' . esc_html( $aria_req . $html_req ) . ' />',
+		'email' => '<input id="email" placeholder="' . esc_attr__( 'Email *', 'xpro-bb-addons' ) . '" class="input-field comment-fields" name="email" ' . ( $html5 ? 'type="email"' : 'type="text"' ) . ' value="' . esc_attr( $commenter['comment_author_email'] ) . '"' . esc_html( $aria_req . $html_req ) . ' />',
 
-		'url' => '<input id="url" placeholder="' . esc_attr__( 'Website', 'xpro' ) . '" class="input-field medium-input comment-fields" name="url" ' . ( $html5 ? 'type="url"' : 'type="text"' ) . ' value="' . esc_attr( $commenter['comment_author_url'] ) . '" />',
+		'url' => '<input id="url" placeholder="' . esc_attr__( 'Website', 'xpro-bb-addons' ) . '" class="input-field medium-input comment-fields" name="url" ' . ( $html5 ? 'type="url"' : 'type="text"' ) . ' value="' . esc_attr( $commenter['comment_author_url'] ) . '" />',
 
 	);
 
@@ -247,7 +247,7 @@ if ( post_password_required() ) {
 
 		'fields' => $fields,
 
-		'comment_field' => '<div class="xpro-comments-textarea"><textarea id="comment" placeholder="' . esc_attr__( 'Enter your comment here...', 'xpro' ) . '" rows="8" class="input-field comment-fields" name="comment" required="required"></textarea></div>',
+		'comment_field' => '<div class="xpro-comments-textarea"><textarea id="comment" placeholder="' . esc_attr__( 'Enter your comment here...', 'xpro-bb-addons' ) . '" rows="8" class="input-field comment-fields" name="comment" required="required"></textarea></div>',
 
 		'title_reply_before' => '<h4 class="xpro-comment-form-title">',
 
@@ -255,13 +255,13 @@ if ( post_password_required() ) {
 
 		'class_form' => 'comment-form blog-comment-form',
 
-		'title_reply' => esc_html__( 'Write a comment', 'xpro' ),
+		'title_reply' => esc_html__( 'Write a comment', 'xpro-bb-addons' ),
 
-		'title_reply_to' => esc_html__( 'Write a comment to %s', 'xpro' ),
+		'title_reply_to' => esc_html__( 'Write a comment to %s', 'xpro-bb-addons' ),
 
 		'cancel_reply_link' => '<i class="0.1.9-bin"></i>',
 
-		'label_submit' => esc_html__( 'Post Comment', 'xpro' ),
+		'label_submit' => esc_html__( 'Post Comment', 'xpro-bb-addons' ),
 
 		'comment_notes_before' => '',
 
@@ -279,14 +279,14 @@ if ( post_password_required() ) {
 
 			                  get_edit_user_link(),
 
-			                  esc_attr( sprintf( __( 'Logged in as %s. Edit your profile.', 'xpro' ), $user_identity ) ),
+			                  esc_attr( sprintf( __( 'Logged in as %s. Edit your profile.', 'xpro-bb-addons' ), $user_identity ) ),
 
-			                  esc_attr( sprintf( __( 'Logged in as %s', 'xpro' ), $user_identity ) ),
+			                  esc_attr( sprintf( __( 'Logged in as %s', 'xpro-bb-addons' ), $user_identity ) ),
 
 			                  // phpcs:ignore WPThemeReview.CoreFunctionality.PrefixAllGlobals.NonPrefixedHooknameFound
 			                  wp_logout_url( apply_filters( 'the_permalink', get_permalink( get_the_ID() ) ) ),
 
-			                  sprintf( esc_html__( 'Log Out?', 'xpro' ) )
+			                  sprintf( esc_html__( 'Log Out?', 'xpro-bb-addons' ) )
 
 		                  ) . '</p>',
 

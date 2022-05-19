@@ -144,7 +144,7 @@ if ( ! class_exists( 'Xpro_Meta_Boxes' ) ) {
 
 			$metabox_name = sprintf(
 			// Translators: %s is the theme name.
-				__( '%s Settings', 'xpro' ),
+				__( '%s Settings', 'xpro-bb-addons' ),
 				XPRO_THEME
 			);
 
@@ -216,13 +216,13 @@ if ( ! class_exists( 'Xpro_Meta_Boxes' ) ) {
 			?>
             <div class="xpro-sidebar-layout-meta-wrap components-base-control__field">
                 <p class="post-attributes-label-wrapper" >
-                    <strong> <?php esc_html_e( 'Sidebar Layout', 'xpro' ); ?> </strong>
+                    <strong> <?php esc_html_e( 'Sidebar Layout', 'xpro-bb-addons' ); ?> </strong>
                 </p>
                 <select name="xpro-sidebar-layout" id="xpro-sidebar-layout">
-                    <option value="" <?php selected( $site_sidebar, 'default' ); ?> > <?php esc_html_e( 'Default', 'xpro' ); ?></option>
-                    <option value="left-layout" <?php selected( $site_sidebar, 'left-layout' ); ?> > <?php esc_html_e( 'Left Sidebar', 'xpro' ); ?></option>
-                    <option value="right-layout" <?php selected( $site_sidebar, 'right-layout' ); ?> > <?php esc_html_e( 'Right Sidebar', 'xpro' ); ?></option>
-                    <option value="full-layout" <?php selected( $site_sidebar, 'full-layout' ); ?> > <?php esc_html_e( 'No Sidebar', 'xpro' ); ?></option>
+                    <option value="" <?php selected( $site_sidebar, 'default' ); ?> > <?php esc_html_e( 'Default', 'xpro-bb-addons' ); ?></option>
+                    <option value="left-layout" <?php selected( $site_sidebar, 'left-layout' ); ?> > <?php esc_html_e( 'Left Sidebar', 'xpro-bb-addons' ); ?></option>
+                    <option value="right-layout" <?php selected( $site_sidebar, 'right-layout' ); ?> > <?php esc_html_e( 'Right Sidebar', 'xpro-bb-addons' ); ?></option>
+                    <option value="full-layout" <?php selected( $site_sidebar, 'full-layout' ); ?> > <?php esc_html_e( 'No Sidebar', 'xpro-bb-addons' ); ?></option>
                 </select>
             </div>
 			<?php
@@ -232,13 +232,13 @@ if ( ! class_exists( 'Xpro_Meta_Boxes' ) ) {
 			?>
             <div class="xpro-content-layout-meta-wrap components-base-control__field">
                 <p class="post-attributes-label-wrapper" >
-                    <strong> <?php esc_html_e( 'Content Layout', 'xpro' ); ?> </strong>
+                    <strong> <?php esc_html_e( 'Content Layout', 'xpro-bb-addons' ); ?> </strong>
                 </p>
                 <select name="xpro-content-layout" id="xpro-content-layout">
-                    <option value="" <?php selected( $site_content_layout, 'default' ); ?> > <?php esc_html_e( 'Default', 'xpro' ); ?></option>
-                    <option value="xpro-container" <?php selected( $site_content_layout, 'xpro-container' ); ?> > <?php esc_html_e( 'Container', 'xpro' ); ?></option>
-                    <option value="xpro-container-fluid" <?php selected( $site_content_layout, 'xpro-container-fluid' ); ?> > <?php esc_html_e( 'Container Fluid', 'xpro' ); ?></option>
-                    <option value="xpro-page-builder" <?php selected( $site_content_layout, 'xpro-page-builder' ); ?> > <?php esc_html_e( 'Full Width', 'xpro' ); ?></option>
+                    <option value="" <?php selected( $site_content_layout, 'default' ); ?> > <?php esc_html_e( 'Default', 'xpro-bb-addons' ); ?></option>
+                    <option value="xpro-container" <?php selected( $site_content_layout, 'xpro-container' ); ?> > <?php esc_html_e( 'Container', 'xpro-bb-addons' ); ?></option>
+                    <option value="xpro-container-fluid" <?php selected( $site_content_layout, 'xpro-container-fluid' ); ?> > <?php esc_html_e( 'Container Fluid', 'xpro-bb-addons' ); ?></option>
+                    <option value="xpro-page-builder" <?php selected( $site_content_layout, 'xpro-page-builder' ); ?> > <?php esc_html_e( 'Full Width', 'xpro-bb-addons' ); ?></option>
                 </select>
             </div>
 			<?php
@@ -248,7 +248,7 @@ if ( ! class_exists( 'Xpro_Meta_Boxes' ) ) {
 			?>
             <div class="disable-section-meta-wrap components-base-control__field">
                 <p class="post-attributes-label-wrapper">
-                    <strong> <?php esc_html_e( 'Disable Sections', 'xpro' ); ?> </strong>
+                    <strong> <?php esc_html_e( 'Disable Sections', 'xpro-bb-addons' ); ?> </strong>
                 </p>
                 <div class="disable-section-meta">
 					<?php do_action( 'xpro_meta_box_markup_disable_sections_before', $meta ); ?>
@@ -256,7 +256,7 @@ if ( ! class_exists( 'Xpro_Meta_Boxes' ) ) {
                     <div class="xpro-main-header-display-option-wrap">
                         <label for="xpro-main-header-display">
                             <input type="checkbox" id="xpro-main-header-display" name="xpro-main-header-display" value="disabled" <?php checked( $primary_header, 'disabled' ); ?> />
-							<?php esc_html_e( 'Disable Header', 'xpro' ); ?>
+							<?php esc_html_e( 'Disable Header', 'xpro-bb-addons' ); ?>
                         </label>
                     </div>
 					<?php do_action( 'xpro_meta_box_markup_disable_sections_after_primary_header', $meta ); ?>
@@ -264,28 +264,28 @@ if ( ! class_exists( 'Xpro_Meta_Boxes' ) ) {
                         <div class="xpro-post-banner-option-wrap">
                             <label for="xpro-post-banner">
                                 <input type="checkbox" id="xpro-post-banner" name="xpro-post-banner" value="disabled" <?php checked( $site_post_banner, 'disabled' ); ?> />
-								<?php esc_html_e( 'Disable Banner', 'xpro' ); ?>
+								<?php esc_html_e( 'Disable Banner', 'xpro-bb-addons' ); ?>
                             </label>
                         </div>
                         
                         <div class="xpro-space-content-option-wrap">
                             <label for="xpro-space-content">
                                 <input type="checkbox" id="xpro-space-content" name="xpro-space-content" value="disabled" <?php checked( $space_content, 'disabled' ); ?> />
-								<?php esc_html_e( 'Disable Space', 'xpro' ); ?>
+								<?php esc_html_e( 'Disable Space', 'xpro-bb-addons' ); ?>
                             </label>
                         </div>
 
                         <div class="xpro-footer-layout-option-wrap">
                             <label for="xpro-footer-layout">
                                 <input type="checkbox" id="xpro-footer-layout" name="xpro-footer-layout" value="disabled" <?php checked( $footer_bar, 'disabled' ); ?> />
-								<?php esc_html_e( 'Disable Footer', 'xpro' ); ?>
+								<?php esc_html_e( 'Disable Footer', 'xpro-bb-addons' ); ?>
                             </label>
                         </div>
 
                         <div class="xpro-featured-image-option-wrap">
                             <label for="xpro-featured-image">
                                 <input type="checkbox" id="xpro-featured-image" name="xpro-featured-image" value="disabled" <?php checked( $featured_image, 'disabled' ); ?> />
-								<?php esc_html_e( 'Disable Featured Image', 'xpro' ); ?>
+								<?php esc_html_e( 'Disable Featured Image', 'xpro-bb-addons' ); ?>
                             </label>
                         </div>
 

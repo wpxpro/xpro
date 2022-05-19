@@ -431,7 +431,7 @@
 
 .xpro-aside-widget .widget_product_archive li a:before, .xpro-aside-widget .widget_product_categories li a:before, .xpro-aside-widget .widget_product_meta li a:before {
     content: "\e905";
-    font-family: 'xpro';
+    font-family: 'xpro-bb-addons';
     -webkit-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
     transform: rotate(180deg);
