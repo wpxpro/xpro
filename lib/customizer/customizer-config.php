@@ -26,47 +26,47 @@ if ( ! function_exists( 'xpro_theme_customize_register' ) ) {
 		 */
 
 		$strings = array(
-			'background-color' => esc_html__('Background Color', 'xpro-bb-addons' ),
-			'background-image' => esc_html__('Background Image', 'xpro-bb-addons' ),
-			'no-repeat' => esc_html__('No Repeat', 'xpro-bb-addons' ),
-			'repeat-all' => esc_html__('Repeat All', 'xpro-bb-addons' ),
-			'repeat-x' => esc_html__('Repeat Horizontally', 'xpro-bb-addons' ),
-			'repeat-y' => esc_html__('Repeat Vertically', 'xpro-bb-addons' ),
-			'inherit' => esc_html__('Inherit', 'xpro-bb-addons' ),
-			'background-repeat' => esc_html__('Background Repeat', 'xpro-bb-addons' ),
-			'cover' => esc_html__('Cover', 'xpro-bb-addons' ),
-			'contain' => esc_html__('Contain', 'xpro-bb-addons' ),
-			'background-size' => esc_html__('Background Size', 'xpro-bb-addons' ),
-			'fixed' => esc_html__('Fixed', 'xpro-bb-addons' ),
-			'scroll' => esc_html__('Scroll', 'xpro-bb-addons' ),
-			'background-attachment' => esc_html__('Background Attachment', 'xpro-bb-addons' ),
-			'left-top' => esc_html__('Left Top', 'xpro-bb-addons' ),
-			'left-center' => esc_html__('Left Center', 'xpro-bb-addons' ),
-			'left-bottom' => esc_html__('Left Bottom', 'xpro-bb-addons' ),
-			'right-top' => esc_html__('Right Top', 'xpro-bb-addons' ),
-			'right-center' => esc_html__('Right Center', 'xpro-bb-addons' ),
-			'right-bottom' => esc_html__('Right Bottom', 'xpro-bb-addons' ),
-			'center-top' => esc_html__('Center Top', 'xpro-bb-addons' ),
-			'center-center' => esc_html__('Center Center', 'xpro-bb-addons' ),
-			'center-bottom' => esc_html__('Center Bottom', 'xpro-bb-addons' ),
-			'background-position' => esc_html__('Background Position', 'xpro-bb-addons' ),
-			'background-opacity' => esc_html__('Background Opacity', 'xpro-bb-addons' ),
-			'ON' => esc_html__('ON', 'xpro-bb-addons' ),
-			'OFF' => esc_html__('OFF', 'xpro-bb-addons' ),
-			'all' => esc_html__('All', 'xpro-bb-addons' ),
-			'cyrillic' => esc_html__('Cyrillic', 'xpro-bb-addons' ),
-			'cyrillic-ext' => esc_html__('Cyrillic Extended', 'xpro-bb-addons' ),
-			'devanagari' => esc_html__('Devanagari', 'xpro-bb-addons' ),
-			'greek' => esc_html__('Greek', 'xpro-bb-addons' ),
-			'greek-ext' => esc_html__('Greek Extended', 'xpro-bb-addons' ),
-			'khmer' => esc_html__('Khmer', 'xpro-bb-addons' ),
-			'latin' => esc_html__('Latin', 'xpro-bb-addons' ),
-			'latin-ext' => esc_html__('Latin Extended', 'xpro-bb-addons' ),
-			'vietnamese' => esc_html__('Vietnamese', 'xpro-bb-addons' ),
+			'background-color' => esc_html__('Background Color', 'xpro' ),
+			'background-image' => esc_html__('Background Image', 'xpro' ),
+			'no-repeat' => esc_html__('No Repeat', 'xpro' ),
+			'repeat-all' => esc_html__('Repeat All', 'xpro' ),
+			'repeat-x' => esc_html__('Repeat Horizontally', 'xpro' ),
+			'repeat-y' => esc_html__('Repeat Vertically', 'xpro' ),
+			'inherit' => esc_html__('Inherit', 'xpro' ),
+			'background-repeat' => esc_html__('Background Repeat', 'xpro' ),
+			'cover' => esc_html__('Cover', 'xpro' ),
+			'contain' => esc_html__('Contain', 'xpro' ),
+			'background-size' => esc_html__('Background Size', 'xpro' ),
+			'fixed' => esc_html__('Fixed', 'xpro' ),
+			'scroll' => esc_html__('Scroll', 'xpro' ),
+			'background-attachment' => esc_html__('Background Attachment', 'xpro' ),
+			'left-top' => esc_html__('Left Top', 'xpro' ),
+			'left-center' => esc_html__('Left Center', 'xpro' ),
+			'left-bottom' => esc_html__('Left Bottom', 'xpro' ),
+			'right-top' => esc_html__('Right Top', 'xpro' ),
+			'right-center' => esc_html__('Right Center', 'xpro' ),
+			'right-bottom' => esc_html__('Right Bottom', 'xpro' ),
+			'center-top' => esc_html__('Center Top', 'xpro' ),
+			'center-center' => esc_html__('Center Center', 'xpro' ),
+			'center-bottom' => esc_html__('Center Bottom', 'xpro' ),
+			'background-position' => esc_html__('Background Position', 'xpro' ),
+			'background-opacity' => esc_html__('Background Opacity', 'xpro' ),
+			'ON' => esc_html__('ON', 'xpro' ),
+			'OFF' => esc_html__('OFF', 'xpro' ),
+			'all' => esc_html__('All', 'xpro' ),
+			'cyrillic' => esc_html__('Cyrillic', 'xpro' ),
+			'cyrillic-ext' => esc_html__('Cyrillic Extended', 'xpro' ),
+			'devanagari' => esc_html__('Devanagari', 'xpro' ),
+			'greek' => esc_html__('Greek', 'xpro' ),
+			'greek-ext' => esc_html__('Greek Extended', 'xpro' ),
+			'khmer' => esc_html__('Khmer', 'xpro' ),
+			'latin' => esc_html__('Latin', 'xpro' ),
+			'latin-ext' => esc_html__('Latin Extended', 'xpro' ),
+			'vietnamese' => esc_html__('Vietnamese', 'xpro' ),
 		);
 
 		$args = array(
-			'textdomain'   => 'xpro-bb-addons',
+			'textdomain'   => 'xpro',
 			'disable_loader' =>true,
 //			'disable_output' =>true,
 			'gutenberg_support' => true,
@@ -205,19 +205,19 @@ function xpro_customize_register($wp_customize){
 
     /* Add Genral Panels */
     $wp_customize->add_panel( 'xpro_general_panel', array(
-        'title' 	 	=> esc_html__( 'General', 'xpro-bb-addons' ),
+        'title' 	 	=> esc_html__( 'General', 'xpro' ),
         'capability' 	=> 'manage_options',
         'priority'	 	=> 21,
     ) );
 
 	$wp_customize->add_panel( 'xpro_header_panel', array(
-		'title' 	 	=> esc_html__( 'Header', 'xpro-bb-addons' ),
+		'title' 	 	=> esc_html__( 'Header', 'xpro' ),
 		'capability' 	=> 'manage_options',
 		'priority'	 	=> 21,
 	) );
 
 	$wp_customize->add_panel( 'xpro_layout_panel', array(
-		'title' 	 	=> esc_html__( 'Layout', 'xpro-bb-addons' ),
+		'title' 	 	=> esc_html__( 'Layout', 'xpro' ),
 		'capability' 	=> 'manage_options',
 		'priority'	 	=> 101,
 	) );
@@ -230,68 +230,68 @@ function xpro_customize_register($wp_customize){
 
     //General
     $wp_customize->add_section( 'xpro_general_typography_section', array(
-        'title'       => esc_html__( 'Typography', 'xpro-bb-addons' ),
+        'title'       => esc_html__( 'Typography', 'xpro' ),
         'capability'  => 'edit_theme_options',
         'panel'       => 'xpro_general_panel'
     ) );
 
 	$wp_customize->add_section( 'xpro_general_color_section', array(
-		'title'       => esc_html__( 'Color', 'xpro-bb-addons' ),
+		'title'       => esc_html__( 'Color', 'xpro' ),
 		'capability'  => 'edit_theme_options',
 		'panel'       => 'xpro_general_panel'
 	) );
 
 	$wp_customize->add_section( 'xpro_general_preloader_section', array(
-		'title'       => esc_html__( 'Pre Loader', 'xpro-bb-addons' ),
+		'title'       => esc_html__( 'Pre Loader', 'xpro' ),
 		'capability'  => 'edit_theme_options',
 		'panel'       => 'xpro_general_panel'
 	) );
 
 	$wp_customize->add_section( 'xpro_general_scroll_top_section', array(
-		'title'       => esc_html__( 'Scroll Top', 'xpro-bb-addons' ),
+		'title'       => esc_html__( 'Scroll Top', 'xpro' ),
 		'capability'  => 'edit_theme_options',
 		'panel'       => 'xpro_general_panel'
 	) );
 
 	$wp_customize->add_section( 'xpro_general_button_section', array(
-		'title'       => esc_html__( 'Button', 'xpro-bb-addons' ),
+		'title'       => esc_html__( 'Button', 'xpro' ),
 		'capability'  => 'edit_theme_options',
 		'panel'       => 'xpro_general_panel'
 	) );
 
 	$wp_customize->add_section( 'xpro_general_custom_font_section', array(
-		'title'       => esc_html__( 'Custom Fonts', 'xpro-bb-addons' ),
+		'title'       => esc_html__( 'Custom Fonts', 'xpro' ),
 		'capability'  => 'edit_theme_options',
 		'panel'       => 'xpro_general_panel'
 	) );
 
 	$wp_customize->add_section( 'xpro_general_minify_section', array(
-		'title'       => esc_html__( 'Minify CSS/JS', 'xpro-bb-addons' ),
+		'title'       => esc_html__( 'Minify CSS/JS', 'xpro' ),
 		'capability'  => 'edit_theme_options',
 		'panel'       => 'xpro_general_panel'
 	) );
 
 	//Header
 	$wp_customize->add_section( 'xpro_header_layout', array(
-		'title'       => esc_html__( 'Layout', 'xpro-bb-addons' ),
+		'title'       => esc_html__( 'Layout', 'xpro' ),
 		'capability'  => 'edit_theme_options',
 		'panel'       => 'xpro_header_panel'
 	) );
 
 	$wp_customize->add_section( 'xpro_header_sub', array(
-		'title'       => esc_html__( 'Submenu', 'xpro-bb-addons' ),
+		'title'       => esc_html__( 'Submenu', 'xpro' ),
 		'capability'  => 'edit_theme_options',
 		'panel'       => 'xpro_header_panel'
 	) );
 
 	$wp_customize->add_section( 'xpro_header_logo', array(
-		'title'       => esc_html__( 'Logo', 'xpro-bb-addons' ),
+		'title'       => esc_html__( 'Logo', 'xpro' ),
 		'capability'  => 'edit_theme_options',
 		'panel'       => 'xpro_header_panel'
 	) );
 
 	$wp_customize->add_section( 'xpro_hamburger', array(
-		'title'       => esc_html__( 'Responsive Menu', 'xpro-bb-addons' ),
+		'title'       => esc_html__( 'Responsive Menu', 'xpro' ),
 		'capability'  => 'edit_theme_options',
 		'panel'       => 'xpro_header_panel'
 	) );
@@ -299,37 +299,37 @@ function xpro_customize_register($wp_customize){
 
 	//Layout
 	$wp_customize->add_section( 'xpro_layout_page_section', array(
-		'title'       => esc_html__( 'Page', 'xpro-bb-addons' ),
+		'title'       => esc_html__( 'Page', 'xpro' ),
 		'capability'  => 'edit_theme_options',
 		'panel'       => 'xpro_layout_panel'
 	) );
 
 	$wp_customize->add_section( 'xpro_layout_blog_section', array(
-		'title'       => esc_html__( 'Blog', 'xpro-bb-addons' ),
+		'title'       => esc_html__( 'Blog', 'xpro' ),
 		'capability'  => 'edit_theme_options',
 		'panel'       => 'xpro_layout_panel'
 	) );
 
 	$wp_customize->add_section( 'xpro_layout_archive_section', array(
-		'title'       => esc_html__( 'Archive', 'xpro-bb-addons' ),
+		'title'       => esc_html__( 'Archive', 'xpro' ),
 		'capability'  => 'edit_theme_options',
 		'panel'       => 'xpro_layout_panel'
 	) );
 
 	$wp_customize->add_section( 'xpro_layout_sticky_section', array(
-		'title'       => esc_html__( 'Sticky Post', 'xpro-bb-addons' ),
+		'title'       => esc_html__( 'Sticky Post', 'xpro' ),
 		'capability'  => 'edit_theme_options',
 		'panel'       => 'xpro_layout_panel'
 	) );
 
 	$wp_customize->add_section( 'xpro_layout_single_section', array(
-		'title'       => esc_html__( 'Single Post', 'xpro-bb-addons' ),
+		'title'       => esc_html__( 'Single Post', 'xpro' ),
 		'capability'  => 'edit_theme_options',
 		'panel'       => 'xpro_layout_panel'
 	) );
 
 	$wp_customize->add_section( 'xpro_layout_404_section', array(
-		'title'       => esc_html__( '404 Page', 'xpro-bb-addons' ),
+		'title'       => esc_html__( '404 Page', 'xpro' ),
 		'capability'  => 'edit_theme_options',
 		'panel'       => 'xpro_layout_panel'
 	) );
@@ -337,7 +337,7 @@ function xpro_customize_register($wp_customize){
 	if( class_exists( 'WooCommerce' )) {
 
 	$wp_customize->add_section( 'xpro_layout_shop_section', array(
-		'title'       => esc_html__( 'Shop Archive', 'xpro-bb-addons' ),
+		'title'       => esc_html__( 'Shop Archive', 'xpro' ),
 		'capability'  => 'edit_theme_options',
 		'panel'       => 'xpro_layout_panel'
 	) );
@@ -346,14 +346,14 @@ function xpro_customize_register($wp_customize){
 
 	//Title Wrapper
 	$wp_customize->add_section( 'xpro_layout_banner_section', array(
-		'title'       => esc_html__( 'Banner', 'xpro-bb-addons' ),
+		'title'       => esc_html__( 'Banner', 'xpro' ),
 		'capability'  => 'edit_theme_options',
 		'panel'       => '',
 		'priority'	 	=> 101,
 	) );
 
 	$wp_customize->add_section( 'xpro_layout_footer_section', array(
-		'title'       => esc_html__( 'Footer', 'xpro-bb-addons' ),
+		'title'       => esc_html__( 'Footer', 'xpro' ),
 		'capability'  => 'edit_theme_options',
 		'panel'       => '',
 		'priority'	 	=> 101,

@@ -36,8 +36,8 @@ class Kirki_Field_Switch extends Kirki_Field_Checkbox {
 		$this->choices = wp_parse_args(
 			$this->choices,
 			array(
-				'on'    => esc_html__( 'On', 'xpro-bb-addons' ),
-				'off'   => esc_html__( 'Off', 'xpro-bb-addons' ),
+				'on'    => esc_html__( 'On', 'xpro' ),
+				'off'   => esc_html__( 'Off', 'xpro' ),
 				'round' => false,
 			)
 		);

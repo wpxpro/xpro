@@ -19,9 +19,9 @@ if ( ! function_exists( 'xpro_widgets_init' ) ) {
 
 		register_sidebar(
 			array(
-				'name'          => __( 'Main Sidebar', 'xpro-bb-addons' ),
+				'name'          => __( 'Main Sidebar', 'xpro' ),
 				'id'            => 'xpro-main-sidebar',
-				'description'   => __( 'Right sidebar widget area', 'xpro-bb-addons' ),
+				'description'   => __( 'Right sidebar widget area', 'xpro' ),
 				'before_widget' => '<div id="%1$s" class="xpro-widget widget %2$s">',
 				'after_widget'  => '</div>',
 				'before_title'  => '<h4 class="widget-title">',
@@ -33,9 +33,9 @@ if ( ! function_exists( 'xpro_widgets_init' ) ) {
 
 			register_sidebar(
 				array(
-					'name'          => __( 'WooCommerce Shop', 'xpro-bb-addons' ),
+					'name'          => __( 'WooCommerce Shop', 'xpro' ),
 					'id'            => 'xpro-woocommerce-sidebar',
-					'description'   => __( 'Woocommerce sidebar widget area', 'xpro-bb-addons' ),
+					'description'   => __( 'Woocommerce sidebar widget area', 'xpro' ),
 					'before_widget' => '<div id="%1$s" class="xpro-widget widget %2$s">',
 					'after_widget'  => '</div>',
 					'before_title'  => '<h4 class="widget-title">',

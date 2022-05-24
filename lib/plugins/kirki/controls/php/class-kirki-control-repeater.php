@@ -74,7 +74,7 @@ class Kirki_Control_Repeater extends Kirki_Control_Base {
 		// Set up defaults for row labels.
 		$this->row_label = array(
 			'type'  => 'text',
-			'value' => esc_attr__( 'row', 'xpro-bb-addons' ),
+			'value' => esc_attr__( 'row', 'xpro' ),
 			'field' => false,
 		);
 
@@ -83,7 +83,7 @@ class Kirki_Control_Repeater extends Kirki_Control_Base {
 
 		if ( empty( $this->button_label ) ) {
 			/* translators: %s represents the label of the row. */
-			$this->button_label = sprintf( esc_html__( 'Add new %s', 'xpro-bb-addons' ), $this->row_label['value'] );
+			$this->button_label = sprintf( esc_html__( 'Add new %s', 'xpro' ), $this->row_label['value'] );
 		}
 
 		if ( empty( $args['fields'] ) || ! is_array( $args['fields'] ) ) {
@@ -118,7 +118,7 @@ class Kirki_Control_Repeater extends Kirki_Control_Base {
 							array(
 								'name'              => '',
 								'echo'              => 0,
-								'show_option_none'  => esc_html__( 'Select a Page', 'xpro-bb-addons' ),
+								'show_option_none'  => esc_html__( 'Select a Page', 'xpro' ),
 								'option_none_value' => '0',
 								'selected'          => '',
 							)
@@ -224,7 +224,7 @@ class Kirki_Control_Repeater extends Kirki_Control_Base {
 
 		<?php if ( isset( $this->choices['limit'] ) ) : ?>
 			<?php /* translators: %s represents the number of rows we're limiting the repeater to allow. */ ?>
-			<p class="limit"><?php printf( esc_html__( 'Limit: %s rows', 'xpro-bb-addons' ), esc_html( $this->choices['limit'] ) ); ?></p>
+			<p class="limit"><?php printf( esc_html__( 'Limit: %s rows', 'xpro' ), esc_html( $this->choices['limit'] ) ); ?></p>
 		<?php endif; ?>
 		<button class="button-secondary repeater-add"><?php echo esc_html( $this->button_label ); ?></button>
 
@@ -373,22 +373,22 @@ class Kirki_Control_Repeater extends Kirki_Control_Base {
 									<# if ( field.description ) { #><span class="description customize-control-description">{{{ field.description }}}</span><# } #>
 								</label>
 
-								<figure class="kirki-image-attachment" data-placeholder="<?php esc_attr_e( 'No Image Selected', 'xpro-bb-addons' ); ?>" >
+								<figure class="kirki-image-attachment" data-placeholder="<?php esc_attr_e( 'No Image Selected', 'xpro' ); ?>" >
 									<# if ( field.default ) { #>
 										<# var defaultImageURL = ( field.default.url ) ? field.default.url : field.default; #>
 										<img src="{{{ defaultImageURL }}}">
 									<# } else { #>
-										<?php esc_html_e( 'No Image Selected', 'xpro-bb-addons' ); ?>
+										<?php esc_html_e( 'No Image Selected', 'xpro' ); ?>
 									<# } #>
 								</figure>
 
 								<div class="actions">
-									<button type="button" class="button remove-button<# if ( ! field.default ) { #> hidden<# } #>"><?php esc_html_e( 'Remove', 'xpro-bb-addons' ); ?></button>
-									<button type="button" class="button upload-button" data-label=" <?php esc_attr_e( 'Add Image', 'xpro-bb-addons' ); ?>" data-alt-label="<?php echo esc_attr_e( 'Change Image', 'xpro-bb-addons' ); ?>" >
+									<button type="button" class="button remove-button<# if ( ! field.default ) { #> hidden<# } #>"><?php esc_html_e( 'Remove', 'xpro' ); ?></button>
+									<button type="button" class="button upload-button" data-label=" <?php esc_attr_e( 'Add Image', 'xpro' ); ?>" data-alt-label="<?php echo esc_attr_e( 'Change Image', 'xpro' ); ?>" >
 										<# if ( field.default ) { #>
-											<?php esc_html_e( 'Change Image', 'xpro-bb-addons' ); ?>
+											<?php esc_html_e( 'Change Image', 'xpro' ); ?>
 										<# } else { #>
-											<?php esc_html_e( 'Add Image', 'xpro-bb-addons' ); ?>
+											<?php esc_html_e( 'Add Image', 'xpro' ); ?>
 										<# } #>
 									</button>
 									<# if ( field.default.id ) { #>
@@ -405,22 +405,22 @@ class Kirki_Control_Repeater extends Kirki_Control_Base {
 									<# if ( field.description ) { #><span class="description customize-control-description">{{{ field.description }}}</span><# } #>
 								</label>
 
-								<figure class="kirki-file-attachment" data-placeholder="<?php esc_attr_e( 'No File Selected', 'xpro-bb-addons' ); ?>" >
+								<figure class="kirki-file-attachment" data-placeholder="<?php esc_attr_e( 'No File Selected', 'xpro' ); ?>" >
 									<# if ( field.default ) { #>
 										<# var defaultFilename = ( field.default.filename ) ? field.default.filename : field.default; #>
 										<span class="file"><span class="dashicons dashicons-media-default"></span> {{ defaultFilename }}</span>
 									<# } else { #>
-										<?php esc_html_e( 'No File Selected', 'xpro-bb-addons' ); ?>
+										<?php esc_html_e( 'No File Selected', 'xpro' ); ?>
 									<# } #>
 								</figure>
 
 								<div class="actions">
-									<button type="button" class="button remove-button<# if ( ! field.default ) { #> hidden<# } #>"><?php esc_html_e( 'Remove', 'xpro-bb-addons' ); ?></button>
-									<button type="button" class="button upload-button" data-label="<?php esc_attr_e( 'Add File', 'xpro-bb-addons' ); ?>" data-alt-label="<?php esc_attr_e( 'Change File', 'xpro-bb-addons' ); ?>">
+									<button type="button" class="button remove-button<# if ( ! field.default ) { #> hidden<# } #>"><?php esc_html_e( 'Remove', 'xpro' ); ?></button>
+									<button type="button" class="button upload-button" data-label="<?php esc_attr_e( 'Add File', 'xpro' ); ?>" data-alt-label="<?php esc_attr_e( 'Change File', 'xpro' ); ?>">
 										<# if ( field.default ) { #>
-											<?php esc_html_e( 'Change File', 'xpro-bb-addons' ); ?>
+											<?php esc_html_e( 'Change File', 'xpro' ); ?>
 										<# } else { #>
-											<?php esc_html_e( 'Add File', 'xpro-bb-addons' ); ?>
+											<?php esc_html_e( 'Add File', 'xpro' ); ?>
 										<# } #>
 									</button>
 									<# if ( field.default.id ) { #>
@@ -440,7 +440,7 @@ class Kirki_Control_Repeater extends Kirki_Control_Base {
 
 						</div>
 					<# }); #>
-					<button type="button" class="button-link repeater-row-remove"><?php esc_html_e( 'Remove', 'xpro-bb-addons' ); ?></button>
+					<button type="button" class="button-link repeater-row-remove"><?php esc_html_e( 'Remove', 'xpro' ); ?></button>
 				</div>
 			</li>
 		</script>

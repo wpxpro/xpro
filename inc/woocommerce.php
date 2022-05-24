@@ -151,7 +151,7 @@ if ( ! function_exists( 'xpro_woocommerce_breadcrumb' ) ) {
 			'wrap_after'  => '',
 			'before'      => '<li>',
 			'after'       => '</li>',
-			'home'        => _x( 'Home', 'breadcrumb', 'xpro-bb-addons' ),
+			'home'        => _x( 'Home', 'breadcrumb', 'xpro' ),
 		) ) );
 
 		$breadcrumbs = new WC_Breadcrumb();

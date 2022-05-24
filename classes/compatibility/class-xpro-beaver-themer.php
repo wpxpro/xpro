@@ -133,43 +133,43 @@ if ( ! class_exists( 'Xpro_Beaver_Themer' ) ) :
 				array(
 					'label' => 'Page',
 					'hooks' => array(
-						'xpro_body_top'    => __( 'Before Page', 'xpro-bb-addons' ),
-						'xpro_body_bottom' => __( 'After Page', 'xpro-bb-addons' ),
+						'xpro_body_top'    => __( 'Before Page', 'xpro' ),
+						'xpro_body_bottom' => __( 'After Page', 'xpro' ),
 					),
 				),
 				array(
 					'label' => 'Header',
 					'hooks' => array(
-						'xpro_header_before' => __( 'Before Header', 'xpro-bb-addons' ),
-						'xpro_header_after'  => __( 'After Header', 'xpro-bb-addons' ),
+						'xpro_header_before' => __( 'Before Header', 'xpro' ),
+						'xpro_header_after'  => __( 'After Header', 'xpro' ),
 					),
 				),
 				array(
 					'label' => 'Content',
 					'hooks' => array(
-						'xpro_primary_content_top'    => __( 'Before Content', 'xpro-bb-addons' ),
-						'xpro_primary_content_bottom' => __( 'After Content', 'xpro-bb-addons' ),
+						'xpro_primary_content_top'    => __( 'Before Content', 'xpro' ),
+						'xpro_primary_content_bottom' => __( 'After Content', 'xpro' ),
 					),
 				),
 				array(
 					'label' => 'Footer',
 					'hooks' => array(
-						'xpro_footer_before' => __( 'Before Footer', 'xpro-bb-addons' ),
-						'xpro_footer_after'  => __( 'After Footer', 'xpro-bb-addons' ),
+						'xpro_footer_before' => __( 'Before Footer', 'xpro' ),
+						'xpro_footer_after'  => __( 'After Footer', 'xpro' ),
 					),
 				),
 				array(
 					'label' => 'Sidebar',
 					'hooks' => array(
-						'xpro_sidebars_before' => __( 'Before Sidebar', 'xpro-bb-addons' ),
-						'xpro_sidebars_after'  => __( 'After Sidebar', 'xpro-bb-addons' ),
+						'xpro_sidebars_before' => __( 'Before Sidebar', 'xpro' ),
+						'xpro_sidebars_after'  => __( 'After Sidebar', 'xpro' ),
 					),
 				),
 				array(
 					'label' => 'Posts',
 					'hooks' => array(
-						'xpro_entry_top'            => __( 'Before Post', 'xpro-bb-addons' ),
-						'xpro_entry_bottom'         => __( 'After Post', 'xpro-bb-addons' ),
+						'xpro_entry_top'            => __( 'Before Post', 'xpro' ),
+						'xpro_entry_bottom'         => __( 'After Post', 'xpro' ),
 					),
 				),
 			);

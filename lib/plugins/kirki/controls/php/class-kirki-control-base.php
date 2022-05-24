@@ -129,14 +129,14 @@ class Kirki_Control_Base extends WP_Customize_Control {
 			'kirkiL10n',
 			array(
 				'isScriptDebug'        => ( defined( 'SCRIPT_DEBUG' ) && true === SCRIPT_DEBUG ),
-				'noFileSelected'       => esc_html__( 'No File Selected', 'xpro-bb-addons' ),
-				'remove'               => esc_html__( 'Remove', 'xpro-bb-addons' ),
-				'default'              => esc_html__( 'Default', 'xpro-bb-addons' ),
-				'selectFile'           => esc_html__( 'Select File', 'xpro-bb-addons' ),
-				'standardFonts'        => esc_html__( 'Standard Fonts', 'xpro-bb-addons' ),
-				'googleFonts'          => esc_html__( 'Google Fonts', 'xpro-bb-addons' ),
-				'defaultCSSValues'     => esc_html__( 'CSS Defaults', 'xpro-bb-addons' ),
-				'defaultBrowserFamily' => esc_html__( 'Default Browser Font-Family', 'xpro-bb-addons' ),
+				'noFileSelected'       => esc_html__( 'No File Selected', 'xpro' ),
+				'remove'               => esc_html__( 'Remove', 'xpro' ),
+				'default'              => esc_html__( 'Default', 'xpro' ),
+				'selectFile'           => esc_html__( 'Select File', 'xpro' ),
+				'standardFonts'        => esc_html__( 'Standard Fonts', 'xpro' ),
+				'googleFonts'          => esc_html__( 'Google Fonts', 'xpro' ),
+				'defaultCSSValues'     => esc_html__( 'CSS Defaults', 'xpro' ),
+				'defaultBrowserFamily' => esc_html__( 'Default Browser Font-Family', 'xpro' ),
 			)
 		);
 

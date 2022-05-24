@@ -31,21 +31,21 @@ if ( ! function_exists( 'xpro_add_site_info' ) ) {
 
 		$site_info = sprintf(
 			'<a href="%1$s">%2$s</a><span class="sep"> | </span>%3$s(%4$s)',
-			esc_url( __( 'http://wordpress.org/', 'xpro-bb-addons' ) ),
+			esc_url( __( 'http://wordpress.org/', 'xpro' ) ),
 			sprintf(
 				/* translators: WordPress */
-				esc_html__( 'Proudly powered by %s', 'xpro-bb-addons' ),
+				esc_html__( 'Proudly powered by %s', 'xpro' ),
 				'WordPress'
 			),
 			sprintf( // WPCS: XSS ok.
 				/* translators: 1: Theme name, 2: Theme author */
-				esc_html__( 'Theme: %1$s by %2$s.', 'xpro-bb-addons' ),
+				esc_html__( 'Theme: %1$s by %2$s.', 'xpro' ),
 				$the_theme->get( 'Name' ),
-				'<a href="' . esc_url( __( 'http://wpxpro.com', 'xpro-bb-addons' ) ) . '">wpxpro.com</a>'
+				'<a href="' . esc_url( __( 'http://wpxpro.com', 'xpro' ) ) . '">wpxpro.com</a>'
 			),
 			sprintf( // WPCS: XSS ok.
 				/* translators: Theme version */
-				esc_html__( 'Version: %1$s', 'xpro-bb-addons' ),
+				esc_html__( 'Version: %1$s', 'xpro' ),
 				$the_theme->get( 'Version' )
 			)
 		);
@@ -63,8 +63,8 @@ add_action( 'xpro_header_before', 'xpro_do_skip_to_content_link', 2 );
 function xpro_do_skip_to_content_link() {
 	printf(
 		'<a class="screen-reader-text skip-link" href="#content" title="%1$s">%2$s</a>',
-		esc_attr__( 'Skip to content', 'xpro-bb-addons' ),
-		esc_html__( 'Skip to content', 'xpro-bb-addons' )
+		esc_attr__( 'Skip to content', 'xpro' ),
+		esc_html__( 'Skip to content', 'xpro' )
 	);
 }
 
@@ -284,16 +284,16 @@ if ( ! function_exists( 'xpro_construct_post_nav' ) ) {
 		}
 		?>
         <nav class="xpro-post-single-navigation">
-            <h2 class="sr-only"><?php esc_html_e( 'Post navigation', 'xpro-bb-addons' ); ?></h2>
+            <h2 class="sr-only"><?php esc_html_e( 'Post navigation', 'xpro' ); ?></h2>
             <ul class="xpro-post-naviagtion-list">
 				<?php
 				if ( get_previous_post_link() ) {
 					// phpcs:ignore WordPress.WP.I18n.NonSingularStringLiteralText
-					previous_post_link( '<li class="xpro-nav-previous">%link</li>', _x( '<i class="xi xi-chevron-left"></i><div class="xpro-nav-contnet"><span>' . __('Previous Post','xpro-bb-addons') . '</span><h6>%title</h6></div>', 'Previous post link', 'xpro-bb-addons' ) );
+					previous_post_link( '<li class="xpro-nav-previous">%link</li>', _x( '<i class="xi xi-chevron-left"></i><div class="xpro-nav-contnet"><span>' . __('Previous Post','xpro') . '</span><h6>%title</h6></div>', 'Previous post link', 'xpro' ) );
 				}
 				if ( get_next_post_link() ) {
 					// phpcs:ignore WordPress.WP.I18n.NonSingularStringLiteralText
-					next_post_link( '<li class="xpro-nav-next">%link</li>', _x( '<div class="xpro-nav-contnet"><span>' . __('Next Post','xpro-bb-addons') . '</span><h6>%title</h6></div><i class="xi xi-chevron-right"></i>', 'Next post link', 'xpro-bb-addons' ) );
+					next_post_link( '<li class="xpro-nav-next">%link</li>', _x( '<div class="xpro-nav-contnet"><span>' . __('Next Post','xpro') . '</span><h6>%title</h6></div><i class="xi xi-chevron-right"></i>', 'Next post link', 'xpro' ) );
 				}
 				?>
             </ul><!-- .nav-links -->

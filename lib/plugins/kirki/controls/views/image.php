@@ -31,13 +31,13 @@ if ( _.isObject( data.value ) && ! _.isUndefined( data.value.url ) ) {
 
 data.choices.labels = _.isObject( data.choices.labels ) ? data.choices.labels : {};
 data.choices.labels = _.defaults( data.choices.labels, {
-	select: '<?php esc_html_e( 'Select image', 'xpro-bb-addons' ); ?>',
-	change: '<?php esc_html_e( 'Change image', 'xpro-bb-addons' ); ?>',
-	'default': '<?php esc_html_e( 'Default', 'xpro-bb-addons' ); ?>',
-	remove: '<?php esc_html_e( 'Remove', 'xpro-bb-addons' ); ?>',
-	placeholder: '<?php esc_html_e( 'No image selected', 'xpro-bb-addons' ); ?>',
-	frame_title: '<?php esc_html_e( 'Select image', 'xpro-bb-addons' ); ?>',
-	frame_button: '<?php esc_html_e( 'Choose image', 'xpro-bb-addons' ); ?>',
+	select: '<?php esc_html_e( 'Select image', 'xpro' ); ?>',
+	change: '<?php esc_html_e( 'Change image', 'xpro' ); ?>',
+	'default': '<?php esc_html_e( 'Default', 'xpro' ); ?>',
+	remove: '<?php esc_html_e( 'Remove', 'xpro' ); ?>',
+	placeholder: '<?php esc_html_e( 'No image selected', 'xpro' ); ?>',
+	frame_title: '<?php esc_html_e( 'Select image', 'xpro' ); ?>',
+	frame_button: '<?php esc_html_e( 'Choose image', 'xpro' ); ?>',
 } );
 #>
 

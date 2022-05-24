@@ -34,18 +34,18 @@ if( ! class_exists('Xpro_Breadcrumb_Navigation') ){
 				// Text displayed for the home link, if you don't want to call it home then just change this.
 				// Also, it is being checked if the current page title = this variable. If yes, only the Home link is being displayed,
 				// but not a weird "Home / Home" breadcrumb.
-				'title_home' => esc_html__( 'Home', 'xpro-bb-addons' ),
+				'title_home' => esc_html__( 'Home', 'xpro' ),
 
 				// Text displayed for the weblog. If "'static_frontpage' => false", you
 				// might want to change this value to "Home"
-				'title_blog' => esc_html__( 'Blog', 'xpro-bb-addons' ),
+				'title_blog' => esc_html__( 'Blog', 'xpro' ),
 
 				// Separator that is placed between each item in the breadcrumb navigation, but not placed before
 				// the first and not after the last element. You also can use images here,
 				// e.g. '<img src="separator.gif" title="separator" width="10" height="8" />'
 				'separator' => ' / ',
 				// Text displayed for the search page.
-				'title_search' => esc_html__( 'Search', 'xpro-bb-addons' ),
+				'title_search' => esc_html__( 'Search', 'xpro' ),
 				// Prefix for a single blog article.
 				'singleblogpost_prefix' => '',
 				// Suffix for a single blog article.
@@ -55,7 +55,7 @@ if( ! class_exists('Xpro_Breadcrumb_Navigation') ){
 				// Suffix for a page.
 				'page_suffix' => '',
 				// The prefix that is used for mouseover link (e.g.: "Browse to: Archive")
-				'urltitle_prefix' => esc_html__( 'Browse to: ', 'xpro-bb-addons' ),
+				'urltitle_prefix' => esc_html__( 'Browse to: ', 'xpro' ),
 				// The suffix that is used for mouseover link
 				'urltitle_suffix' => '',
 				// Prefix for categories.
@@ -67,17 +67,17 @@ if( ! class_exists('Xpro_Breadcrumb_Navigation') ){
 				// Suffix for archive by year/month/day
 				'archive_date_suffix' => '',
 				// Prefix for tags (Simple Tagging Plugin)
-				'tag_page_prefix' => esc_html__( 'Tag: ', 'xpro-bb-addons' ),
+				'tag_page_prefix' => esc_html__( 'Tag: ', 'xpro' ),
 				// Prefix for tags (Simple Tagging Plugin)
 				'tag_page_suffix' => '',
 				// Text displayed for a 404 error page, , only being used if 'use404' => true
-				'title_404' => esc_html__( '404', 'xpro-bb-addons' ),
+				'title_404' => esc_html__( '404', 'xpro' ),
 				// For post type
 				'title_portfolio' => '',
 				// Display current item as link?
 				'link_current_item' => false,
 				// URL title of current item, only being used if 'link_current_item' => true
-				'current_item_urltitle' => esc_html__( 'Link of current page (click to refresh)', 'xpro-bb-addons' ),
+				'current_item_urltitle' => esc_html__( 'Link of current page (click to refresh)', 'xpro' ),
 				// Style or prefix being applied as prefix to current item. E.g. <span class="bc_current">
 				'current_item_style_prefix' => '',
 				// Style or prefix being applied as suffix to current item. E.g. </span>

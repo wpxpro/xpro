@@ -50,11 +50,11 @@ if ( ! function_exists( 'xpro_pagination' ) ) {
 			array(
 				'mid_size'           => 2,
 				'prev_next'          => true,
-				'prev_text'          => '<i class="xi xi-chevron-left"></i><span class="pagination-prev">' . __( 'Prev', 'xpro-bb-addons' ) . '</span>',
-				'next_text'          => '<span class="pagination-next">' . __( 'Next', 'xpro-bb-addons' ) . '</span><i class="xi xi-chevron-right"></i>',
+				'prev_text'          => '<i class="xi xi-chevron-left"></i><span class="pagination-prev">' . __( 'Prev', 'xpro' ) . '</span>',
+				'next_text'          => '<span class="pagination-next">' . __( 'Next', 'xpro' ) . '</span><i class="xi xi-chevron-right"></i>',
 				'type'               => 'array',
 				'current'            => max( 1, get_query_var( 'paged' ) ),
-				'screen_reader_text' => __( 'Posts navigation', 'xpro-bb-addons' ),
+				'screen_reader_text' => __( 'Posts navigation', 'xpro' ),
 			)
 		);
 

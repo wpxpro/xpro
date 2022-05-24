@@ -9,7 +9,7 @@ $output = str_replace( '[site_title]', '<span class="xpro-footer-site-title">' .
 $theme_author = apply_filters(
 	'xpro_theme_author',
 	array(
-		'theme_name'       => __( 'Xpro WordPress Theme', 'xpro-bb-addons' ),
+		'theme_name'       => __( 'Xpro WordPress Theme', 'xpro' ),
 		'theme_author_url' => 'https://wpxpro.com/',
 	)
 );
