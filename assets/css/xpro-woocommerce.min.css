@@ -462,6 +462,7 @@ p.woocommerce-noreviews {
     background-color: #f7f7f7;
     padding: 15px;
     border-color: var(--xpro-main-color);
+    margin-bottom: 15px;
 }
 
 .woocommerce .woocommerce-message .button,.woocommerce .woocommerce-info .button,.woocommerce .woocommerce-error .button{
