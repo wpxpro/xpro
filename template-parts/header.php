@@ -22,7 +22,7 @@ $header_class = ( $headerSticky != '0' ) ? 'xpro-header-sticky' : '';
             <div class="<?php echo esc_attr($containerHeader); ?> xpro-navbar-inner">
 
                 <!--Navbar Brand-->
-                <h1 class="xpro-navbar-brand">
+                <div class="xpro-navbar-brand">
                     <a class="navbar-brand" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" itemprop="url">
 						<?php
 						if ( $logo_enable != '0' && ! empty( $site_logo ) ) {
@@ -47,7 +47,7 @@ $header_class = ( $headerSticky != '0' ) ? 'xpro-header-sticky' : '';
 						}
 						?>
                     </a>
-                </h1>
+                </div>
 
                 <!--Navbar Toggle-->
                 <button class="xpro-navbar-toggle" type="button" data-toggle="collapse" data-target="#xpro-navbar-list" aria-expanded="false"
